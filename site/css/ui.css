@@ -1,0 +1,540 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+
+body {
+    margin:0 auto;
+    font-family:Geneva, Tahoma, sans-serif;
+    color:#545658;
+    font-size:13px;
+    line-height:20px;
+    overflow-x: hidden;
+    background: #7d7d7d;
+}
+
+a, a:link, a:visited {
+    color:#fff;
+    text-decoration:none;
+}
+
+hr {
+    height: 1px;
+    border: 0;
+    padding: 0;
+    width: 100%;
+    color: #DEDEDE;
+    background: #DEDEDE;
+    margin-top: 10px;
+}
+
+.cf {
+    overflow: hidden;
+}
+
+.cf:after {
+    display:block;
+    clear:both;
+    height:0;
+    visibility:hidden;
+    content:" ";
+    font-size:0;
+}
+
+.mainContainer {
+    position:absolute;
+    top: 90px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index:1;
+    overflow-y: scroll;
+}
+
+.content {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color:white;
+}
+
+.slideshow {
+    position: relative;
+}
+
+.slideshow > div {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-size: cover;
+}
+
+.building-image {
+    background:url(../img/building.jpg) no-repeat;
+    height: 174px;
+    margin: 15px;
+    background-size: 100%;
+    border: 1px solid white;
+    border-radius: 1px;
+    bottom: 0;
+}
+
+.introContainer {
+    width: 100%;
+    height: 100px;
+    background:url(../img/bg-banner.png) repeat-x;
+    z-index: 5;
+    position:relative;
+}
+
+#intro {
+    margin:0 auto;
+    max-width:1020px;
+    height: 100%;
+    position:relative;
+}
+
+#intro .logo {
+    color:white;
+    font-size:22px;
+    left:0px;
+    position:absolute;
+    top:38px;
+}
+
+.navigationHeader {
+    color:#000;
+    font-size:12px;
+    right:20px;
+    position:absolute;
+    top:38px;
+}
+
+@media screen and (max-width: 1020px) {
+    #intro .logo {
+        top:15px;
+        left: 10px;
+    }
+    #intro .navigationHeader {
+        top: 51px;
+        left: 10px;
+        right: auto;
+    }
+}
+
+.navigationHeader.language {
+    clear: both;
+    position:static;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.navigationHeader.language a {
+    color: #545658;
+}
+
+.navigationHeader.language a.currentpage {
+    background-color: #545658;
+    color: white;
+}
+
+.navigationHeader hr {
+    margin-bottom: 0;
+    background-color: #00affd;
+}
+
+.navigationHeader a, .navigationHeader a:link, .navigationHeader a:visited {
+    padding:10px;
+    text-transform:uppercase;
+}
+
+.navigationHeader a:first-child {
+}
+
+.navigationHeader .currentpage {
+    color:#222222;
+    background: #DEDEDE no-repeat center center;
+}
+
+.background {
+}
+
+.background-image {
+    height: 443px;
+    width: 100%;
+    background: black no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.detailLink {
+    background-color:#545658;
+    padding:10px;
+    text-transform:uppercase;
+    margin-left:10px;
+    display: inline-block;
+}
+
+.selectable-list .selected {
+    background-color: #545658;
+    color: white;
+}
+
+.selectable-list > div {
+    font-size: 14px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+/*
+-----------------------------------------------------------------------*/
+ul {
+    margin-top:5px;
+}
+
+ul+span {
+    margin-top: 5px;
+    display: inline-block;
+}
+
+li {
+    list-style:square;
+    list-style-type:square;
+    margin-left:26px;
+}
+
+.header {
+}
+
+.header.darkgrey {
+    background-color:#545658;
+    color:#DEDEDE;
+}
+
+.header.lightgray {
+    background-color: #DEDEDE;
+    color: #545658;
+}
+
+.header.darkgrey, .header.lightgray {
+    padding: 0 10px;
+    margin-bottom:10px;
+}
+
+.header span p, .header li {
+    padding:0 0 0 10px;
+}
+
+.header h1 {
+    font-weight:bold;
+    font-size:13px;
+    line-height:15px;
+    margin-bottom:10px;
+}
+
+.header h2 {
+    font-size:20px;
+    line-height:20px;
+}
+
+.header > h3 {
+    font-size:22px;
+    line-height: 40px;
+    font-weight:normal;
+}
+
+.header h3 .academic {
+    font-weight:bold;
+}
+
+.header h3 span a {
+    color:#545658;
+}
+
+.texthighlightcolor, .texthighlightcolor a, .texthighlightcolor a:link, .texthighlightcolor a:visited  {
+    color:#00affd;
+}
+
+.section {
+    margin-top:10px;
+}
+
+.sectiontext {
+    margin-left:10px;
+}
+
+.sectiontext+.detailLink {
+    margin-top:10px;
+}
+
+.sectiontext a {
+    color:#a2a2a2;
+    text-decoration: underline;
+}
+
+.sectiontext.warning {
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-style:italic;
+    font-size:11px;
+}
+
+.sectiontext.copyright {
+    margin-top: 10px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.col1_66_33 {
+    width:663px;
+    float:left;
+}
+
+@media screen and (max-width: 1040px) {
+    .col1_66_33 {
+        float:left;
+        width:100%;
+    }
+}
+
+.col2_66_33 {
+    float:right;
+    width:326px;
+}
+
+@media screen and (max-width: 1040px) {
+    .col2_66_33 {
+        float:left;
+        width:100%;
+    }
+}
+.col1_50_50 {
+    width:495px;
+    float:left;
+}
+
+@media screen and (max-width: 1040px) {
+    .col1_50_50 {
+        width:100%;
+    }
+}
+
+.col2_50_50 {
+    float:right;
+    width:495px;
+}
+
+@media screen and (max-width: 1040px) {
+    .col2_50_50 {
+        width:100%;
+    }
+}
+
+.col1 {
+    width:326px;
+    float:left;
+}
+
+@media screen and (max-width: 1040px) {
+    .col1 {
+        float:left;
+        width:100%;
+    }
+}
+
+.col23 {
+    width:663px;
+    float:right;
+}
+
+@media screen and (max-width: 1040px) {
+    .col23 {
+        float:left;
+        width:100%;
+    }
+}
+
+.col2 {
+    float:left;
+    width:326px;
+}
+
+@media screen and (max-width: 1040px) {
+    .col2 {
+        float:left;
+        width:100%;
+    }
+}
+
+.col3 {
+    float:right;
+    width:326px;
+}
+
+@media screen and (max-width: 1040px) {
+    .col3 {
+        float:left;
+        width:100%;
+    }
+}
+
+
+.col1Booking {
+    width:754px;
+    float:left;
+}
+
+.col2Booking {
+    float:right;
+    width:236px;
+}
+#contactus {
+    color:#fff;
+    background-color:#545658;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+#contactus .building-image {
+    margin-bottom: 0;
+}
+
+#contactus p {
+    padding:6px 15px 0 15px;
+    text-transform:uppercase;
+    color:#C5C3C3;
+    font-size:11px;
+}
+
+#contactus h1 {
+    padding:15px 15px 0 12px;
+    font-weight:normal;
+    font-size:25px;
+}
+
+#contactus h2 {
+    padding:0 15px 0 15px;
+    line-height:25px;
+    font-weight:normal;
+}
+
+.icon {
+    font-size: 16px;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+
+.link {
+    margin-bottom: 10px;
+}
+
+.link a {
+    color: #545658;
+    text-decoration: underline;
+}
+
+.map {
+    margin-top:10px;
+    padding-left:10px;
+    width:651px;
+    height:467px;
+}
+
+@media screen and (max-width: 1040px) {
+    .map {
+        width:100%;
+    }
+}
+
+.memberPhotoWrap {
+}
+
+@media screen and (max-width: 1040px) {
+    .memberPhotoWrap {
+        background-color: #DEDEDE;
+        padding: 10px;
+    }
+}
+
+.memberPhoto {
+    height:374px;
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+}
+
+.bookingPhoto {
+    height:300px;
+}
+
+.bookingPhoto img {
+    width:236px;
+    height:300px;
+    outline:none;
+    border:none;
+}
+
+.member-description {
+    position: absolute;
+    left: 175px;
+    right: 10px;
+    top: 10px;
+    bottom: 56px;
+    overflow: hidden;
+}
+
+.member-description h3 {
+    margin-bottom: 10px;
+}
+
+.member-description h3 a {
+    font-size: 22px;
+    line-height: 22px;
+    font-weight: normal;
+    color: #545658;
+}
+
+.member-description h1 {
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 15px;
+    color: #545658;
+    margin-bottom: 10px;
+}
+
+.memberIntroRow2Col  {
+    height:225px;
+    position:relative;
+    background-color:#DEDEDE;
+    //border: 1px solid #DEDEDE;
+}
+
+.memberIntroRow2Col img {
+    left:10px;
+    top:10px;
+    width:155px;
+    height:205px;
+    position:absolute;
+    outline:none;
+    border:none;
+}
+
+.memberIntroRow2Col .memberLink {
+    margin: 0;
+    right:10px;
+    bottom:10px;
+    position: absolute;
+}
+
+.service-image {
+    background-size: cover;
+    height: 300px;
+}
+
+.image-border {
+    border: 1px solid #DEDEDE;
+    padding: 10px;
+}

@@ -1,0 +1,267 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" >
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+	<meta name="author" content="Frederic Savard" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <title>Clinique de psychologie Urbania</title>
+	<script type="text/javascript"></script>
+	<link rel="stylesheet" href="css/ui.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        ga('create', 'UA-40245323-1', 'psychologie-urbania.com');
+        ga('send', 'pageview');
+
+        var previousSectionButton = null;
+        function showSection(sectionButton) {
+            if (previousSectionButton) {
+                var previousSectionId = previousSectionButton.getAttribute("name");
+                var section = document.getElementById(previousSectionId);
+                previousSectionButton.setAttribute("class", "");
+                section.style.display = "none";
+                previousSectionButton = null;
+            }
+            var sectionId = sectionButton.getAttribute("name");
+            var section = document.getElementById(sectionId);
+            if (section) {
+                sectionButton.setAttribute("class", "selected");
+                section.style.display = "block";
+            }
+            previousSectionButton = sectionButton;
+        }
+
+        function init() {
+            var sectionButton = document.getElementById("first_selection");
+            showSection(sectionButton);
+        }
+    </script>
+</head>
+
+<body onload="init()">
+    <div class="introContainer">
+        <div id="intro">
+            <div class="logo">Clinique de Psychologie Urbania</div>
+            <div class="navigationHeader">
+                <p><span><a href="./">accueil</a><a href="team">équipe</a><a class="currentpage" href="services">services</a><a href="career">carrière</a><a href="contact">contact</a><a href="links">liens</a></span></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="mainContainer">
+        <div class="content">
+            <div class="cf">
+                <div class="header">
+                    <h3><span>Services</span></h3>
+                </div>
+                <span>À la Clinique de psychologie Urbania, nous avons votre bien-être à coeur. Nos services sont adaptés à plusieurs types de clientèle: enfants, adolescents, adultes, personnes âgées, couples et familles. Certains de nos professionnels acceptent des mandats de programmes d'aides aux employés (PAEs), de la CSST, de la SAAQ et de l'IVAC. Nos services sont tous offerts en français et dans certains cas, les rencontres peuvent se dérouler en anglais et par télé-psychologie.</span>
+            </div>
+            <div class="cf">
+                <div class="section col1" style="margin-top: 20px">
+                    <div class="selectable-list">
+                        <div class="header" name="enfants_et_adolescents" id="first_selection" onclick="showSection(this)">Enfants et adolescents</div>
+                        <div class="header" name="évaluation" onclick="showSection(this)">Évaluation TDAH et autre </div>
+                        <div class="header" name="adultes" onclick="showSection(this)">Adultes</div>
+                        <div class="header" name="sexualite" onclick="showSection(this)">Sexualité</div>
+                        <div class="header" name="couples" onclick="showSection(this)">Couples</div>
+                        <div class="header" name="mediation_familiale" onclick="showSection(this)">Médiation familiale</div>
+                        <div class="header" name="aines" onclick="showSection(this)">Âinés</div>
+                        <div class="header" name="nutrition" onclick="showSection(this)">Nutrition</div>
+                        <div class="header" name="honoraires_et_assurances" onclick="showSection(this)">Honoraires et assurances</div>
+                    </div>
+                </div>
+                <div class="section col23" style="margin-top: 20px">
+                    <div id="enfants_et_adolescents" class="sectiontext" style="display: none">
+                        <div class="image-border">
+                            <div class="service-image" style="background-image: url(./img/banner2.jpg);"></div>
+                        </div>
+                        <div class="section">
+						Les chemins que nous poursuivons dans la vie sont rarement sans embûches, défis et difficultés. La vie propose des défis aussi à nos jeunes nécessitant parfois un appel à l'aide d'un spécialiste.
+						<br><br>
+						Les enfants nous consultent pour divers types de difficultés qui nuisent à leur capacité à réussir à l'école, à entretenir des amitiés satisfaisantes, ou à s'entendre avec leurs parents. 
+						<br><br>
+						Il peut arriver également qu'un enseignant propose la passation de tests à un enfant afin de déterminer si ce dernier aurait une difficulté qui entrave ses apprentissages.
+						<br><br>
+						Les psychologues et autres spécialistes à la Clinique de psychologie Urbania travaillent généralement avec les enfants et leurs parents afin d'aider ces derniers à développer des stratégies pour mieux gérer les comportements de leur enfant ou pour améliorer les relations familiales et amicales. 
+						<br><br>
+                            Pour sa part, l'adolescence est une période souvent mouvementée, intense, qui demande aux jeunes et aux parents de s'adapter constamment. Les questions identitaires, l'autonomie, l'influence des pairs et les conduites à risque sont souvent au coeur des préoccupations des adolescents et de leurs parents et elles peuvent engendrer leur lot de difficultés scolaires, familiales et sociales. Une psychothérapie permet au jeune et à ses parents de prendre une distance face à ce qui est vécu pour mieux cerner ce qui se passe et identifier des pistes de solutions.
+                            <br><br>
+                            Voici quelques problématiques spécifiques qui amènent les enfants, adolescents et parents à nous consulter :
+                            <br><br>
+                                <li>Difficultés scolaires</li>
+                                <li>Difficultés relationnelles</li>
+                                <li>Anxiété</li>
+                                <li>Phobies, peurs, panique</li>
+                                <li>États dépressifs et risque de suicide</li>
+                                <li>Deuil</li>
+                                <li>Difficultés d'adaptation sociale et familiale</li>
+                                <li>Estime de soi</li>
+                                <li>Troubles de l'attention</li>
+                                <li>Problèmes d'apprentissage</li>
+                                <li>Problèmes de comportement ou de violence</li>
+                                <li>Problèmes de consommation et de toxicomanie</li>
+                       </div>
+                    </div>
+                    <div id="évaluation" class="sectiontext" style="display: none">
+                        <div class="image-border">
+                            <div class="service-image" style="background-image: url(./img/banner2.jpg);"></div>
+                        </div>
+                        <div class="section">
+                            L'évaluation psychologique est une étape primodiale dans la pose d'un diagnostic juste et compréhensif.
+                            Elle permet au psychologue de dresser un portait des forces et faiblesses d'une personne en lien avec différentes fonctions cognitives (ex: l'attention, la mémoire et le langage) et affectives (ex: anxiété, dépression). C'est un processus qui comprend plusieurs rencontres : l'entrevue clinique, la passation de tests, l'entrevue bilan et la remise du rapport. Nos spécialistes sont en mesure d'effectuer des évaluations auprès des enfants, adolescents et adultes.
+                            Voici quelques problématiques spécifiques qui amènent les individus à faire une demande d'évaluation:
+                            <br><br>
+                            <li>Troubles de l'attention avec ou sans hyperactivité (TDA ou TDAH)</li>
+                            <li>Douance</li>
+                            <li>Troubles d'apprentissage (ex: dyslexie)</li>
+                            <li>Syndrome de Tourette</li>
+                        </div>
+                    </div>
+                    <div id="adultes"  class="sectiontext" style="display: none">
+                        <div class="image-border">
+                            <div class="service-image" style="background-image: url(./img/banner3.jpg);"></div>
+                        </div>
+                        <div class="section">
+                            L'équipe de la Clinique de psychologie Urbania se spécialise dans l'évaluation et le traitement de diverses problématiques chez les adultes. Les champs d'expertise de nos psychologues, psychothérapeutes et autres spécialistes comprennent:
+                                <br><br>
+ 							    <li>Anxiété, stress</li>
+                                <li>Dépression, tristesse</li>
+                                <li>Épuisement professionnel</li>
+                                <li>Deuil, séparation</li>
+                                <li>Trouble panique, agoraphobie</li>
+                                <li>Phobies, peurs</li>
+                                <li>Obsessions, compulsions</li>
+                                <li>Inquiétudes excessives</li>
+                                <li>Anxiété sociale</li>
+                                <li>Stress post-traumatique</li>
+                                <li>Relations interpersonnelles</li>
+                                <li>Perfectionnisme</li>
+                                <li>Troubles d'adaptation</li>
+                                <li>Motivation au changement</li>
+                                <li>Adoption québécoise et internationale</li>
+                                <li>Anxiété vis-à-vis de la santé</li>
+                                <li>Affirmation et estime de soi</li>
+                                <li>Douleurs chroniques</li>
+                                <li>Violence</li>
+                                <li>Anoréxie, boulimie, obésité, hyperphagie boulimique</li>
+                                <li>Troubles de personnalité</li>
+                                <li>Cycles de vie</li>
+                         </div>
+                    </div>
+                    <div id="sexualite" class="sectiontext" style="display: none">
+                        <div class="image-border">
+                            <div class="service-image" style="background-image: url(./img/sexuality.jpg);"></div>
+                        </div>
+                        <div class="section">
+								Nos sexologues à la Clinique de psychologie Urbania peuvent vous aider à surmounter de nombreuses difficultés liées à la sexualité, entre autres:
+                                <br><br>
+								<li>Épanouissement sexuel</li>
+                                <li>Dépendance et compulsions sexuelles</li>
+                                <li>Trouble de l'érection</li>
+                                <li>Trouble de l'orgasme</li>
+                                <li>Trouble du désir sexuel</li>
+                                <li>Relations sexuelles douloureuses</li>
+                                <li>Troubles du contrôle éjaculatoire</li>
+                                <li>Paraphilies (fétichisme, voyeurisme, travestisme)</li>
+                                <li>Angoisse de performance</li>
+                                <li>Orientation sexuelle</li>
+                                <li>Identité sexuelle</li>
+                                <li>Phobies et aversions sexuelles</li>
+                        </div>
+                    </div>
+                    <div id="nutrition" class="sectiontext" style="display: none">
+                        <div class="image-border">
+                            <div class="service-image" style="background-image: url(./img/food.jpg);"></div>
+                        </div>
+                        <div class="section">
+                            <ul>
+                                <li>Anorexie</li>
+                                <li>Boulimie</li>
+                                <li>Hyperphagie</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="couples" class="sectiontext" style="display: none">
+                        <div class="image-border">
+                            <div class="service-image" style="background-image: url(./img/happy-couple.jpg);"></div>
+                        </div>
+                        <div class="section">
+								Nous avons plusieurs psychologues et psychothérapeutes à la Clinique de psychologie Urbania qui sont spécialisés en thérapie de couple. Les problématiques traitées comprennent entre autres:
+								<br><br>
+                                <li>Difficultés de communication</li>
+                                <li>Mésentente/résolution de conflits</li>
+                                <li>Insatisfaction face au partenaire</li>
+                                <li>Jalousie/possessivité</li>
+                                <li>Dépendance affective</li>
+                                <li>Désirs extra-conjuguaux, infidelité</li>
+                                <li>Séparation</li>
+                                <li>Médiation familiale</li>
+                                <li>Violence conjugale</li>
+                        </div>
+                    </div>
+                    <div id="mediation_familiale" class="sectiontext" style="display: none">
+                        <div class="image-border">
+                            <div class="service-image" style="background-image: url(./img/happy-familly.jpg);"></div>
+                        </div>
+                        <div class="section">
+        					Traverser une rupture et les conséquences qui en découlent n'est pas facile. La médiation familiale s'avère fort utile en offrant un accompagnement aux couples lors d'une séparation ou d'un divorce. C'est un moyen efficace qui a pour but d'aider les individus à parvenir à une entente juste, équitable et viable dans l'intérêt de tous les membres de la famille. 
+							En effet, selon des statistiques récentes, 8 couples sur 10 qui ont eu recours aux services de médiation familiale ont réussi à en arriver à une entente (source : Ministère de la Justice du Québec). 
+                            <br><br>
+                            En collaboration avec nos médiatrices familiales accréditées, vous aborderez les questions telles que l'exercice de l'autorité parentale, les droits d'accès aux enfants, les responsabilités financières, le partage des biens et tout autre aspect que soulève la réorganisation familiale.
+							Par ce processus de résolution de conflits, vous trouverez des solutions à l'amiable réduisant ainsi les frais juridiques et des décisions imposées par le tribunal.
+                            <br><br>
+                            Le Ministère de Justice du Québec appuie cette démarche et permet aux couples avec enfant de béneficier de 5 heures gratuites de médiation suite à une séparation ou un divorce. Le Ministère prévoit et subventionne également 2,5 heures pour toute révision
+                            de jugement ou d'ententes antérieures. 
+							<br><br>
+							Les couples sans enfants à charge peuvent aussi bénéficier de ce service. Ils doivent toutefois défrayer les honoraires professionnels, tel que préscrits par le Ministère de la Justice du Québec.
+							</ul>
+                        </div>
+                    </div>
+                    <div id="aines" class="sectiontext" style="display: none">
+                        <div class="image-border">
+                            <div class="service-image" style="background-image: url(./img/older-people.jpg);"></div>
+                        </div>
+                        <div class="section">
+                            <ul>
+							Le vieillissement est une période de grands changements durant laquelle l'individu est appeller à puiser dans ses capacités d'adaptation. En effet, de nombreux facteurs psychologiques, biologiques et sociaux influent le bien-être des personnes âgées. Voici quelques problématiques qui amènent les personnes du troisième âge à nous consulter: 
+								<br><br>
+                                <li>Adaptation à la retraite et au vieillissement</li>
+								<li>Perte d'autonomie (mobilité réduite, douleurs chroniques)</li>
+                                <li>Adaptation à une maladie ou à la maladie d'un proche </li>
+				                <li>Deuils et solitude</li>
+				                <li>Dépression</li>
+				                <li>Anxiété</li>
+								<br>
+								Nos travailleurs sociaux sont aussi spécialisés pour vous aider durant les processus suivants:
+								<br><br>
+						        <li>Évaluation psychosociale en rapport avec les régimes de protection et l'homologation de mandats d'inaptitude</li>
+                                <li>Évaluation de demandes d'hébergement en public versus privée suite à une perte d'autonomie</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="honoraires_et_assurances" class="sectiontext" style="display: none">
+                        <div class="image-border">
+                            <div class="service-image" style="background-image: url(./img/assurance.jpg);"></div>
+                        </div>
+                        <div class="section">
+                            Les assurances collectives offrent normalement un remboursement partiel ou total des honoraires de psychologues.
+                            Vous pouvez vous informer auprès de votre assureur ou des ressources humaines de votre employeur.
+                            Il est aussi intéressant à savoir qu'une partie des honoraires versés à un psychologue pour des soins thérapeutiques ou à certains autres
+                            spécialistes (ex: travailleur social, diététiste) sont acceptés à titre de déduction pour frais médicaux dans les rapports d'impôt,
+                            sur présentation d'un reçu.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="sectiontext copyright">
+                Copyright 2012 © 2018 © Tous droits réservés. Clinique de Psychologie Urbania. <br><br>
+			</div>
+        </div>
+    </div>
+</body>
+</html>
