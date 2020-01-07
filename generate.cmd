@@ -21,5 +21,6 @@ tools\xml2html members.xml templates\TeamMember.xsl site\MarieEveRobillard.html 
 tools\xml2html members.xml templates\TeamMember.xsl site\CassandreBelangerLegault.html "/Team/Member[18]"
 tools\xml2html members.xml templates\TeamMember.xsl site\AmiPuig.html "/Team/Member[19]"
 tools\xml2html members.xml templates\TeamMember.xsl site\NatanPlouffe.html "/Team/Member[20]"
-tools\xml2html members.xml templates\TeamMember.xsl site\ReneBarrette.html "/Team/Member[21]"
+tools\xml2html members.xml templates\TeamMember.xsl site\FrederiqueLandryLepine.html "/Team/Member[21]"
+tools\xml2html members.xml templates\TeamMember.xsl site\ReneBarrette.html "/Team/Member[22]"
 tools\xml2html members.xml templates\TeamMembers2Col.xsl site\team.html "/Team"
