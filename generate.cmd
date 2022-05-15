@@ -21,4 +21,5 @@ tools\xml2html members.xml templates\TeamMember.xsl site\AmiPuig.html "/Team/Mem
 tools\xml2html members.xml templates\TeamMember.xsl site\FrederiqueLandryLepine.html "/Team/Member[18]"
 tools\xml2html members.xml templates\TeamMember.xsl site\ReneBarrette.html "/Team/Member[19]"
 tools\xml2html members.xml templates\TeamMember.xsl site\AlexandraColle.html "/Team/Member[20]"
+tools\xml2html members.xml templates\TeamMember.xsl site\ChristineLettre.html "/Team/Member[21]"
 tools\xml2html members.xml templates\TeamMembers2Col.xsl site\team.html "/Team"

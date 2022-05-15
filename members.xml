@@ -843,4 +843,22 @@ efficient intervention. I will be more than glad to meet with you, assess your s
             </Page>
         </Language>
     </Member>
+    <Member>
+        <Name>Christine Lettre</Name>
+        <PhoneNumber>555-555-5555</PhoneNumber>
+        <EmailAddress>email@outlook.com</EmailAddress>
+        <Photo>img/christine-lettre.jpg</Photo>
+        <PageName>ChristineLettre</PageName>
+        <Language name="Français" code="">
+            <Academic>À faire</Academic>
+            <Summary>À faire</Summary>
+            <Page>
+                <Section>
+                    <Desciption>
+                        À faire
+                    </Desciption>
+                </Section>
+            </Page>
+        </Language>
+    </Member>
 </Team>
