@@ -7,7 +7,7 @@
     <PageName>AndreaRiddle</PageName>
     <Language name="Français" code="">
       <Academic>Psychologue, Ph.D.</Academic>
-      <Summary>Dre Andrea Riddle est psychologue clinicienne et fondatrice de la Clinique de Psychologie Urbania. Depuis près de 15 ans, elle offre des services de psychothérapie d'orientation cognitive-comportementale à une clientèle adulte.</Summary>
+      <Summary>Dre Andrea Riddle est psychologue clinicienne et fondatrice de la Clinique de Psychologie Urbania. Depuis plus de 20 ans, elle offre des services de psychothérapie d'orientation cognitive-comportementale à une clientèle adulte.</Summary>
       <Page>
           <Section>
             <Title>Ma pratique clinique</Title>
@@ -201,39 +201,6 @@ Houde, Nathalie, Drapeau, Martine (2011) Sexualité et éthique dans les profess
     </Language>
   </Member>
     <Member>
-        <Name>Annie Jacques</Name>
-        <PhoneNumber>514 942 4909</PhoneNumber>
-        <EmailAddress>anniesjacques@hotmail.com</EmailAddress>
-        <Photo>img/annie-jacques.jpg</Photo>
-        <WebSite>http://www.sexologueblainville.ca/</WebSite>
-        <PageName>AnnieJacques</PageName>
-        <Language name="Français" code="">
-            <Academic>Sexologue, M.A., psychothérapeute</Academic>
-            <Summary>La thérapie est une occasion de ralentir, de porter davantage attention à ce qui se passe en vous pour mieux le comprendre. Que la raison qui vous amène à consulter soit sexuelle ou non, le processus reste le même, i.e comprendre le sens de votre difficulté.</Summary>
-            <Page>
-                <Section>
-                    <Title>Motifs de consultation</Title>
-                    <Desciption>
-                        Je suis sexologue et psychothérapeute depuis maintenant plus de 10 ans. Je reçois des adultes et des couples qui vivent des difficultés tant au niveau sexuel (troubles du désir, de l’érection, de l’éjaculation, de l’orgasme, douleurs lors de la pénétration, orientation et identité sexuelle, dépendance sexuelle…), au niveau relationnel (difficultés de communication, infidélité, violence, vie amoureuse insatisfaisante) qu'au niveau affectif (estime de soi, affirmation de soi, difficultés à s’engager, dépendance affective, sentiment d’insatisfaction générale, dépression, anxiété…).
-                    </Desciption>
-                </Section>
-                <Section>
-                    <Title>Approche</Title>
-                    <Desciption>
-                        Je considère la sexualité comme faisant partie intégrante de la personne, celle-ci ne pouvant être comprise qu'en tenant compte de la personne dans sa globalité. Afin de comprendre le sens de votre difficulté, il faut bien entendu explorer la dimension sexuelle, mais aussi aller au-delà de celle-ci, i,e explorer et comprendre comment vous vous vivez en tant qu'homme ou femme.||
-                        Je vous accompagnerai donc tout au long de ce processus d'exploration de vous-même afin de vous aider à découvrir vos manières d'être et de réagir, celles-ci ayant une influence sur la façon dont vous vivez votre sexualité.||
-                        La compréhension de votre difficulté vous permettra d'effectuer des changements qui seront en accord avec qui vous êtes et d'atteindre un mieux-être dans votre vie sexuelle et générale.
-                    </Desciption>
-                </Section>
-                <Section>
-                    <Title>Formation</Title>
-                    <Desciption>
-                        Je suis diplômée de l’Université du Québec à Montréal en sexologie clinique. Je fais partie de l’Ordre professionnel des sexologues du Québec et je détiens le permis de psychothérapeute délivré par l’Ordre des psychologues du Québec              </Desciption>
-                </Section>
-            </Page>
-        </Language>
-    </Member>
-    <Member>
         <Name>Sylvie Lemire</Name>
         <PhoneNumber>514 240 7151</PhoneNumber>
         <EmailAddress>sylvie.lemire@live.ca</EmailAddress>
@@ -287,6 +254,27 @@ Houde, Nathalie, Drapeau, Martine (2011) Sexualité et éthique dans les profess
             </Page>
         </Language>
     </Member>
+    <Member>
+        <Name>Marie-Ève Robillard</Name>
+        <PhoneNumber>450-275-7426</PhoneNumber>
+        <EmailAddress>me.robillard.psychologue@gmail.com</EmailAddress>
+        <Photo>img/marie-eve-robillard.jpg</Photo>
+        <PageName>MarieEveRobillard</PageName>
+        <Language name="Français" code="">
+            <Academic>Psychologue, D.Ps</Academic>
+            <Summary>Psychologue, Madame Robillard travaille avec les adultes, adolescents et enfants.</Summary>
+            <Page>
+                <Section>
+                    <Title>Services</Title>
+                    <Desciption>
+                        Marie-Ève Robillard détient un doctorat en psychologie de l’Université de Sherbrooke. Sa formation spécialisée auprès des enfants et des adolescents ainsi que ses diverses expériences dans les milieux universitaire, communautaire, scolaire et privé lui ont permis de se familiariser avec une diversité de problématiques (p.ex. TDAH, anxiété, trouble d’opposition, conflit de loyauté, difficultés relationnelles et de comportements). Elle a complété sa formation clinique en 2019 et termine actuellement sa thèse doctorale, portant sur la compréhension des liens entre les facteurs scolaires et les symptômes dépressifs chez les enfants à haut potentiel intellectuel (HPI/douance). Son offre de services inclut également l’évaluation cognitive et affective des jeunes entre 5 et 17 ans.||
+                        Entre 2017 et 2019, Marie-Ève a effectué ses internats en Centre jeunesse auprès d’une clientèle particulièrement vulnérable (P.ex. Trouble de l’attachement, Trauma complexe développemental, trouble de la personnalité) ainsi qu’au CISSS dans le programme santé mentale jeunesse et en pédopsychiatrie.||
+                        Depuis 2020, elle travaille également avec une clientèle adulte. Son travail se base sur les approches psychodynamique et humaniste tout en intégrant des techniques se rapportant à la thérapie cognitivo-comportementale de 2ième et 3ième vague. Elle est familière, entre autres, avec des problématiques tels que le trouble de l’adaptation, le deuil, la dépression, l’épuisement professionnel, les difficultés relationnelles, l’anxiété ainsi que les enjeux d’estime de soi et de confiance en soi.||
+                        Elle accorde une importance particulière à la qualité de la relation thérapeutique et propose des interventions en accord avec les besoins et les attentes du client.                      </Desciption>
+                </Section>
+            </Page>
+        </Language>
+</Member>
     <Member>
     <Name>Isabelle Verret</Name>
     <PhoneNumber>514-772-0792</PhoneNumber>
@@ -494,51 +482,6 @@ efficient intervention. I will be more than glad to meet with you, assess your s
         </Language>
     </Member>
     <Member>
-        <Name>Marie-Ève Robillard</Name>
-        <PhoneNumber>450-508-4778</PhoneNumber>
-        <EmailAddress>info@psychologie-urbania.com</EmailAddress>
-        <Photo>img/marie-eve-robillard.jpg</Photo>
-        <PageName>MarieEveRobillard</PageName>
-        <Language name="Français" code="">
-            <Academic>Doctorante en psychologie, B.A.</Academic>
-            <Summary>Doctorante en psychologie, Madame Robillard travaille avec les adultes, adolescents et enfants.</Summary>
-            <Page>
-                <Section>
-                    <Title>Services</Title>
-                    <Desciption>
-                        Marie-Ève Robillard détient un baccalauréat en psychologie de l’Université de Montréal et est actuellement doctorante à l’Université de Sherbrooke. Sa formation spécialisée auprès des enfants et des adolescents ainsi que ses diverses expériences dans les milieux universitaire, communautaire, scolaire et privé lui ont permis de se familiariser avec une diversité de problématiques (p.ex. TDAH, anxiété, trouble d’opposition, conflit de loyauté, difficultés relationnelles et de comportements). Elle a complété sa formation clinique en 2019 et termine actuellement sa thèse doctorale, portant sur la compréhension des liens entre les facteurs scolaires et les symptômes dépressifs chez les enfants à haut potentiel intellectuel (HPI/douance). Son offre de services inclut également l’évaluation cognitive et affective des jeunes entre 5 et 17 ans.||
-                        Entre 2017 et 2019, Marie-Ève a effectué ses internats en Centre jeunesse auprès d’une clientèle particulièrement vulnérable (P.ex. Trouble de l’attachement, Trauma complexe développemental, trouble de la personnalité) ainsi qu’au CISSS dans le programme santé mentale jeunesse et en pédopsychiatrie.||
-                        Depuis 2020, elle travaille également avec une clientèle adulte. Son travail se base sur les approches psychodynamique et humaniste tout en intégrant des techniques se rapportant à la thérapie cognitivo-comportementale de 2ième et 3ième vague. Elle est familière, entre autres, avec des problématiques tels que le trouble de l’adaptation, le deuil, la dépression, l’épuisement professionnel, les difficultés relationnelles, l’anxiété ainsi que les enjeux d’estime de soi et de confiance en soi.||
-                        Elle accorde une importance particulière à la qualité de la relation thérapeutique et propose des interventions en accord avec les besoins et les attentes du client.                      </Desciption>
-                </Section>
-            </Page>
-        </Language>
-    </Member>
-    <Member>
-        <Name>Cassandre Bélanger-Legault</Name>
-        <PhoneNumber>En congé</PhoneNumber>
-        <EmailAddress>cassandre.belanger.legault@gmail.com</EmailAddress>
-        <Photo>img/cassandre-belanger-legault.jpg</Photo>
-        <PageName>CassandreBelangerLegault</PageName>
-        <Language name="Français" code="">
-            <Academic>Psychologue, D.Ps</Academic>
-            <Summary>Dre Cassandre Bélanger-Legault travaille selon l’approche psychodynamique auprès d’adultes vivant des difficultés liées à l’anxiété, la dépression, aux émotions, aux relations et à la périnatalité.
-            </Summary>
-            <Page>
-                <Section>
-                    <Title>Services</Title>
-                    <Desciption>
-                        Cassandre Bélanger-Legault est psychologue clinicienne et membre de l’Ordre des psychologues du Québec (OPQ). Elle détient un baccalauréat en psychologie de l’Université de Montréal et un doctorat en psychologie clinique de l’Université du Québec à Montréal (UQAM). Elle pratique la psychothérapie depuis 2016. ||
-                        Elle travaille auprès d’une patientèle adulte présentant des motifs de consultations variés : anxiété, dépression, difficultés au niveau de la gestion des émotions, difficultés relationnelles, deuil, épuisement professionnel, manque d’estime personnelle, troubles de la personnalité, etc.||
-                        Dre Bélanger-Legault détient une spécialisation en périnatalité. Elle travaille auprès de patients vivant des difficultés liées à la grossesse et à la période post-partum (symptômes anxieux et dépressifs durant la grossesse, état de stress post-traumatique lié à un accouchement ou une grossesse difficile, troubles du post-partum, deuil périnatal, accompagnement psychologique pour les parents ayant à prendre des décisions importantes comme des interruptions volontaires de grossesse ou interruptions médicales de grossesse, accompagnement de parents vivant des difficultés liées à la transition à la parentalité, etc.).||
-                        Dre Bélanger-Legault est psychologue d’approche psychodynamique. Elle propose un espace thérapeutique privilégiant un travail d’élaboration et d’exploration permettant de mieux se connaître et de mieux se comprendre. En faisant des liens entre les différentes sphères de leur vie, leur présent et leur passé, il est possible pour les patients de mieux comprendre leurs difficultés et de mieux les gérer.||
-                        Elle offre ses services de psychothérapie individuelle aux adultes et ses disponibilités sont de jour.||
-                    </Desciption>
-                </Section>
-            </Page>
-        </Language>
-    </Member>
-    <Member>
         <Name>Ami Puig</Name>
         <PhoneNumber>514-690-1222</PhoneNumber>
         <EmailAddress></EmailAddress>
@@ -607,10 +550,57 @@ efficient intervention. I will be more than glad to meet with you, assess your s
         </Language>
     </Member>
     <Member>
+        <Name>Marise Gagné</Name>
+        <PhoneNumber></PhoneNumber>
+        <EmailAddress>marisegagne.psychologue@gmail.com</EmailAddress>
+        <Photo>img/marise-gagne.jpg</Photo>
+        <PageName>MariseGagne</PageName>
+        <Language name="Français" code="">
+            <Academic>Psychologue, Ph.D.</Academic>
+            <Summary>Dre Marise Gagné, psychologue, offre ses services à une clientèle diverse âgée de 16 ans et plus. Elle adopte une approche humaniste et cognitive-comportementale de troisième vague.
+            </Summary>
+            <Page>
+                <Section>
+                    <Title>Services</Title>
+                    <Desciption>
+                        Marise Gagné, Ph.D., est membre de l'Ordre des psychologues du Québec. Elle est détentrice d’un doctorat Recherche et Intervention en psychologie (Ph.D.) de l’Université de Montréal. Dre Gagné a enrichi son expérience professionnelle au sein de la clinique de psychologie de l’Université de Montréal, l’équipe de santé mentale adulte du CLSC de Thérèse-de-Blainville et le centre de crise le Soleil Levant. Ces expériences lui ont permis de travailler avec une clientèle diverse, confrontée à des problématiques variées telles que des difficultés relationnelles, des enjeux de personnalité, des symptômes anxieux et/ou dépressifs, ainsi que des difficultés d'estime de soi.||
+                        Dre Gagné adopte principalement une approche humaniste et cognitive-comportementale de troisième vague avec une attention particulière à créer un espace de thérapie chaleureux, authentique et sans jugement. Elle valorise l’expérience subjective du client et veille à ce que chacun se sente entendu et compris. Son approche est centrée sur le développement personnel et la connexion avec ses émotions dans un cadre empreint de bienveillance. D’un point de vue théorique, elle adopte une perspective psychodynamique et relationnelle pour explorer les défis actuels du client à travers l'examen de ses expériences passées et présentes. Cela lui permet d’offrir un suivi respectueux de l’unicité de chaque parcours tout en soutenant le client dans sa démarche d’actualisation personnelle.||
+                        En plus de sa pratique clinique, Mme Gagné a eu l’occasion d’enseigner la psychologie à l’université pendant ses études doctorales, ce qui reflète son engagement envers l'apprentissage continu et le partage de ses connaissances. Elle investit régulièrement dans des formations, des lectures spécialisées et des séances de supervision de façon à répondre aux différents besoins de ses clients.||
+                        Dre Gagné travaille avec des clients de 16 ans et plus, principalement en présentiel, mais propose également des séances de téléthérapie. Elle est disponible en journée pour ses consultations.||
+                    </Desciption>
+                </Section>
+            </Page>
+        </Language>
+    </Member>
+    <Member>
+        <Name>Cassandre Bélanger-Legault</Name>
+        <PhoneNumber>En congé</PhoneNumber>
+        <EmailAddress>cassandre.belanger.legault@gmail.com</EmailAddress>
+        <Photo>img/cassandre-belanger-legault.jpg</Photo>
+        <PageName>CassandreBelangerLegault</PageName>
+        <Language name="Français" code="">
+            <Academic>Psychologue, D.Ps</Academic>
+            <Summary>Dre Cassandre Bélanger-Legault travaille selon l’approche psychodynamique auprès d’adultes vivant des difficultés liées à l’anxiété, la dépression, aux émotions, aux relations et à la périnatalité.
+            </Summary>
+            <Page>
+                <Section>
+                    <Title>Services</Title>
+                    <Desciption>
+                        Cassandre Bélanger-Legault est psychologue clinicienne et membre de l’Ordre des psychologues du Québec (OPQ). Elle détient un baccalauréat en psychologie de l’Université de Montréal et un doctorat en psychologie clinique de l’Université du Québec à Montréal (UQAM). Elle pratique la psychothérapie depuis 2016. ||
+                        Elle travaille auprès d’une patientèle adulte présentant des motifs de consultations variés : anxiété, dépression, difficultés au niveau de la gestion des émotions, difficultés relationnelles, deuil, épuisement professionnel, manque d’estime personnelle, troubles de la personnalité, etc.||
+                        Dre Bélanger-Legault détient une spécialisation en périnatalité. Elle travaille auprès de patients vivant des difficultés liées à la grossesse et à la période post-partum (symptômes anxieux et dépressifs durant la grossesse, état de stress post-traumatique lié à un accouchement ou une grossesse difficile, troubles du post-partum, deuil périnatal, accompagnement psychologique pour les parents ayant à prendre des décisions importantes comme des interruptions volontaires de grossesse ou interruptions médicales de grossesse, accompagnement de parents vivant des difficultés liées à la transition à la parentalité, etc.).||
+                        Dre Bélanger-Legault est psychologue d’approche psychodynamique. Elle propose un espace thérapeutique privilégiant un travail d’élaboration et d’exploration permettant de mieux se connaître et de mieux se comprendre. En faisant des liens entre les différentes sphères de leur vie, leur présent et leur passé, il est possible pour les patients de mieux comprendre leurs difficultés et de mieux les gérer.||
+                        Elle offre ses services de psychothérapie individuelle aux adultes et ses disponibilités sont de jour.||
+                    </Desciption>
+                </Section>
+            </Page>
+        </Language>
+    </Member>
+    <Member>
         <Name>Francisca Gagné</Name>
         <PhoneNumber>514 442 2766</PhoneNumber>
         <EmailAddress>francisca.gagne@gmail.com</EmailAddress>
-        <Photo>img/placeholder.jpg</Photo>
+        <Photo>img/francisca-gagne.jpg</Photo>
         <PageName>FranciscaGagne</PageName>
         <Language name="Français" code="">
             <Academic>Conseillère d’orientation, M. Éd.</Academic>

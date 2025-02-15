@@ -12,9 +12,9 @@ echo lcd site >> %OF%
 echo prompt >> %OF%
 echo mput *.html >> %OF%
 
-REM echo lcd img >> %OF%
-REM echo cd img >> %OF%
-REM echo mput *.* >> %OF%
+echo lcd img >> %OF%
+echo cd img >> %OF%
+echo mput *.* >> %OF%
 
 echo lcd .. >> %OF%
 echo lcd css >> %OF%
