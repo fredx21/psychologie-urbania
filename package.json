@@ -1,0 +1,13 @@
+{
+  "name": "psychologie-urbania",
+  "version": "1.0.0",
+  "description": "Conversion XML to JSON pour les membres de l'équipe",
+  "main": "xml2json.js",
+  "scripts": {
+    "start": "node xml2json.js",
+    "install-deps": "npm install xml2js"
+  },
+  "dependencies": {
+    "xml2js": "^0.6.2"
+  }
+}
