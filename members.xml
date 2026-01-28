@@ -371,24 +371,34 @@
                 <Section>
                     <Title>Services aux particuliers</Title>
                     <Desciption>
-                        <p>• Alimentation chez l'adolescent, l'adulte, la femme ménopausée, le
-                            sportif|
-                            • Allergies alimentaires|
-                            • Hypertension Artérielle|
-                            • Diverticulose, colite ulcéreuse, colon irritable, maladie coeliaque,
-                            constipation, diarrhée|
-                            • Hypoglycémie, Anémie|
-                            • Diabète, pré-diabète, intolérance au glucose, diabète gestationnel</p>
+                        <p>
+                            <ul>
+                                <li>Alimentation chez l'adolescent, l'adulte, la femme ménopausée,
+                                    le sportif</li>
+                                <li>Allergies alimentaires</li>
+                                <li>Hypertension Artérielle</li>
+                                <li>Diverticulose, colite ulcéreuse, colon irritable, maladie
+                                    coeliaque, constipation, diarrhée</li>
+                                <li>Hypoglycémie, Anémie</li>
+                                <li>Diabète, pré-diabète, intolérance au glucose, diabète
+                                    gestationnel</li>
+                            </ul>
+                        </p>
                     </Desciption>
                 </Section>
                 <Section>
                     <Title>Services aux entreprises</Title>
                     <Desciption>
-                        <p>• Midi-conférences : l’Assiette santé démystifiée, l’étiquetage
-                            nutritionnel, les alicaments ou super aliments (aliments enrichis
-                            d’oméga-3, de probiotiques…) les bons gras et les mauvais gras… etc.…|
-                            • Calculs de valeurs nutritives (traiteurs, restaurants, livres de
-                            recettes)</p>
+                        <p>
+                            <ul>
+                                <li>Midi-conférences: l’Assiette santé démystifiée, l’étiquetage
+                                    nutritionnel, les alicaments ou super aliments (aliments
+                                    enrichis d’oméga-3, de probiotiques…) les bons gras et les
+                                    mauvais gras, etc…</li>
+                                <li>Calculs de valeurs nutritives (traiteurs, restaurants, livres de
+                                    recettes)</li>
+                            </ul>
+                        </p>
                     </Desciption>
                 </Section>
             </Page>
@@ -592,29 +602,32 @@
                 <Section>
                     <Title>Clientèle, services et motifs de consultation</Title>
                     <Desciption>
-                        <p>Clientèle et services:|
-                            • psychothérapie pour enfants (à partir de l'âge de huit ans)|
-                            • psychothérapie pour adolescents et jeunes adultes|
-                            • suivi pour les parents|
-                            • rencontres familiales|
-                            • communication avec les autres professionnels de la santé (médecin,
-                            pédopsychiatre), des services sociaux (travailleur social,
+                        <p>Clientèle et services:<ul>
+                                <li>psychothérapie pour enfants (à partir de l'âge de huit ans)</li>
+                                <li>psychothérapie pour adolescents et jeunes adultes</li>
+                                <li>suivi pour les parents</li>
+                                <li>rencontres familiales</li>
+                                <li>communication avec les autres professionnels de la santé
+                            (médecin, pédopsychiatre), des services sociaux (travailleur social,
                             psychoeducateur) ou du domaine de l'éducation (professeur, éducateur
-                            spécialisé)</p>
-                        <p>Motifs de consultation:|
-                            • problèmes relationnels|
-                            • difficultés d'adaptation à l'école|
-                            • difficultés de comportement |
-                            • dépression|
-                            • troubles anxieux, phobies, paniques|
-                            • deuil|
-                            • estime de soi|
-                            • intimidation|
-                            • troubles de l'humeur|
-                            • troubles de personnalité|
-                            • victimes d'abus sexuels|
-                            • opposition|
-                            • adaptation à la séparation des parents et/ou famille recomposé|</p>
+                            spécialisé)</li>
+                            </ul>
+                        </p>
+                        <p>Motifs de consultation:<ul>
+                                <li>problèmes relationnels</li>
+                                <li>difficultés d'adaptation à l'école</li>
+                                <li>difficultés de comportement </li>
+                                <li>dépression</li>
+                                <li>troubles anxieux, phobies, paniques</li>
+                                <li>deuil</li>
+                                <li>estime de soi</li>
+                                <li>intimidation</li>
+                                <li>troubles de l'humeur</li>
+                                <li>troubles de personnalité</li>
+                                <li>victimes d'abus sexuels</li>
+                                <li>opposition</li>
+                                <li>adaptation à la séparation des parents et/ou famille recomposé</li>
+                            </ul></p>
                     </Desciption>
                 </Section>
                 <Section>
@@ -1156,16 +1169,19 @@
                 <Section>
                     <Title>Formation et expérience professionnelle</Title>
                     <Desciption>
-                        <p>Formation|
-                            • Baccalauréat en psychologie|
-                            • Majeure en développement de carrière|
-                            • Maîtrise en counseling de carrière</p>
-                        <p>Expérience|
-                            • Plus de 10 années d'expérience en relation d'aide (communautaire et
-                            privé)|
-                            • Coordination de projets communautaires|
-                            • Mobilisation citoyenne · Membre de l’Ordre des conseillers et
-                            conseillères d’orientation du Québec depuis 2017</p>
+                        <p>Formation<ul>
+                                <li>Baccalauréat en psychologie</li>
+                                <li>Majeure en développement de carrière</li>
+                                <li>Maîtrise en counseling de carrière</li>
+                            </ul>
+                        </p>
+                        <p>Expérience<ul>
+                                <li>Plus de 10 années d'expérience en relation d'aide (communautaire
+                            et privé)</li>
+                                <li>Coordination de projets communautaires</li>
+                                <li>Mobilisation citoyenne · Membre de l’Ordre des conseillers et
+                            conseillères d’orientation du Québec depuis 2017</li>
+                            </ul></p>
                     </Desciption>
                 </Section>
                 <Section>
@@ -1176,11 +1192,15 @@
                             ou bien en soutien à la parentalité, je sais que je pourrai t'aider à
                             trouver plus de clarté dans le nuage de questions qui semble te
                             préoccuper dernièrement.</p>
-                        <p>• Aide au choix d’études et de carrière|
-                            • Bilan des compétences et développement de carrière|
-                            • Réorientation professionnelle|
-                            • Identité à travers la maternité|
-                            • Groupe de soutien : nouvelles mamans</p>
+                        <p>
+                            <ul>
+                                <li>Aide au choix d’études et de carrière</li>
+                                <li>Bilan des compétences et développement de carrière</li>
+                                <li>Réorientation professionnelle</li>
+                                <li>Identité à travers la maternité</li>
+                                <li>Groupe de soutien : nouvelles mamans</li>
+                            </ul>
+                        </p>
                     </Desciption>
                 </Section>
                 <Section>
@@ -1188,18 +1208,23 @@
                     <Desciption>
                         <p>Les clientèles avec lesquelles j'ai le plus d'expérience sont les
                             suivantes:</p>
-                        <p>• JEUNES: Étudiants Secondaire/Cégep/Université|
-                            • ADULTES: 18 à 50 ans|
-                            • MAMANS: Enceintes, nouvellement parent, en congé de maternité, en mode
-                            retour au travail|
-                            • DIVERSITÉ: Personnes issues de l'immigration (1ère, 2e et +
-                            génération), adultes adoptés à l'international (identité complexe)|
-                            • ÉPUISEMENT: Personnes ayant vécu un épuisement professionnel par le
-                            passé ou en processus de retourner au travail|
-                            • ÉQUILIBRE et CONCILIATION: Personnes qui recherchent un meilleur
-                            équilibre travail-famille-vie personnelle|
-                            • PRÉCARITÉ FINANCIÈRE: Personnes vivant avec un revenu précaire ou un
-                            emploi instable</p>
+                        <p>
+                            <ul>
+                                <li>JEUNES: Étudiants Secondaire/Cégep/Université</li>
+                                <li>ADULTES: 18 à 50 ans</li>
+                                <li>MAMANS: Enceintes, nouvellement parent, en congé de maternité,
+                                    en mode retour au travail</li>
+                                <li>DIVERSITÉ: Personnes issues de l'immigration (1ère, 2e et +
+                                    génération), adultes adoptés à l'international (identité
+                                    complexe)</li>
+                                <li>ÉPUISEMENT: Personnes ayant vécu un épuisement professionnel par
+                                    le passé ou en processus de retourner au travail</li>
+                                <li>ÉQUILIBRE et CONCILIATION: Personnes qui recherchent un meilleur
+                                    équilibre travail-famille-vie personnelle</li>
+                                <li>PRÉCARITÉ FINANCIÈRE: Personnes vivant avec un revenu précaire
+                                    ou un emploi instable</li>
+                            </ul>
+                        </p>
                         <p>Si ton budget est limité, n’hésite pas de m’écrire afin de discuter
                             d’options alternatives. Notamment, j’ai dédié une page complète à l’aide
                             gratuite en orientation sur mon site Internet : www.franciscagagne.com</p>
@@ -1210,17 +1235,21 @@
                 <Section>
                     <Title>Approche</Title>
                     <Desciption>
-                        <p>Existentielle-Humaniste|
-                            • L'«être humain possède en lui les ressources nécessaires pour se
-                            réaliser.»|
-                            • L'objectif est d'«amener la personne à devenir consciente de ses
+                        <p>Existentielle-Humaniste<ul>
+                                <li>L'«être humain possède en lui les ressources nécessaires pour se
+                            réaliser.»</li>
+                                <li>L'objectif est d'«amener la personne à devenir consciente de ses
                             difficultés, à les comprendre et à prendre ses propres décisions dans le
-                            but d’agir en fonction de ce qu’elle est et de ce qu’elle ressent.»</p>
-                        <p>Orientée vers les solutions|
-                            • L'intervenant s'«intéresse aux solutions et aux stratégies que la
-                            personne a déjà utilisées lors de préoccupations antérieures et utilise
-                            alors les forces identifiées afin d’accompagner la personne dans le
-                            processus de changement.»</p>
+                            but d’agir en fonction de ce qu’elle est et de ce qu’elle ressent.»</li>
+                            </ul></p>
+                        <p>Orientée vers les solutions<ul>
+                                <li>L'intervenant s'«intéresse aux solutions et aux stratégies que
+                                    la personne a déjà utilisées lors de préoccupations antérieures
+                            et
+                                    utilise alors les forces identifiées afin d’accompagner la
+                            personne dans
+                                    le processus de changement.»</li>
+                            </ul></p>
                         <p>Sources: Ordre des psychologues du Québec | Association québécoise des
                             infirmières et infirmiers en santé mentale</p>
                     </Desciption>
@@ -1326,12 +1355,14 @@
                             ou sociales. Dans le cadre de leur travail, ils évaluent différentes
                             problématiques et proposent des solutions propres aux besoins de chacun
                             des individus à qui ils viennent en aide (www.ordrepsed.qc.ca).</p>
-                        <p>J’offre une approche personnalisée pour vous aider à :|
-                            • Traverser une crise ou une période difficile qui vous touche ou touche
-                            un membre de votre famille |
-                            • Réorganiser votre vie suite à un événement déstabilisant|
-                            • Être outillés afin de mieux composer avec les défis qui se présentent
-                            à vous</p>
+                        <p>J’offre une approche personnalisée pour vous aider à : <ul>
+                                <li>Traverser une crise ou une période difficile qui vous touche ou
+                            touche un membre de votre famille</li>
+                                <li>Réorganiser votre vie suite à un événement déstabilisant</li>
+                                <li>Être outillés afin de mieux composer avec les défis qui se
+                            présentent à vous</li>
+                            </ul>
+                        </p>
                         <p>Mes interventions sont inspirées principalement des approches systémiques
                             et cognitive-comportementales. Je privilégie un suivi court-terme,
                             orienté vers les solutions.</p>
