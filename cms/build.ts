@@ -219,13 +219,16 @@ function generateTeamMemberHtml(member: Member, langCode: string): string {
   const academic = lang.academic || "";
   const summary = lang.summary || "";
 
-  return `<a href="${pageName}"><img src="${member.photo}"/></a>
-    <div class="member-description">
-      <h3><span><a href="${pageName}">${member.name}</a></span></h3>
+  return `<a class="memberCard" href="${pageName}">
+    <div class="memberCard__media">
+      <img src="${member.photo}" alt="${member.name}"/>
+    </div>
+    <div class="memberCard__body member-description">
+      <h3><span>${member.name}</span></h3>
       <h1><span>${academic}</span></h1>
       <p><span>${summary}</span></p>
     </div>
-    <div class="detailLink memberLink"><a href="${pageName}">détails</a></div>`;
+  </a>`;
 }
 
 /**
@@ -268,8 +271,7 @@ function generateTeamPage(teamTemplate: string): void {
   validateMemberOrder();
 
   const memberOrder = configData.team.memberOrder;
-  let membersHtml = "";
-  let processedCount = 0;
+  let membersHtml = '<div class="team-grid">';
 
   for (let i = 0; i < memberOrder.length; i++) {
     const fileName = memberOrder[i];
@@ -285,24 +287,10 @@ function generateTeamPage(teamTemplate: string): void {
 
     // Utiliser la langue par défaut (sans code) pour la page team
     const memberContent = generateTeamMemberHtml(member, "");
-
-    const column = processedCount % 2;
-
-    if (column === 0) {
-      // Première colonne - ouvre le div cf
-      membersHtml += `<div class="cf"><div class="col1_50_50 section cf memberIntroRow2Col">${memberContent}</div>`;
-    } else {
-      // Deuxième colonne - ferme le div cf
-      membersHtml += `<div class="col2_50_50 section cf memberIntroRow2Col">${memberContent}</div></div>`;
-    }
-
-    processedCount++;
+    membersHtml += `<div class="team-card memberIntroRow2Col">${memberContent}</div>`;
   }
 
-  // Si le nombre de membres traités est impair, fermer le dernier div cf
-  if (processedCount % 2 !== 0) {
-    membersHtml += "</div>";
-  }
+  membersHtml += "</div>";
 
   const templateData: TemplateData = {
     members: membersHtml,

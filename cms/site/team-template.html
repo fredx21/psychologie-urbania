@@ -6,6 +6,7 @@
   <meta name="author" content="Frederic Savard">
   <title>Clinique de psychologie Urbania</title>
   <link rel="stylesheet" href="css/ui.css">
+  <link rel="stylesheet" href="css/style.css">
   <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -30,14 +31,14 @@
     <div id="intro">
       <div class="logo">Clinique de Psychologie Urbania</div>
       <div class="navigationHeader">
-        <p><span>
+        <p>
           <a href="./">accueil</a>
           <a class="currentpage" href="team">équipe</a>
           <a href="services">services</a>
           <a href="career">carrière</a>
           <a href="contact">contact</a>
           <a href="links">liens</a>
-        </span></p>
+        </p>
       </div>
     </div>
   </div>
@@ -51,27 +52,34 @@
       </div>
 
       {{{members}}}
-      <!-- MOCK DATA - Exemple d'affichage quand on ouvre le fichier directement -->
-      <div class="cf">
-        <div class="col1_50_50 section cf memberIntroRow2Col">
-          <a href="AndreaRiddle"><img src="img/andrea-riddle.jpg"/></a>
-          <div class="member-description">
-            <h3><span><a href="AndreaRiddle">Andrea Riddle</a></span></h3>
-            <h1><span>Psychologue, Ph.D.</span></h1>
-            <p><span>Dre Andrea Riddle est psychologue clinicienne et fondatrice de la Clinique de Psychologie Urbania...</span></p>
-          </div>
-          <div class="detailLink memberLink"><a href="AndreaRiddle">détails</a></div>
+      <!-- MOCK DATA START -->
+      <div class="team-grid">
+        <div class="team-card memberIntroRow2Col">
+          <a class="memberCard" href="AndreaRiddle">
+            <div class="memberCard__media">
+              <img src="img/andrea-riddle.jpg" alt="Andrea Riddle"/>
+            </div>
+            <div class="memberCard__body member-description">
+              <h3><span>Andrea Riddle</span></h3>
+              <h1><span>Psychologue, Ph.D.</span></h1>
+              <p><span>Dre Andrea Riddle est psychologue clinicienne et fondatrice de la Clinique de Psychologie Urbania...</span></p>
+            </div>
+          </a>
         </div>
-        <div class="col2_50_50 section cf memberIntroRow2Col">
-          <a href="MartineDrapeau"><img src="img/martine-drapeau.jpg"/></a>
-          <div class="member-description">
-            <h3><span><a href="MartineDrapeau">Martine Drapeau</a></span></h3>
-            <h1><span>Sexologue, M.A., psychothérapeute</span></h1>
-            <p><span>Psychothérapeute et sexologue depuis plusieurs années...</span></p>
-          </div>
-          <div class="detailLink memberLink"><a href="MartineDrapeau">détails</a></div>
+        <div class="team-card memberIntroRow2Col">
+          <a class="memberCard" href="MartineDrapeau">
+            <div class="memberCard__media">
+              <img src="img/martine-drapeau.jpg" alt="Martine Drapeau"/>
+            </div>
+            <div class="memberCard__body member-description">
+              <h3><span>Martine Drapeau</span></h3>
+              <h1><span>Sexologue, M.A., psychothérapeute</span></h1>
+              <p><span>Psychothérapeute et sexologue depuis plusieurs années...</span></p>
+            </div>
+          </a>
         </div>
       </div>
+      <!-- MOCK DATA END -->
 
       <hr/>
       <div class="sectiontext copyright">
