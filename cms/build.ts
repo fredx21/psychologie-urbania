@@ -3,12 +3,58 @@
  * Génère les pages HTML statiques à partir des données JSON et du template dans site/
  */
 
-const fs = require('fs');
-const path = require('path');
+import * as fs from 'fs';
+import * as path from 'path';
+
+// Interfaces
+interface ConfigData {
+  contentDir: string;
+  siteDir: string;
+  outputDir: string;
+  member: {
+    template: string;
+  };
+  team: {
+    template: string;
+    output: string;
+    memberOrder: string[];
+  };
+  staticPages: string[];
+}
+
+interface Language {
+  code: string;
+  name: string;
+  academic?: string;
+  summary?: string;
+  page?: {
+    title?: string;
+    sections?: Section[];
+  };
+}
+
+interface Section {
+  title?: string;
+  description?: string;
+}
+
+interface Member {
+  name: string;
+  pageName: string;
+  photo: string;
+  phoneNumber?: string;
+  emailAddress?: string;
+  webSite?: string;
+  languages: Language[];
+}
+
+interface TemplateData {
+  [key: string]: string | undefined;
+}
 
 // Configuration
 const configPath = path.join(__dirname, 'config.json');
-const configData = JSON.parse(fs.readFileSync(configPath, 'utf-8'));
+const configData: ConfigData = JSON.parse(fs.readFileSync(configPath, 'utf-8'));
 
 const CONFIG = {
   contentDir: path.join(__dirname, configData.contentDir),
@@ -21,21 +67,23 @@ const CONFIG = {
  * Simple template engine - remplace les placeholders {{variable}} et {{{variable}}}
  */
 class TemplateEngine {
-  constructor(template) {
+  private template: string;
+
+  constructor(template: string) {
     this.template = template;
   }
 
-  render(data) {
+  render(data: TemplateData): string {
     let result = this.template;
     
     // Triple braces = raw HTML (pas d'escape)
-    result = result.replace(/{{{(\w+)}}}/g, (match, key) => {
+    result = result.replace(/{{{(\w+)}}}/g, (match: string, key: string) => {
       const value = data[key];
       return value !== undefined ? value : '';
     });
     
     // Double braces = escaped HTML
-    result = result.replace(/{{(\w+)}}/g, (match, key) => {
+    result = result.replace(/{{(\w+)}}/g, (match: string, key: string) => {
       const value = data[key];
       if (value === undefined) return '';
       return this.escapeHtml(String(value));
@@ -44,7 +92,7 @@ class TemplateEngine {
     return result;
   }
 
-  escapeHtml(text) {
+  private escapeHtml(text: string): string {
     return text
       .replace(/&/g, '&')
       .replace(/</g, '<')
@@ -57,7 +105,7 @@ class TemplateEngine {
 /**
  * Génère les liens de langue
  */
-function generateLanguageLinks(languages, currentCode, pageName) {
+function generateLanguageLinks(languages: Language[], currentCode: string, pageName: string): string {
   if (!languages || languages.length <= 1) {
     return '';
   }
@@ -76,7 +124,7 @@ function generateLanguageLinks(languages, currentCode, pageName) {
 /**
  * Génère les informations de contact
  */
-function generateContactInfo(member) {
+function generateContactInfo(member: Member): string {
   let html = '';
   
   if (member.phoneNumber) {
@@ -97,7 +145,7 @@ function generateContactInfo(member) {
 /**
  * Génère les sections de contenu
  */
-function generateSections(pageData) {
+function generateSections(pageData: Language['page']): string {
   if (!pageData || !pageData.sections) {
     return '';
   }
@@ -128,7 +176,7 @@ function generateSections(pageData) {
 /**
  * Charge le template de membre depuis cms/site/
  */
-function loadMemberTemplate() {
+function loadMemberTemplate(): string {
   const templatePath = path.join(CONFIG.siteDir, configData.member.template);
   if (!fs.existsSync(templatePath)) {
     throw new Error(`Template non trouvé: ${templatePath}`);
@@ -139,7 +187,7 @@ function loadMemberTemplate() {
 /**
  * Charge le template de la page équipe depuis cms/site/
  */
-function loadTeamTemplate() {
+function loadTeamTemplate(): string {
   const templatePath = path.join(CONFIG.siteDir, configData.team.template);
   if (!fs.existsSync(templatePath)) {
     throw new Error(`Template non trouvé: ${templatePath}`);
@@ -150,7 +198,7 @@ function loadTeamTemplate() {
 /**
  * Génère le HTML d'un membre pour la page team
  */
-function generateTeamMemberHtml(member, langCode) {
+function generateTeamMemberHtml(member: Member, langCode: string): string {
   // Trouver la langue correspondante
   const lang = member.languages.find(l => l.code === langCode);
   if (!lang) return '';
@@ -171,11 +219,11 @@ function generateTeamMemberHtml(member, langCode) {
 /**
  * Vérifie que tous les membres dans content/members sont présents dans memberOrder
  */
-function validateMemberOrder() {
+function validateMemberOrder(): void {
   const memberOrder = configData.team.memberOrder;
   const memberOrderSet = new Set(memberOrder);
   const files = fs.readdirSync(CONFIG.contentDir).filter(f => f.endsWith('.json'));
-  const missingMembers = [];
+  const missingMembers: string[] = [];
 
   for (const file of files) {
     if (!memberOrderSet.has(file)) {
@@ -195,7 +243,7 @@ function validateMemberOrder() {
 /**
  * Génère la page team.html avec tous les membres
  */
-function generateTeamPage(teamTemplate) {
+function generateTeamPage(teamTemplate: string): void {
   console.log('Génération de la page équipe...');
 
   // Vérifier que tous les membres sont dans memberOrder
@@ -215,10 +263,9 @@ function generateTeamPage(teamTemplate) {
     }
 
     const content = fs.readFileSync(filePath, 'utf-8');
-    const member = JSON.parse(content);
+    const member: Member = JSON.parse(content);
 
     // Utiliser la langue par défaut (sans code) pour la page team
-    const lang = member.languages.find(l => l.code === '') || member.languages[0];
     const memberContent = generateTeamMemberHtml(member, '');
 
     const column = processedCount % 2;
@@ -239,9 +286,9 @@ function generateTeamPage(teamTemplate) {
     membersHtml += '</div>';
   }
 
-  const templateData = {
+  const templateData: TemplateData = {
     members: membersHtml,
-    year: CONFIG.year
+    year: String(CONFIG.year)
   };
 
   const engine = new TemplateEngine(teamTemplate);
@@ -256,7 +303,7 @@ function generateTeamPage(teamTemplate) {
 /**
  * Copie les assets (css, img) vers le répertoire de sortie
  */
-function copyAssets() {
+function copyAssets(): void {
   console.log('Copie des assets...');
   
   // CSS
@@ -289,7 +336,7 @@ function copyAssets() {
 /**
  * Copie les pages statiques du site
  */
-function copyStaticPages() {
+function copyStaticPages(): void {
   console.log('Copie des pages statiques...');
   
   const staticPages = configData.staticPages;
@@ -308,7 +355,7 @@ function copyStaticPages() {
 /**
  * Copie récursive d'un répertoire
  */
-function copyDirectory(source, dest) {
+function copyDirectory(source: string, dest: string): void {
   if (!fs.existsSync(source)) return;
   
   if (!fs.existsSync(dest)) {
@@ -332,7 +379,7 @@ function copyDirectory(source, dest) {
 /**
  * Liste des images générales du site (pas des membres)
  */
-const SITE_IMAGES = [
+const SITE_IMAGES: string[] = [
   'bg-banner.png', 'bg-intro.jpg', 'banner1.jpg', 'banner2.jpg', 'banner3.jpg',
   'banner4.jpg', 'banner5.jpg', 'banner6.jpg', 'building.jpg', 'assurance.jpg',
   'father-son.jpg', 'food.jpg', 'happy-couple.jpg', 'happy-familly.jpg',
@@ -343,14 +390,14 @@ const SITE_IMAGES = [
 /**
  * Récupère la liste des photos des membres actifs
  */
-function getMemberPhotos() {
-  const photos = new Set();
+function getMemberPhotos(): Set<string> {
+  const photos = new Set<string>();
   const files = fs.readdirSync(CONFIG.contentDir).filter(f => f.endsWith('.json'));
   
   for (const file of files) {
     const filePath = path.join(CONFIG.contentDir, file);
     const content = fs.readFileSync(filePath, 'utf-8');
-    const member = JSON.parse(content);
+    const member: Member = JSON.parse(content);
     if (member.photo) {
       // Extraire juste le nom du fichier (ex: "img/andrea-riddle.jpg" -> "andrea-riddle.jpg")
       const photoName = path.basename(member.photo);
@@ -364,14 +411,14 @@ function getMemberPhotos() {
 /**
  * Récupère la liste des membres actifs avec leurs langues
  */
-function getActiveMembers() {
-  const members = new Set();
+function getActiveMembers(): Set<string> {
+  const members = new Set<string>();
   const files = fs.readdirSync(CONFIG.contentDir).filter(f => f.endsWith('.json'));
   
   for (const file of files) {
     const filePath = path.join(CONFIG.contentDir, file);
     const content = fs.readFileSync(filePath, 'utf-8');
-    const member = JSON.parse(content);
+    const member: Member = JSON.parse(content);
     
     // Ajouter la page principale
     members.add(`${member.pageName}.html`);
@@ -392,7 +439,7 @@ function getActiveMembers() {
 /**
  * Supprime les anciens fichiers des membres qui n'existent plus
  */
-function cleanupOldFiles(activeMembers, activePhotos) {
+function cleanupOldFiles(activeMembers: Set<string>, activePhotos: Set<string>): void {
   console.log('Nettoyage des anciens fichiers...');
   
   // Patterns de fichiers à ne pas supprimer (pages statiques du site)
@@ -438,15 +485,15 @@ function cleanupOldFiles(activeMembers, activePhotos) {
 /**
  * Génère les pages pour un membre
  */
-function generateMemberPages(memberData, template) {
-  const member = JSON.parse(memberData);
+function generateMemberPages(memberData: string, template: string): void {
+  const member: Member = JSON.parse(memberData);
   
   member.languages.forEach(lang => {
-    const templateData = {
+    const templateData: TemplateData = {
       name: member.name,
       photo: member.photo,
       academic: lang.academic,
-      year: CONFIG.year,
+      year: String(CONFIG.year),
       languageLinks: generateLanguageLinks(member.languages, lang.code, member.pageName),
       contactInfo: generateContactInfo(member),
       sections: generateSections(lang.page)
@@ -470,7 +517,7 @@ function generateMemberPages(memberData, template) {
 /**
  * Copie les photos des membres
  */
-function copyMemberPhotos(activePhotos) {
+function copyMemberPhotos(activePhotos: Set<string>): void {
   console.log('Copie des photos des membres...');
   
   const siteImgDir = path.join(CONFIG.siteDir, 'img');
@@ -495,7 +542,7 @@ function copyMemberPhotos(activePhotos) {
 /**
  * Fonction principale de build
  */
-function build() {
+function build(): void {
   console.log('='.repeat(60));
   console.log('CMS Build - Génération du site');
   console.log('='.repeat(60));
@@ -543,7 +590,7 @@ function build() {
     try {
       generateMemberPages(content, memberTemplate);
     } catch (err) {
-      console.error(`  ✗ Erreur dans ${file}:`, err.message);
+      console.error(`  ✗ Erreur dans ${file}:`, (err as Error).message);
     }
   }
 
@@ -567,4 +614,4 @@ if (require.main === module) {
   build();
 }
 
-module.exports = { build, TemplateEngine };
+export { build, TemplateEngine };
