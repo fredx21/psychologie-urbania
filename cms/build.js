@@ -137,6 +137,96 @@ function loadTemplate() {
 }
 
 /**
+ * Charge le template de la page équipe depuis cms/site/
+ */
+function loadTeamTemplate() {
+  const templatePath = path.join(CONFIG.siteDir, configData.team.template);
+  if (!fs.existsSync(templatePath)) {
+    throw new Error(`Template non trouvé: ${templatePath}`);
+  }
+  return fs.readFileSync(templatePath, 'utf-8');
+}
+
+/**
+ * Génère le HTML d'un membre pour la page team
+ */
+function generateTeamMemberHtml(member, langCode) {
+  // Trouver la langue correspondante
+  const lang = member.languages.find(l => l.code === langCode);
+  if (!lang) return '';
+
+  const pageName = langCode ? `${member.pageName}-${langCode}` : member.pageName;
+  const academic = lang.academic || '';
+  const summary = lang.summary || '';
+
+  return `<a href="${pageName}"><img src="${member.photo}"/></a>
+    <div class="member-description">
+      <h3><span><a href="${pageName}">${member.name}</a></span></h3>
+      <h1><span>${academic}</span></h1>
+      <p><span>${summary}</span></p>
+    </div>
+    <div class="detailLink memberLink"><a href="${pageName}">détails</a></div>`;
+}
+
+/**
+ * Génère la page team.html avec tous les membres
+ */
+function generateTeamPage(teamTemplate) {
+  console.log('Génération de la page équipe...');
+
+  const memberOrder = configData.team.memberOrder;
+  let membersHtml = '';
+  let processedCount = 0;
+
+  for (let i = 0; i < memberOrder.length; i++) {
+    const fileName = memberOrder[i];
+    const filePath = path.join(CONFIG.contentDir, fileName);
+
+    if (!fs.existsSync(filePath)) {
+      console.warn(`  ⚠ Fichier non trouvé: ${fileName}`);
+      continue;
+    }
+
+    const content = fs.readFileSync(filePath, 'utf-8');
+    const member = JSON.parse(content);
+
+    // Utiliser la langue par défaut (sans code) pour la page team
+    const lang = member.languages.find(l => l.code === '') || member.languages[0];
+    const memberContent = generateTeamMemberHtml(member, '');
+
+    const column = processedCount % 2;
+
+    if (column === 0) {
+      // Première colonne - ouvre le div cf
+      membersHtml += `<div class="cf"><div class="col1_50_50 section cf memberIntroRow2Col">${memberContent}</div>`;
+    } else {
+      // Deuxième colonne - ferme le div cf
+      membersHtml += `<div class="col2_50_50 section cf memberIntroRow2Col">${memberContent}</div></div>`;
+    }
+
+    processedCount++;
+  }
+
+  // Si le nombre de membres traités est impair, fermer le dernier div cf
+  if (processedCount % 2 !== 0) {
+    membersHtml += '</div>';
+  }
+
+  const templateData = {
+    members: membersHtml,
+    year: CONFIG.year
+  };
+
+  const engine = new TemplateEngine(teamTemplate);
+  const html = engine.render(templateData);
+
+  const outputPath = path.join(CONFIG.outputDir, configData.team.output);
+  fs.writeFileSync(outputPath, html, 'utf-8');
+
+  console.log(`  ✓ ${configData.team.output}`);
+}
+
+/**
  * Copie les assets (css, img) vers le répertoire de sortie
  */
 function copyAssets() {
@@ -419,7 +509,7 @@ function build() {
   console.log('Génération des pages membres...');
   const files = fs.readdirSync(CONFIG.contentDir)
     .filter(f => f.endsWith('.json'));
-  
+
   for (const file of files) {
     const filePath = path.join(CONFIG.contentDir, file);
     const content = fs.readFileSync(filePath, 'utf-8');
@@ -429,8 +519,16 @@ function build() {
       console.error(`  ✗ Erreur dans ${file}:`, err.message);
     }
   }
-  
+
   console.log();
+
+  // Charger le template de la page team
+  const teamTemplate = loadTeamTemplate();
+
+  // Générer la page team
+  generateTeamPage(teamTemplate);
+  console.log();
+
   console.log('='.repeat(60));
   console.log(`Build terminé! ${files.length} membres traités.`);
   console.log(`Sortie: ${CONFIG.outputDir}`);
