@@ -167,6 +167,25 @@ function copyAssets() {
 }
 
 /**
+ * Copie les pages statiques du site
+ */
+function copyStaticPages() {
+  console.log('Copie des pages statiques...');
+  
+  const staticPages = ['index.html', 'services.html', 'contact.html', 'career.html', 'links.html'];
+  
+  for (const page of staticPages) {
+    const srcPath = path.join(CONFIG.siteDir, page);
+    const destPath = path.join(CONFIG.outputDir, page);
+    
+    if (fs.existsSync(srcPath)) {
+      fs.copyFileSync(srcPath, destPath);
+      console.log(`  ✓ ${page}`);
+    }
+  }
+}
+
+/**
  * Copie récursive d'un répertoire
  */
 function copyDirectory(source, dest) {
@@ -377,6 +396,10 @@ function build() {
   
   // Copier les assets (CSS, images générales)
   copyAssets();
+  console.log();
+  
+  // Copier les pages statiques
+  copyStaticPages();
   console.log();
   
   // Copier les photos des membres actifs

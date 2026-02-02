@@ -1,0 +1,155 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" >
+<head>
+    <meta charset="utf-8">
+	<meta name="author" content="Frederic Savard" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <title>Clinique de psychologie Urbania</title>
+    <script type="text/javascript" src="jquery/jquery-1.7.2.min.js"></script>
+	<script type="text/javascript">
+	    $(function () {
+
+            var BACKGOUND_IMAGE_COUNT = 6;
+            // generates a random integer between 0 and the length of the supplied array:
+            var n = Math.floor(Math.random() * BACKGOUND_IMAGE_COUNT);
+            var imgIdx = 0;
+
+            updateSlideShowHeight();
+
+            $(".background-image-0").css("background-image", "url(./img/banner" + (n + 1) + ".jpg)");
+
+            window.setInterval(function() {
+                var imgIdxOld = imgIdx;
+                imgIdx = (imgIdx + 1) % 2;
+                n = (n + 1) % BACKGOUND_IMAGE_COUNT;
+                $(".background-image-" + imgIdxOld).fadeOut(300);
+                $(".background-image-" + imgIdx).css("background-image", "url(./img/banner" + (n + 1) + ".jpg)");
+                $(".background-image-" + imgIdx).fadeIn(600);
+            }, 5000);
+	    });
+
+        $( window ).resize(function() {
+            updateSlideShowHeight();
+        });
+
+        function updateSlideShowHeight() {
+            var slideshowImageHeight = (window.innerWidth /(1000/443));
+            if (slideshowImageHeight > 443) {
+                slideshowImageHeight = 443;
+            }
+            $(".slideshow").css("height", slideshowImageHeight+"px");
+        }
+    </script>
+	<link rel="stylesheet" href="css/ui.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        ga('create', 'UA-40245323-1', 'psychologie-urbania.com');
+        ga('send', 'pageview');
+    </script>
+</head>
+<body>
+    <div class="introContainer">
+        <div id="intro">
+            <div class="logo">Clinique de Psychologie Urbania</div>
+            <div class="navigationHeader">
+                <p><span><a class="currentpage" href="./">accueil</a><a href="team">Équipe</a><a href="services">services</a><a href="career">carrière</a><a href="contact">contact</a></span><a href="links">liens</a></span></p>
+            </div>
+        </div>
+    </div>
+    <div class="mainContainer">
+        <div class="content">
+            <div class="slideshow">
+                <div class="background-image-0"></div>
+                <div class="background-image-1" style="display: none"></div>
+            </div>
+            <div class="cf">
+                <div class="col1_66_33">
+                    <div class="section cf">
+                        <div class="header lightgray">
+                            <h3><span>Qui sommes-nous</span></h3>
+                        </div>
+                        <div class="sectiontext">
+                            <span><p>Fondée par Dre <a href="AndreaRiddle">Andrea Riddle</a>, psychologue, la Clinique de psychologie Urbania vous offre un large éventail de services de consultation en psychologie, sexologie, médiation familiale, psychoéducation, travail social, orientation professionnelle ainsi qu'en nutrition.<br/><br/>La mission de la clinique est de regrouper une équipe de psychothérapeutes et de spécialistes ayant des champs d'expertise diversifiés et complémentaires en santé mentale, permettant ainsi de répondre à une grande variété de besoins aux personnes de tous les âges.<br/><br/>Notre équipe de professionnels vous proposent divers services d'évaluation, de consultation et de traitement aux adultes et aux aînés, aux enfants et aux adolescents, ainsi qu'aux couples et aux familles.</p></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col2_66_33">
+                    <div id="contactus" class="section cf">
+                        <h1><span>Contactez-nous</span></h1>
+                        <p>Nous sommes disponible pour vous aider.</p>
+                        &nbsp;
+                        <p>Tel:</p>
+                        <h2><span class="texthighlightcolor"><div class="icon icon-phone"></div>450 508 4778</span></h2>
+                        &nbsp;
+                        <p>Courriel:</p>
+                        <h2><span class="texthighlightcolor"><a href="mailto:info@psychologie-urbania.com"><div class="icon icon-envelope"></div>info@psychologie-urbania.com</a></span></h2>
+                        &nbsp;
+                        <p>Adresse:</p>
+                        <h2><span><a href="mailto:info@psychologie-urbania.com">876 boul du Curé-Labelle<br/>Bureau 205A<br/>Blainville, Québec<br/>J7C 2K9</a></span></h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cf">
+                <div class="col1">
+                    <div class="section cf">
+                        <div class="header lightgray">
+                            <h3><span>Notre équipe</span></h3>
+                        </div>
+                        <div class="sectiontext">
+                            <span><p>Nos services sont offerts par des professionnels qualifiés pouvant travailler en interdisciplinarité, entre autres, le psychologue et neuropsychologue, le sexologue, le travailleur social, le psychoéducateur, le médiateur familial, le conseiller d'orientation et le nutritionniste. Nos expertises et approches sont diversifiées afin de répondre à une large gamme de motifs de consultation.  </p></span>
+                        </div>
+                        <div class="detailLink">
+                            <a href="team">détails</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col23">
+                    <div class="col2">
+                        <div class="section cf">
+                            <div class="header lightgray">
+                                <h3><span>Nos services</span></h3>
+                            </div>
+                            <div class="sectiontext">
+                                <span><p>La Clinique de psychologie Urbania offre des services aux personnes de tous les âges. Des mandats de programmes d'aide aux employés (PAE), de la CSST, de la SAAC et de l'IVAC sont acceptés par certains de nos professionnels.</p></span>
+                            </div>
+                            <div class="detailLink">
+                                <a href="services">détails</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col3">
+                        <div class="section cf">
+                            <div class="header lightgray">
+                                <h3><span>Nos professions</span></h3>
+                            </div>
+                            <div class="sectiontext">
+                                <ul>
+                                    <li>Diététique</li>
+                                    <li>M.diation familiale</li>
+                                    <li>Psychologie</li>
+                                    <li>Neuropsychologie</li>
+                                    <li>Psychoéducation</li>
+                                    <li>Sexologie</li>
+                                    <li>Travail social</li>
+                                    <li>Orientation professionnelle</li>
+                                 </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="sectiontext copyright">
+                Copyright 2012 à 2026 @ Clinique de Psychologie Urbania. Tous droits réservés.
+            </div>
+        </div>
+    </div>
+</body>
+</html>

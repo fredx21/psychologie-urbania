@@ -11,16 +11,23 @@ cms/
 │       ├── AndreaRiddle.json
 │       ├── FranciscaGagne.json
 │       └── ... (17 fichiers)
-├── site/                  # Template + assets (visualisable en local)
+├── site/                  # Template + assets + pages statiques
 │   ├── member.html        # Template avec données exemple
+│   ├── index.html         # Page d'accueil
+│   ├── services.html      # Page services
+│   ├── contact.html       # Page contact
+│   ├── career.html        # Page carrière
+│   ├── links.html         # Page liens
 │   ├── css/               # Feuilles de style
 │   │   ├── ui.css
 │   │   ├── style.css
 │   │   └── fonts/         # Icônes
-│   ├── img/               # Images des membres
+│   ├── img/               # Images
 │   └── js/                # Scripts JavaScript
 └── build.js               # Générateur
 ```
+
+**Note:** `team.html` est générée automatiquement et n'est pas dans `cms/site/`.
 
 ## Fonctionnement
 
@@ -59,9 +66,10 @@ Cela va :
 
 1. **Nettoyer** les anciens fichiers (pages et photos des membres supprimés)
 2. Copier les assets (CSS, images générales) de `cms/site/` vers `docs/`
-3. Copier les photos des membres actifs
-4. Générer les pages HTML pour chaque membre
-5. Sauvegarder dans `docs/` (19 pages pour 17 membres)
+3. Copier les pages statiques (index, services, contact, career, links)
+4. Copier les photos des membres actifs
+5. Générer les pages HTML pour chaque membre
+6. Sauvegarder dans `docs/` (19 pages pour 17 membres)
 
 ### Supprimer un membre
 
