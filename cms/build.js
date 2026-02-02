@@ -126,10 +126,10 @@ function generateSections(pageData) {
 }
 
 /**
- * Charge le template depuis cms/site/
+ * Charge le template de membre depuis cms/site/
  */
-function loadTemplate() {
-  const templatePath = path.join(CONFIG.siteDir, 'member.html');
+function loadMemberTemplate() {
+  const templatePath = path.join(CONFIG.siteDir, configData.member.template);
   if (!fs.existsSync(templatePath)) {
     throw new Error(`Template non trouvé: ${templatePath}`);
   }
@@ -526,10 +526,10 @@ function build() {
   copyMemberPhotos(activePhotos);
   console.log();
   
-  // Charger le template depuis cms/site/
-  console.log('Chargement du template...');
-  const memberTemplate = loadTemplate();
-  console.log('  ✓ Template chargé depuis cms/site/member.html');
+  // Charger le template de membre depuis cms/site/
+  console.log('Chargement du template membre...');
+  const memberTemplate = loadMemberTemplate();
+  console.log(`  ✓ Template chargé depuis cms/site/${configData.member.template}`);
   console.log();
   
   // Traiter tous les fichiers JSON

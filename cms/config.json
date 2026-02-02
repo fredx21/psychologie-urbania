@@ -9,6 +9,9 @@
     "career.html",
     "links.html"
   ],
+  "member": {
+    "template": "member-template.html"
+  },
   "team": {
     "template": "team-template.html",
     "output": "team.html",
