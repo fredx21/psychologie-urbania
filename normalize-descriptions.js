@@ -7,7 +7,11 @@ const inputDir = 'output/members-json';
 function normalizeText(text) {
   if (typeof text !== 'string') return text;
   // Remplacer \r\n et les espaces qui suivent par une seule espace
-  return text.replace(/\r\n\s*/g, ' ');
+  // Remplacer toutes les variantes d'apostrophes typographiques par des apostrophes droites (')
+  // U+2018: ' | U+2019: ' | U+201A: ' | U+201B: ' | U+2032: ′
+  return text
+    .replace(/\r\n\s*/g, ' ')
+    .replace(/[\u2018\u2019\u201A\u201B\u2032]/g, "'");
 }
 
 // Fonction récursive pour traiter tous les objets
