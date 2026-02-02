@@ -144,10 +144,24 @@ function copyAssets() {
   const cssDest = path.join(CONFIG.outputDir, 'css');
   copyDirectory(cssSource, cssDest);
   
-  // Images
+  // Images générales du site (bannières, etc. - pas les photos membres)
   const imgSource = path.join(CONFIG.siteDir, 'img');
   const imgDest = path.join(CONFIG.outputDir, 'img');
-  copyDirectory(imgSource, imgDest);
+  
+  // Créer le dossier img s'il n'existe pas
+  if (!fs.existsSync(imgDest)) {
+    fs.mkdirSync(imgDest, { recursive: true });
+  }
+  
+  // Copier seulement les images générales du site (pas les photos de membres)
+  const entries = fs.readdirSync(imgSource, { withFileTypes: true });
+  for (const entry of entries) {
+    if (entry.isFile() && SITE_IMAGES.includes(entry.name)) {
+      const srcPath = path.join(imgSource, entry.name);
+      const destPath = path.join(imgDest, entry.name);
+      fs.copyFileSync(srcPath, destPath);
+    }
+  }
   
   console.log('  ✓ Assets copiés');
 }
@@ -174,6 +188,112 @@ function copyDirectory(source, dest) {
       fs.copyFileSync(srcPath, destPath);
     }
   }
+}
+
+/**
+ * Liste des images générales du site (pas des membres)
+ */
+const SITE_IMAGES = [
+  'bg-banner.png', 'bg-intro.jpg', 'banner1.jpg', 'banner2.jpg', 'banner3.jpg',
+  'banner4.jpg', 'banner5.jpg', 'banner6.jpg', 'building.jpg', 'assurance.jpg',
+  'father-son.jpg', 'food.jpg', 'happy-couple.jpg', 'happy-familly.jpg',
+  'mother-daughter.jpg', 'older-people.jpg', 'placeholder.jpg', 'sexuality.jpg',
+  'client1.jpg'
+];
+
+/**
+ * Récupère la liste des photos des membres actifs
+ */
+function getMemberPhotos() {
+  const photos = new Set();
+  const files = fs.readdirSync(CONFIG.contentDir).filter(f => f.endsWith('.json'));
+  
+  for (const file of files) {
+    const filePath = path.join(CONFIG.contentDir, file);
+    const content = fs.readFileSync(filePath, 'utf-8');
+    const member = JSON.parse(content);
+    if (member.photo) {
+      // Extraire juste le nom du fichier (ex: "img/andrea-riddle.jpg" -> "andrea-riddle.jpg")
+      const photoName = path.basename(member.photo);
+      photos.add(photoName);
+    }
+  }
+  
+  return photos;
+}
+
+/**
+ * Récupère la liste des membres actifs avec leurs langues
+ */
+function getActiveMembers() {
+  const members = new Set();
+  const files = fs.readdirSync(CONFIG.contentDir).filter(f => f.endsWith('.json'));
+  
+  for (const file of files) {
+    const filePath = path.join(CONFIG.contentDir, file);
+    const content = fs.readFileSync(filePath, 'utf-8');
+    const member = JSON.parse(content);
+    
+    // Ajouter la page principale
+    members.add(`${member.pageName}.html`);
+    
+    // Ajouter les pages de langue
+    if (member.languages) {
+      member.languages.forEach(lang => {
+        if (lang.code) {
+          members.add(`${member.pageName}-${lang.code}.html`);
+        }
+      });
+    }
+  }
+  
+  return members;
+}
+
+/**
+ * Supprime les anciens fichiers des membres qui n'existent plus
+ */
+function cleanupOldFiles(activeMembers, activePhotos) {
+  console.log('Nettoyage des anciens fichiers...');
+  
+  // Patterns de fichiers à ne pas supprimer (pages statiques du site)
+  const protectedFiles = [
+    'index.html', 'team.html', 'services.html', 'contact.html', 
+    'career.html', 'links.html', '.htaccess', 'CNAME'
+  ];
+  
+  // Nettoyer les pages HTML
+  if (fs.existsSync(CONFIG.outputDir)) {
+    const entries = fs.readdirSync(CONFIG.outputDir, { withFileTypes: true });
+    for (const entry of entries) {
+      if (entry.isFile() && entry.name.endsWith('.html')) {
+        if (!protectedFiles.includes(entry.name) && !activeMembers.has(entry.name)) {
+          const filePath = path.join(CONFIG.outputDir, entry.name);
+          fs.unlinkSync(filePath);
+          console.log(`  ✗ Supprimé: ${entry.name}`);
+        }
+      }
+    }
+  }
+  
+  // Nettoyer les photos des membres
+  const imgDir = path.join(CONFIG.outputDir, 'img');
+  if (fs.existsSync(imgDir)) {
+    const entries = fs.readdirSync(imgDir, { withFileTypes: true });
+    for (const entry of entries) {
+      if (entry.isFile()) {
+        // Ne supprimer que les photos de membres (pas les images générales du site)
+        // Une photo de membre correspond à un fichier dans activePhotos
+        if (!SITE_IMAGES.includes(entry.name) && !activePhotos.has(entry.name)) {
+          const filePath = path.join(imgDir, entry.name);
+          fs.unlinkSync(filePath);
+          console.log(`  ✗ Supprimé photo: img/${entry.name}`);
+        }
+      }
+    }
+  }
+  
+  console.log('  ✓ Nettoyage terminé');
 }
 
 /**
@@ -209,6 +329,31 @@ function generateMemberPages(memberData, template) {
 }
 
 /**
+ * Copie les photos des membres
+ */
+function copyMemberPhotos(activePhotos) {
+  console.log('Copie des photos des membres...');
+  
+  const siteImgDir = path.join(CONFIG.siteDir, 'img');
+  const outputImgDir = path.join(CONFIG.outputDir, 'img');
+  
+  if (!fs.existsSync(outputImgDir)) {
+    fs.mkdirSync(outputImgDir, { recursive: true });
+  }
+  
+  for (const photoName of activePhotos) {
+    const srcPath = path.join(siteImgDir, photoName);
+    const destPath = path.join(outputImgDir, photoName);
+    
+    if (fs.existsSync(srcPath)) {
+      fs.copyFileSync(srcPath, destPath);
+    }
+  }
+  
+  console.log(`  ✓ ${activePhotos.size} photos copiées`);
+}
+
+/**
  * Fonction principale de build
  */
 function build() {
@@ -222,8 +367,20 @@ function build() {
     fs.mkdirSync(CONFIG.outputDir, { recursive: true });
   }
   
-  // Copier les assets
+  // Récupérer la liste des membres et photos actifs
+  const activeMembers = getActiveMembers();
+  const activePhotos = getMemberPhotos();
+  
+  // Nettoyer les anciens fichiers
+  cleanupOldFiles(activeMembers, activePhotos);
+  console.log();
+  
+  // Copier les assets (CSS, images générales)
   copyAssets();
+  console.log();
+  
+  // Copier les photos des membres actifs
+  copyMemberPhotos(activePhotos);
   console.log();
   
   // Charger le template depuis cms/site/

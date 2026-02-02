@@ -36,6 +36,7 @@ Le template contient des données exemple (Andrea Riddle) et s'ouvre directement
 - `{{{variable}}}` - Variable HTML brut (non échappé)
 
 Variables disponibles :
+
 - `{{name}}` - Nom du membre
 - `{{photo}}` - Chemin de la photo
 - `{{academic}}` - Titre académique
@@ -55,9 +56,23 @@ npm run build
 ```
 
 Cela va :
-1. Copier les assets (CSS, images) de `cms/site/` vers `docs/`
-2. Générer les pages HTML pour chaque membre
-3. Sauvegarder dans `docs/` (19 pages pour 17 membres)
+
+1. **Nettoyer** les anciens fichiers (pages et photos des membres supprimés)
+2. Copier les assets (CSS, images générales) de `cms/site/` vers `docs/`
+3. Copier les photos des membres actifs
+4. Générer les pages HTML pour chaque membre
+5. Sauvegarder dans `docs/` (19 pages pour 17 membres)
+
+### Supprimer un membre
+
+1. Supprimez le fichier JSON dans `cms/content/members/`
+2. Supprimez la photo dans `cms/site/img/`
+3. Lancez `npm run build`
+
+Le build supprimera automatiquement :
+
+- La page HTML du membre
+- La photo du membre dans `docs/img/`
 
 ## Commandes
 
