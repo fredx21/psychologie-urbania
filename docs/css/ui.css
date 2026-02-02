@@ -265,6 +265,14 @@ li {
     margin-left:10px;
 }
 
+.sectiontext p {
+    margin-bottom: 10px;
+}
+
+.sectiontext p:last-child {
+    margin-bottom: 0;
+}
+
 .sectiontext+.detailLink {
     margin-top:10px;
 }
