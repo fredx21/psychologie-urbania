@@ -3,8 +3,8 @@
  * Génère les pages HTML statiques à partir des données JSON et du template dans site/
  */
 
-import * as fs from 'fs';
-import * as path from 'path';
+import * as fs from "fs";
+import * as path from "path";
 
 // Interfaces
 interface ConfigData {
@@ -53,14 +53,14 @@ interface TemplateData {
 }
 
 // Configuration
-const configPath = path.join(__dirname, 'config.json');
-const configData: ConfigData = JSON.parse(fs.readFileSync(configPath, 'utf-8'));
+const configPath = path.join(__dirname, "config.json");
+const configData: ConfigData = JSON.parse(fs.readFileSync(configPath, "utf-8"));
 
 const CONFIG = {
   contentDir: path.join(__dirname, configData.contentDir),
   siteDir: path.join(__dirname, configData.siteDir),
   outputDir: path.join(__dirname, configData.outputDir),
-  year: new Date().getFullYear()
+  year: new Date().getFullYear(),
 };
 
 /**
@@ -75,49 +75,59 @@ class TemplateEngine {
 
   render(data: TemplateData): string {
     let result = this.template;
-    
+
+    // Supprimer le mock data (tout entre MOCK DATA START et MOCK DATA END)
+    result = result.replace(
+      /<!--\s*MOCK DATA START[\s\S]*?MOCK DATA END\s*-->/gi,
+      "",
+    );
+
     // Triple braces = raw HTML (pas d'escape)
     result = result.replace(/{{{(\w+)}}}/g, (match: string, key: string) => {
       const value = data[key];
-      return value !== undefined ? value : '';
+      return value !== undefined ? value : "";
     });
-    
+
     // Double braces = escaped HTML
     result = result.replace(/{{(\w+)}}/g, (match: string, key: string) => {
       const value = data[key];
-      if (value === undefined) return '';
+      if (value === undefined) return "";
       return this.escapeHtml(String(value));
     });
-    
+
     return result;
   }
 
   private escapeHtml(text: string): string {
     return text
-      .replace(/&/g, '&')
-      .replace(/</g, '<')
-      .replace(/>/g, '>')
+      .replace(/&/g, "&")
+      .replace(/</g, "<")
+      .replace(/>/g, ">")
       .replace(/"/g, '"')
-      .replace(/'/g, '&#039;');
+      .replace(/'/g, "&#039;");
   }
 }
 
 /**
  * Génère les liens de langue
  */
-function generateLanguageLinks(languages: Language[], currentCode: string, pageName: string): string {
+function generateLanguageLinks(
+  languages: Language[],
+  currentCode: string,
+  pageName: string,
+): string {
   if (!languages || languages.length <= 1) {
-    return '';
+    return "";
   }
-  
+
   let html = '<div class="navigationHeader language">';
-  languages.forEach(lang => {
+  languages.forEach((lang) => {
     const isCurrent = lang.code === currentCode;
     const href = lang.code ? `${pageName}-${lang.code}` : pageName;
-    const currentClass = isCurrent ? 'currentpage' : '';
+    const currentClass = isCurrent ? "currentpage" : "";
     html += `<a class="${currentClass}" href="${href}">${lang.name}</a>`;
   });
-  html += '</div>';
+  html += "</div>";
   return html;
 }
 
@@ -125,34 +135,34 @@ function generateLanguageLinks(languages: Language[], currentCode: string, pageN
  * Génère les informations de contact
  */
 function generateContactInfo(member: Member): string {
-  let html = '';
-  
+  let html = "";
+
   if (member.phoneNumber) {
     html += `&nbsp;<p>Tel:</p><h2><span class="texthighlightcolor"><div class="icon icon-phone"></div>${member.phoneNumber}</span></h2>`;
   }
-  
+
   if (member.emailAddress) {
     html += `&nbsp;<p>Courriel:</p><h2><span class="texthighlightcolor"><a href="mailto:${member.emailAddress}"><div class="icon icon-envelope"></div>${member.emailAddress}</a></span></h2>`;
   }
-  
+
   if (member.webSite) {
     html += `&nbsp;<p>Liens:</p><h2><span class="texthighlightcolor"><a href="${member.webSite}"><div class="icon icon-globe"></div>Site web</a></span></h2>`;
   }
-  
+
   return html;
 }
 
 /**
  * Génère les sections de contenu
  */
-function generateSections(pageData: Language['page']): string {
+function generateSections(pageData: Language["page"]): string {
   if (!pageData || !pageData.sections) {
-    return '';
+    return "";
   }
-  
-  let html = '';
-  
-  pageData.sections.forEach(section => {
+
+  let html = "";
+
+  pageData.sections.forEach((section) => {
     if (section.title) {
       html += `
       <div class="section cf">
@@ -161,7 +171,7 @@ function generateSections(pageData: Language['page']): string {
         </div>
       </div>`;
     }
-    
+
     if (section.description) {
       html += `
       <div class="sectiontext">
@@ -169,7 +179,7 @@ function generateSections(pageData: Language['page']): string {
       </div>`;
     }
   });
-  
+
   return html;
 }
 
@@ -181,7 +191,7 @@ function loadMemberTemplate(): string {
   if (!fs.existsSync(templatePath)) {
     throw new Error(`Template non trouvé: ${templatePath}`);
   }
-  return fs.readFileSync(templatePath, 'utf-8');
+  return fs.readFileSync(templatePath, "utf-8");
 }
 
 /**
@@ -192,7 +202,7 @@ function loadTeamTemplate(): string {
   if (!fs.existsSync(templatePath)) {
     throw new Error(`Template non trouvé: ${templatePath}`);
   }
-  return fs.readFileSync(templatePath, 'utf-8');
+  return fs.readFileSync(templatePath, "utf-8");
 }
 
 /**
@@ -200,12 +210,14 @@ function loadTeamTemplate(): string {
  */
 function generateTeamMemberHtml(member: Member, langCode: string): string {
   // Trouver la langue correspondante
-  const lang = member.languages.find(l => l.code === langCode);
-  if (!lang) return '';
+  const lang = member.languages.find((l) => l.code === langCode);
+  if (!lang) return "";
 
-  const pageName = langCode ? `${member.pageName}-${langCode}` : member.pageName;
-  const academic = lang.academic || '';
-  const summary = lang.summary || '';
+  const pageName = langCode
+    ? `${member.pageName}-${langCode}`
+    : member.pageName;
+  const academic = lang.academic || "";
+  const summary = lang.summary || "";
 
   return `<a href="${pageName}"><img src="${member.photo}"/></a>
     <div class="member-description">
@@ -222,7 +234,9 @@ function generateTeamMemberHtml(member: Member, langCode: string): string {
 function validateMemberOrder(): void {
   const memberOrder = configData.team.memberOrder;
   const memberOrderSet = new Set(memberOrder);
-  const files = fs.readdirSync(CONFIG.contentDir).filter(f => f.endsWith('.json'));
+  const files = fs
+    .readdirSync(CONFIG.contentDir)
+    .filter((f) => f.endsWith(".json"));
   const missingMembers: string[] = [];
 
   for (const file of files) {
@@ -232,11 +246,15 @@ function validateMemberOrder(): void {
   }
 
   if (missingMembers.length > 0) {
-    console.error(`  ✗ ERREUR: Les membres suivants ne sont pas dans memberOrder:`);
+    console.error(
+      `  ✗ ERREUR: Les membres suivants ne sont pas dans memberOrder:`,
+    );
     for (const member of missingMembers) {
       console.error(`    - ${member}`);
     }
-    throw new Error(`Membres manquants dans memberOrder: ${missingMembers.join(', ')}`);
+    throw new Error(
+      `Membres manquants dans memberOrder: ${missingMembers.join(", ")}`,
+    );
   }
 }
 
@@ -244,13 +262,13 @@ function validateMemberOrder(): void {
  * Génère la page team.html avec tous les membres
  */
 function generateTeamPage(teamTemplate: string): void {
-  console.log('Génération de la page équipe...');
+  console.log("Génération de la page équipe...");
 
   // Vérifier que tous les membres sont dans memberOrder
   validateMemberOrder();
 
   const memberOrder = configData.team.memberOrder;
-  let membersHtml = '';
+  let membersHtml = "";
   let processedCount = 0;
 
   for (let i = 0; i < memberOrder.length; i++) {
@@ -262,11 +280,11 @@ function generateTeamPage(teamTemplate: string): void {
       continue;
     }
 
-    const content = fs.readFileSync(filePath, 'utf-8');
+    const content = fs.readFileSync(filePath, "utf-8");
     const member: Member = JSON.parse(content);
 
     // Utiliser la langue par défaut (sans code) pour la page team
-    const memberContent = generateTeamMemberHtml(member, '');
+    const memberContent = generateTeamMemberHtml(member, "");
 
     const column = processedCount % 2;
 
@@ -283,19 +301,19 @@ function generateTeamPage(teamTemplate: string): void {
 
   // Si le nombre de membres traités est impair, fermer le dernier div cf
   if (processedCount % 2 !== 0) {
-    membersHtml += '</div>';
+    membersHtml += "</div>";
   }
 
   const templateData: TemplateData = {
     members: membersHtml,
-    year: String(CONFIG.year)
+    year: String(CONFIG.year),
   };
 
   const engine = new TemplateEngine(teamTemplate);
   const html = engine.render(templateData);
 
   const outputPath = path.join(CONFIG.outputDir, configData.team.output);
-  fs.writeFileSync(outputPath, html, 'utf-8');
+  fs.writeFileSync(outputPath, html, "utf-8");
 
   console.log(`  ✓ ${configData.team.output}`);
 }
@@ -304,22 +322,22 @@ function generateTeamPage(teamTemplate: string): void {
  * Copie les assets (css, img) vers le répertoire de sortie
  */
 function copyAssets(): void {
-  console.log('Copie des assets...');
-  
+  console.log("Copie des assets...");
+
   // CSS
-  const cssSource = path.join(CONFIG.siteDir, 'css');
-  const cssDest = path.join(CONFIG.outputDir, 'css');
+  const cssSource = path.join(CONFIG.siteDir, "css");
+  const cssDest = path.join(CONFIG.outputDir, "css");
   copyDirectory(cssSource, cssDest);
-  
+
   // Images générales du site (bannières, etc. - pas les photos membres)
-  const imgSource = path.join(CONFIG.siteDir, 'img');
-  const imgDest = path.join(CONFIG.outputDir, 'img');
-  
+  const imgSource = path.join(CONFIG.siteDir, "img");
+  const imgDest = path.join(CONFIG.outputDir, "img");
+
   // Créer le dossier img s'il n'existe pas
   if (!fs.existsSync(imgDest)) {
     fs.mkdirSync(imgDest, { recursive: true });
   }
-  
+
   // Copier seulement les images générales du site (pas les photos de membres)
   const entries = fs.readdirSync(imgSource, { withFileTypes: true });
   for (const entry of entries) {
@@ -329,22 +347,22 @@ function copyAssets(): void {
       fs.copyFileSync(srcPath, destPath);
     }
   }
-  
-  console.log('  ✓ Assets copiés');
+
+  console.log("  ✓ Assets copiés");
 }
 
 /**
  * Copie les pages statiques du site
  */
 function copyStaticPages(): void {
-  console.log('Copie des pages statiques...');
-  
+  console.log("Copie des pages statiques...");
+
   const staticPages = configData.staticPages;
-  
+
   for (const page of staticPages) {
     const srcPath = path.join(CONFIG.siteDir, page);
     const destPath = path.join(CONFIG.outputDir, page);
-    
+
     if (fs.existsSync(srcPath)) {
       fs.copyFileSync(srcPath, destPath);
       console.log(`  ✓ ${page}`);
@@ -357,17 +375,17 @@ function copyStaticPages(): void {
  */
 function copyDirectory(source: string, dest: string): void {
   if (!fs.existsSync(source)) return;
-  
+
   if (!fs.existsSync(dest)) {
     fs.mkdirSync(dest, { recursive: true });
   }
-  
+
   const entries = fs.readdirSync(source, { withFileTypes: true });
-  
+
   for (const entry of entries) {
     const srcPath = path.join(source, entry.name);
     const destPath = path.join(dest, entry.name);
-    
+
     if (entry.isDirectory()) {
       copyDirectory(srcPath, destPath);
     } else {
@@ -380,11 +398,25 @@ function copyDirectory(source: string, dest: string): void {
  * Liste des images générales du site (pas des membres)
  */
 const SITE_IMAGES: string[] = [
-  'bg-banner.png', 'bg-intro.jpg', 'banner1.jpg', 'banner2.jpg', 'banner3.jpg',
-  'banner4.jpg', 'banner5.jpg', 'banner6.jpg', 'building.jpg', 'assurance.jpg',
-  'father-son.jpg', 'food.jpg', 'happy-couple.jpg', 'happy-familly.jpg',
-  'mother-daughter.jpg', 'older-people.jpg', 'placeholder.jpg', 'sexuality.jpg',
-  'client1.jpg'
+  "bg-banner.png",
+  "bg-intro.jpg",
+  "banner1.jpg",
+  "banner2.jpg",
+  "banner3.jpg",
+  "banner4.jpg",
+  "banner5.jpg",
+  "banner6.jpg",
+  "building.jpg",
+  "assurance.jpg",
+  "father-son.jpg",
+  "food.jpg",
+  "happy-couple.jpg",
+  "happy-familly.jpg",
+  "mother-daughter.jpg",
+  "older-people.jpg",
+  "placeholder.jpg",
+  "sexuality.jpg",
+  "client1.jpg",
 ];
 
 /**
@@ -392,11 +424,13 @@ const SITE_IMAGES: string[] = [
  */
 function getMemberPhotos(): Set<string> {
   const photos = new Set<string>();
-  const files = fs.readdirSync(CONFIG.contentDir).filter(f => f.endsWith('.json'));
-  
+  const files = fs
+    .readdirSync(CONFIG.contentDir)
+    .filter((f) => f.endsWith(".json"));
+
   for (const file of files) {
     const filePath = path.join(CONFIG.contentDir, file);
-    const content = fs.readFileSync(filePath, 'utf-8');
+    const content = fs.readFileSync(filePath, "utf-8");
     const member: Member = JSON.parse(content);
     if (member.photo) {
       // Extraire juste le nom du fichier (ex: "img/andrea-riddle.jpg" -> "andrea-riddle.jpg")
@@ -404,7 +438,7 @@ function getMemberPhotos(): Set<string> {
       photos.add(photoName);
     }
   }
-  
+
   return photos;
 }
 
@@ -413,47 +447,61 @@ function getMemberPhotos(): Set<string> {
  */
 function getActiveMembers(): Set<string> {
   const members = new Set<string>();
-  const files = fs.readdirSync(CONFIG.contentDir).filter(f => f.endsWith('.json'));
-  
+  const files = fs
+    .readdirSync(CONFIG.contentDir)
+    .filter((f) => f.endsWith(".json"));
+
   for (const file of files) {
     const filePath = path.join(CONFIG.contentDir, file);
-    const content = fs.readFileSync(filePath, 'utf-8');
+    const content = fs.readFileSync(filePath, "utf-8");
     const member: Member = JSON.parse(content);
-    
+
     // Ajouter la page principale
     members.add(`${member.pageName}.html`);
-    
+
     // Ajouter les pages de langue
     if (member.languages) {
-      member.languages.forEach(lang => {
+      member.languages.forEach((lang) => {
         if (lang.code) {
           members.add(`${member.pageName}-${lang.code}.html`);
         }
       });
     }
   }
-  
+
   return members;
 }
 
 /**
  * Supprime les anciens fichiers des membres qui n'existent plus
  */
-function cleanupOldFiles(activeMembers: Set<string>, activePhotos: Set<string>): void {
-  console.log('Nettoyage des anciens fichiers...');
-  
+function cleanupOldFiles(
+  activeMembers: Set<string>,
+  activePhotos: Set<string>,
+): void {
+  console.log("Nettoyage des anciens fichiers...");
+
   // Patterns de fichiers à ne pas supprimer (pages statiques du site)
   const protectedFiles = [
-    'index.html', 'team.html', 'services.html', 'contact.html', 
-    'career.html', 'links.html', '.htaccess', 'CNAME'
+    "index.html",
+    "team.html",
+    "services.html",
+    "contact.html",
+    "career.html",
+    "links.html",
+    ".htaccess",
+    "CNAME",
   ];
-  
+
   // Nettoyer les pages HTML
   if (fs.existsSync(CONFIG.outputDir)) {
     const entries = fs.readdirSync(CONFIG.outputDir, { withFileTypes: true });
     for (const entry of entries) {
-      if (entry.isFile() && entry.name.endsWith('.html')) {
-        if (!protectedFiles.includes(entry.name) && !activeMembers.has(entry.name)) {
+      if (entry.isFile() && entry.name.endsWith(".html")) {
+        if (
+          !protectedFiles.includes(entry.name) &&
+          !activeMembers.has(entry.name)
+        ) {
           const filePath = path.join(CONFIG.outputDir, entry.name);
           fs.unlinkSync(filePath);
           console.log(`  ✗ Supprimé: ${entry.name}`);
@@ -461,16 +509,19 @@ function cleanupOldFiles(activeMembers: Set<string>, activePhotos: Set<string>):
       }
     }
   }
-  
+
   // Nettoyer les photos des membres
-  const imgDir = path.join(CONFIG.outputDir, 'img');
+  const imgDir = path.join(CONFIG.outputDir, "img");
   if (fs.existsSync(imgDir)) {
     const entries = fs.readdirSync(imgDir, { withFileTypes: true });
     for (const entry of entries) {
       if (entry.isFile()) {
         // Ne supprimer que les photos de membres (pas les images générales du site)
         // Une photo de membre correspond à un fichier dans activePhotos
-        if (!SITE_IMAGES.includes(entry.name) && !activePhotos.has(entry.name)) {
+        if (
+          !SITE_IMAGES.includes(entry.name) &&
+          !activePhotos.has(entry.name)
+        ) {
           const filePath = path.join(imgDir, entry.name);
           fs.unlinkSync(filePath);
           console.log(`  ✗ Supprimé photo: img/${entry.name}`);
@@ -478,8 +529,8 @@ function cleanupOldFiles(activeMembers: Set<string>, activePhotos: Set<string>):
       }
     }
   }
-  
-  console.log('  ✓ Nettoyage terminé');
+
+  console.log("  ✓ Nettoyage terminé");
 }
 
 /**
@@ -487,29 +538,33 @@ function cleanupOldFiles(activeMembers: Set<string>, activePhotos: Set<string>):
  */
 function generateMemberPages(memberData: string, template: string): void {
   const member: Member = JSON.parse(memberData);
-  
-  member.languages.forEach(lang => {
+
+  member.languages.forEach((lang) => {
     const templateData: TemplateData = {
       name: member.name,
       photo: member.photo,
       academic: lang.academic,
       year: String(CONFIG.year),
-      languageLinks: generateLanguageLinks(member.languages, lang.code, member.pageName),
+      languageLinks: generateLanguageLinks(
+        member.languages,
+        lang.code,
+        member.pageName,
+      ),
       contactInfo: generateContactInfo(member),
-      sections: generateSections(lang.page)
+      sections: generateSections(lang.page),
     };
-    
+
     const engine = new TemplateEngine(template);
     const html = engine.render(templateData);
-    
+
     // Nom du fichier de sortie
-    const outputName = lang.code 
+    const outputName = lang.code
       ? `${member.pageName}-${lang.code}.html`
       : `${member.pageName}.html`;
-    
+
     const outputPath = path.join(CONFIG.outputDir, outputName);
-    fs.writeFileSync(outputPath, html, 'utf-8');
-    
+    fs.writeFileSync(outputPath, html, "utf-8");
+
     console.log(`  ✓ ${outputName}`);
   });
 }
@@ -518,24 +573,24 @@ function generateMemberPages(memberData: string, template: string): void {
  * Copie les photos des membres
  */
 function copyMemberPhotos(activePhotos: Set<string>): void {
-  console.log('Copie des photos des membres...');
-  
-  const siteImgDir = path.join(CONFIG.siteDir, 'img');
-  const outputImgDir = path.join(CONFIG.outputDir, 'img');
-  
+  console.log("Copie des photos des membres...");
+
+  const siteImgDir = path.join(CONFIG.siteDir, "img");
+  const outputImgDir = path.join(CONFIG.outputDir, "img");
+
   if (!fs.existsSync(outputImgDir)) {
     fs.mkdirSync(outputImgDir, { recursive: true });
   }
-  
+
   for (const photoName of activePhotos) {
     const srcPath = path.join(siteImgDir, photoName);
     const destPath = path.join(outputImgDir, photoName);
-    
+
     if (fs.existsSync(srcPath)) {
       fs.copyFileSync(srcPath, destPath);
     }
   }
-  
+
   console.log(`  ✓ ${activePhotos.size} photos copiées`);
 }
 
@@ -543,50 +598,53 @@ function copyMemberPhotos(activePhotos: Set<string>): void {
  * Fonction principale de build
  */
 function build(): void {
-  console.log('='.repeat(60));
-  console.log('CMS Build - Génération du site');
-  console.log('='.repeat(60));
+  console.log("=".repeat(60));
+  console.log("CMS Build - Génération du site");
+  console.log("=".repeat(60));
   console.log();
-  
+
   // Créer le répertoire de sortie
   if (!fs.existsSync(CONFIG.outputDir)) {
     fs.mkdirSync(CONFIG.outputDir, { recursive: true });
   }
-  
+
   // Récupérer la liste des membres et photos actifs
   const activeMembers = getActiveMembers();
   const activePhotos = getMemberPhotos();
-  
+
   // Nettoyer les anciens fichiers
   cleanupOldFiles(activeMembers, activePhotos);
   console.log();
-  
+
   // Copier les assets (CSS, images générales)
   copyAssets();
   console.log();
-  
+
   // Copier les pages statiques
   copyStaticPages();
   console.log();
-  
+
   // Copier les photos des membres actifs
   copyMemberPhotos(activePhotos);
   console.log();
-  
+
   // Charger le template de membre depuis cms/site/
-  console.log('Chargement du template membre...');
+  console.log("Chargement du template membre...");
   const memberTemplate = loadMemberTemplate();
-  console.log(`  ✓ Template chargé depuis cms/site/${configData.member.template}`);
+  console.log(
+    `  ✓ Template chargé depuis cms/site/${configData.member.template}`,
+  );
   console.log();
-  
+
   // Traiter tous les fichiers JSON
-  console.log('Génération des pages membres...');
-  const files = fs.readdirSync(CONFIG.contentDir)
-    .filter(f => f.endsWith('.json'));
+  console.log("Génération des pages membres...");
+  const files = fs
+    .readdirSync(CONFIG.contentDir)
+    .filter((f) => f.endsWith(".json"));
 
   for (const file of files) {
     const filePath = path.join(CONFIG.contentDir, file);
-    const content = fs.readFileSync(filePath, 'utf-8');
+    const content = fs.readFileSync(filePath, "utf-8");
     try {
       generateMemberPages(content, memberTemplate);
     } catch (err) {
@@ -603,10 +661,10 @@ function build(): void {
   generateTeamPage(teamTemplate);
   console.log();
 
-  console.log('='.repeat(60));
+  console.log("=".repeat(60));
   console.log(`Build terminé! ${files.length} membres traités.`);
   console.log(`Sortie: ${CONFIG.outputDir}`);
-  console.log('='.repeat(60));
+  console.log("=".repeat(60));
 }
 
 // Exécuter le build
