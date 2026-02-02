@@ -5,7 +5,7 @@
   "main": "xml2json.js",
   "scripts": {
     "start": "node xml2json.js",
-    "install-deps": "npm install xml2js"
+    "generate": "node generate-html-from-json.js"
   },
   "dependencies": {
     "xml2js": "^0.6.2"
