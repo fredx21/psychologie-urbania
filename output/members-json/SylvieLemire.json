@@ -1,0 +1,26 @@
+{
+  "name": "Sylvie Lemire",
+  "phoneNumber": "514 240 7151",
+  "emailAddress": "sylvie.lemire@live.ca",
+  "photo": "img/sylvie-lemire.jpg",
+  "pageName": "SylvieLemire",
+  "languages": [
+    {
+      "name": "Français",
+      "code": "",
+      "academic": "Psychoéducatrice, PS.ÉD., psychothérapeute",
+      "summary": "Sylvie Lemire est psychoéducatrice et psychothérapeute. Diplômée depuis 1993,\r\n                elle a développé une expertise pour aider les personnes de tous âges à trouver leur\r\n                propre motivation aux changements.",
+      "page": {
+        "sections": [
+          {
+            "description": "<p>La psychoéducation c’est pour tous!</p>\r\n                        <p>Sylvie Lemire est psychoéducatrice et membre de l’Ordre des\r\n                            psychoéducateurs et des psychoéducatrices du Québec. Elle est également\r\n                            psychothérapeute, ayant reçu son permis de l'Ordre des psychologues du\r\n                            Québec en 2015. Diplômée depuis 1993, elle a développé une expertise\r\n                            pour aider les personnes de tous âges à trouver leur propre motivation\r\n                            aux changements. Elle se distingue tout particulièrement par sa\r\n                            personnalité simple, joviale et conviviale qui sait mettre sa clientèle\r\n                            en confiance.</p>\r\n                        <p>Pour ce faire, elle s’est intéressée spécialement aux approches\r\n                            cognitivo-comportementales et à la programmation neurolinguistique.</p>\r\n                        <p>Elle a développé une expertise pour offrir des services auprès des\r\n                            enfants, des adolescents et des adultes vivant avec des problèmes\r\n                            émotionnels. Elle intervient, entre autres, auprès des personnes aux\r\n                            prises avec de l’anxiété, des problèmes relationnels, des difficultés\r\n                            d’adaptations, un manque de motivation, de l’embonpoint, de\r\n                            l’impulsivité, des abus de toutes sortes, des difficultés\r\n                            comportementales, familiales, de couple, d’acceptation de soi et\r\n                            d’estime de soi.</p>\r\n                        <p>Elle a également développé une expertise auprès de la clientèle ayant une\r\n                            déficience intellectuelle et auprès des personnes vivant avec un trouble\r\n                            envahissant du développement.</p>\r\n                        <p>Avec la personne, elle évalue et explore les motifs qui l’ont amenée à\r\n                            vivre des situations difficiles pour permettre l’identification de ses\r\n                            besoins.</p>\r\n                        <p>En collaboration avec la personne, elle élabore un plan d’action lui\r\n                            permettant de cibler une nouvelle direction, en prenant soin de trouver\r\n                            les moyens adaptés à ses besoins.</p>\r\n                        <p>Elle assure le suivi du plan d’action en prenant soin des conditions du\r\n                            milieu de vie de la personne, favorisant ainsi son adaptation. Son\r\n                            approche globale de la situation permet de solutionner la problématique\r\n                            efficacement.</p>\r\n                        <p>Mme Sylvie Lemire accorde une importance toute particulière à la famille.\r\n                            Créative et enthousiaste, elle saura vous amener à trouver une solution\r\n                            qui vous ressemblera.</p>"
+          },
+          {
+            "title": "Autres services",
+            "description": "<p>Dans le cadre de son travail, Mme Lemire peut se déplacer à domicile ou\r\n                            dans les différents milieux de vie de la personne pour observer et\r\n                            comprendre son vécu.</p>\r\n                        <p>Les clients faisant affaires avec des programmes d'aide aux employés\r\n                            (PAE) sont les bienvenues!</p>"
+          }
+        ]
+      }
+    }
+  ]
+}

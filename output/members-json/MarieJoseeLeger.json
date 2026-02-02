@@ -1,0 +1,31 @@
+{
+  "name": "Marie-Josée Leger",
+  "phoneNumber": "514 588 1907",
+  "emailAddress": "",
+  "photo": "img/placeholder.jpg",
+  "pageName": "MarieJoseeLeger",
+  "languages": [
+    {
+      "name": "Français",
+      "code": "",
+      "academic": "Psychologue, M.Ps.",
+      "summary": "Membre de l'ordre des psycholgues du Québec, je travaille depuis plus d'une\r\n                quinzaine d'années auprès des adolescents et des adultes. J'utilise principalement\r\n                une\r\n                approche existentielle-humaniste et j'interviens sur divers problématiques de santé\r\n                mentale.",
+      "page": {
+        "sections": [
+          {
+            "title": "Formation et expérience",
+            "description": "<p>Après l’obtention d’un diplôme de maîtrise en psychologie clinique en\r\n                            1998 (clientèle adulte), mon intérêt pour les adolescents m’a orientée\r\n                            vers\r\n                            le système scolaire. Je travaille depuis plus d’une quinzaine d’années\r\n                            dans une école secondaire auprès des jeunes et des différents adultes\r\n                            qui gravitent\r\n                            autour d’eux. J'ai pu développer une certaine expertise auprès des\r\n                            adolescents présentant des problématiques de santé mentale. D'un autre\r\n                            côté, ma pratique\r\n                            privée me permet de pouvoir faire davantage de psychothérapie auprès\r\n                            d'une clientèle adulte et adolescente (13 ans et plus).</p>"
+          },
+          {
+            "title": "Ma pratique",
+            "description": "<p>J’utilise principalement l’approche existentielle-humaniste à laquelle\r\n                            j’intègre des éléments des approches psychodynamique et\r\n                            cognitivo-comportementale.\r\n                            Je travaille auprès des adolescents, des adultes, et des parents (en\r\n                            lien avec des difficultés avec leurs enfants). J'ai développé une\r\n                            certaine expertise dans le\r\n                            traitement des problématiques liés à l'abus sexuel et physique,\r\n                            l'adaptation à l’école, les cycles de vie, l'épuisement professionnel,\r\n                            l'estime de soi, les situation de crises,\r\n                            les troubles anxieux, la dépression ainsi que les relations\r\n                            interpersonnelles et amoureuses.</p>"
+          },
+          {
+            "title": "Affiliations",
+            "description": "<p>J’accepte les mandats de l’IVAC, des programmes d’aide aux employés\r\n                            (PAEs) et des programmes d’assurances collectives.</p>"
+          }
+        ]
+      }
+    }
+  ]
+}

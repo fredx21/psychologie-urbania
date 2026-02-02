@@ -1,0 +1,40 @@
+{
+  "name": "Linda Parent",
+  "phoneNumber": "514 771 7684",
+  "emailAddress": "lindaparent50@hotmail.com",
+  "photo": "img/linda-parent.jpg",
+  "webSite": "http://www.lamediationfamiliale.com/",
+  "pageName": "LindaParent",
+  "languages": [
+    {
+      "name": "Français",
+      "code": "",
+      "academic": "Psychoéducatrice, Ps.Éd., médiatrice familiale",
+      "summary": "Psychoéducatrice et médiatrice familiale, j'interviens auprès des personnes\r\n                éprouvant des difficultés d'adaptation en raison de difficultés personnelles,\r\n                familiales ou sociales. Je travaille auprès des parents, enfants et adolescents en\r\n                privilégiant un suvi court-terme, orienté vers les solutions.",
+      "page": {
+        "sections": [
+          {
+            "title": "Formation et pratique professionnelle",
+            "description": "<p>Membre de l’ordre des Psychoéducateurs et Psychoéducatrices du Québec\r\n                            ainsi que médiatrice familiale, j’interviens auprès des familles vivant\r\n                            des difficultés d’adaptations diverses. J’ai développé une expertise\r\n                            face aux défis qui peuvent se présenter dans la vie familiale et quant\r\n                            au développement de l’enfant. L’accompagnement de chacun des membres à\r\n                            retrouver un équilibre au sein des interactions familiales fait partie\r\n                            prenante de ma profession depuis 18 ans. Avec moi, vous aurez\r\n                            l’assurance d’un service professionnel rigoureux, respectueux et\r\n                            soucieux de bien vous accompagner face à vos besoins.</p>\r\n                        <p>Mes expériences professionnelles m’ont amené à m’intéresser plus\r\n                            particulièrement aux impacts de la rupture conjugale sur l’ensemble du\r\n                            système familial. Force est de constater que vivre une séparation n’est\r\n                            jamais une situation agréable. C’est un processus avec lequel chacun\r\n                            apprend à composer selon ses propres forces et vulnérabilités. Si la\r\n                            séparation est une étape difficile à vivre pour les deux conjoints,\r\n                            c’est aussi une épreuve pour l’enfant qui perd ses points de repères.\r\n                            C’est dans cette optique que j’offre mes services en médiation familiale\r\n                            ou en consultations psychoéducatives.</p>"
+          },
+          {
+            "title": "Médiation familiale",
+            "description": "<p>La médiation familiale peut vous aider à négocier une entente juste et\r\n                            équitable, dans l’intérêt de tous les membres de la famille. Ce\r\n                            processus de résolution de conflits structuré aborde les aspects qui\r\n                            vous préoccupent concernant l’autorité parentale, l’accès et la garde\r\n                            des enfants, le partage des biens et les responsabilités financières.\r\n                            Mon rôle en tant que médiatrice est de vous guider dans vos réflexions,\r\n                            de faciliter la communication des besoins de chacun et de vous informer\r\n                            afin que vous puissiez trouver des solutions qui vous conviennent, qui\r\n                            soient viables et qui tiennent compte de l’intérêt premier des enfants.</p>\r\n                        <p>(Consultez le www.justice.gouv.qc.ca/mediationfamiliale/ pour en\r\n                            apprendre davantage sur le Programme subventionné par le Ministère de la\r\n                            Justice du Québec)</p>"
+          },
+          {
+            "title": "Consultations psychoéducatives",
+            "description": "<p>Le psychoéducateur travaille auprès des personnes qui éprouvent des\r\n                            problèmes d’adaptation en raison de difficultés personnelles, familiales\r\n                            ou sociales. Dans le cadre de leur travail, ils évaluent différentes\r\n                            problématiques et proposent des solutions propres aux besoins de chacun\r\n                            des individus à qui ils viennent en aide (www.ordrepsed.qc.ca).</p>\r\n                        <p>J’offre une approche personnalisée pour vous aider à : <ul>\r\n                                <li>Traverser une crise ou une période difficile qui vous touche ou\r\n                            touche un membre de votre famille</li>\r\n                                <li>Réorganiser votre vie suite à un événement déstabilisant</li>\r\n                                <li>Être outillés afin de mieux composer avec les défis qui se\r\n                            présentent à vous</li>\r\n                            </ul>\r\n                        </p>\r\n                        <p>Mes interventions sont inspirées principalement des approches systémiques\r\n                            et cognitive-comportementales. Je privilégie un suivi court-terme,\r\n                            orienté vers les solutions.</p>"
+          },
+          {
+            "title": "Clientèles",
+            "description": "<p>Mes services visent les parents, les enfants et les adolescents.</p>"
+          },
+          {
+            "title": "Autres services",
+            "description": "<p>J'accepte des mandats provenant de Programmes d'aide aux employés (PAE).</p>"
+          }
+        ]
+      }
+    }
+  ]
+}

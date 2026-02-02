@@ -1,0 +1,23 @@
+{
+  "name": "Ami Puig",
+  "phoneNumber": "514-690-1222",
+  "emailAddress": "",
+  "photo": "img/ami-puig.jpg",
+  "pageName": "AmiPuig",
+  "languages": [
+    {
+      "name": "Français",
+      "code": "",
+      "academic": "Psychologue, D.Ps",
+      "summary": "Ami Puig est psychologue et travaille auprès des enfants, adolescents et jeunes\r\n                adultes. Elle offre des services d'évaluation de TDAH auprès des jeunes ainsi que du\r\n                coaching parental et familial.",
+      "page": {
+        "sections": [
+          {
+            "title": "Services",
+            "description": "<p>Je suis psychologue depuis 2023 et j’exerce à titre de doctorante en\r\n                            psychologie depuis 2017. J’ai travaillé pendant mes internats en milieu\r\n                            scolaire pour trouble du comportement et rupture du fonctionnement,\r\n                            ainsi qu’en milieu privé et j’ai réalisé ma thèse sur les im-pacts des\r\n                            stéréotypes sexuels dans le développement des enfants.</p>\r\n                        <p>Dès le départ de ma pratique, je me suis spécialisée avec une clientèle\r\n                            enfant, mais j’ai continué mes formations et mes apprentissages et je\r\n                            reçois aujourd’hui tous les types de clientèles, de l’enfant aux\r\n                            personnes âgées.\r\n                            L’approche que je privilégie est de nature psychodynamique et la\r\n                            compréhension du symp-tôme du client et de son développement est au cœur\r\n                            de mes suivis. Je privilégie la compré-hension et l’exploration du\r\n                            symptôme ainsi que du développement global du client qui vient me voir,\r\n                            car un symptôme a toujours une raison d’être. Le but peut être de\r\n                            l’enlever, mais en le saisissant mieux, il est alors possible de\r\n                            comprendre sa fonction spécifique dans la vie du client et ainsi,\r\n                            comment le diminuer, le changer ou l’accepter selon le besoin et la\r\n                            réalité de la personne.</p>\r\n                        <p>Avant de devenir psychologue, j’ai fait ma technique d’éducation à\r\n                            l’enfance et j’ai tra-vaillé huit ans en centre de la petite enfance en\r\n                            tant qu’éducatrice, ce qui m’a permis de travailler avec une grande\r\n                            diversité de problématiques, de personnalités et d’organisations\r\n                            familiales en tout genre. Cette expérience m’aide grandement aujourd’hui\r\n                            à saisir les dif-ficultés que présentent les enfants, mais également le\r\n                            développement général de l’être hu-main dès son enfance.</p>\r\n                        <p>Je suis également professeure de psychologie au cégep depuis 2021, ce qui\r\n                            me permet de toujours continuer mes apprentissages et ma recherche de\r\n                            connaissance dans le domaine et de les partager. Je partage ainsi mon\r\n                            temps entre la clinique et l’enseignement.</p>"
+          }
+        ]
+      }
+    }
+  ]
+}

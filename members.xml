@@ -13,7 +13,7 @@
             <Page>
                 <Section>
                     <Title>Ma pratique clinique</Title>
-                    <Desciption>
+                    <Description>
                         <p>Je suis psychologue clinicienne et membre de l’Ordre des psychologues du
                             Québec depuis 2002. Je pratique, depuis cette date, la psychothérapie
                             d’orientation cognitive-comportementale auprès des adultes.</p>
@@ -34,11 +34,11 @@
                             émotions. Les clients me consultent régulièrement pour améliorer leurs
                             habiletés d’affirmation et leur connaissance de soi ainsi que pour
                             augmenter leur confiance et leur estime.</p>
-                    </Desciption>
+                    </Description>
                 </Section>
                 <Section>
                     <Title>Mon approche</Title>
-                    <Desciption>
+                    <Description>
                         <p>Mon objectif en tant que psychologue est de vous aider à faire face plus
                             efficacement aux difficultés de votre vie, de réduire la détresse que
                             vous ressentez et de vous aider à obtenir une meilleure qualité de vie.
@@ -56,11 +56,11 @@
                             cherchons à découvrir les solutions à vos problèmes et à favoriser
                             l’acquisition d’outils concrets pour vous aider à faire face de manière
                             efficace aux difficultés que vous rencontrerez dans votre vie.</p>
-                    </Desciption>
+                    </Description>
                 </Section>
                 <Section>
                     <Title>Ma formation et expérience</Title>
-                    <Desciption>
+                    <Description>
                         <p>Je détiens un doctorat en psychologie de l’Université du Québec à
                             Montréal et un baccalauréat de l’Université Concordia. Depuis
                             l’obtention de mes diplômes universitaires, j’ai suivi diverses
@@ -89,11 +89,11 @@
                             à la gestion de la clinique et à la poursuite de formations continues.
                             J’offre des services de consultation et de suivi psychothérapeutique aux
                             jeunes adultes et aux adultes.</p>
-                    </Desciption>
+                    </Description>
                 </Section>
                 <Section>
                     <Title>Publications scientifiques</Title>
-                    <Desciption>
+                    <Description>
                         <p>Blais, M.R., Brière, N., Lachance, L., Riddle, A., &amp; Vallerand, R.J.
                             (1993). L'inventaire des motivations au travail de Blais. Revue
                             Québécoise de Psychologie, 14, 185-215.</p>
@@ -103,16 +103,16 @@
                         <p>Poulin-Dubois, D., Graham, S.A., &amp; Riddle, A.S. (1995). Salient
                             object parts and infants' acquisition of novel object words. First
                             Language, 15(45), 301-316.</p>
-                    </Desciption>
+                    </Description>
                 </Section>
                 <Section>
                     <Title>Autres services</Title>
-                    <Desciption>
+                    <Description>
                         <p>Je suis bilingue et très à l'aise de vous offrir des rencontres en
                             français ou en anglais. Veuillez noter que je n'accepte pas présentement
                             de mandats de tiers-payeurs tels que la CSST, la SAAQ, et les PAEs pour
                             un certain temps.</p>
-                    </Desciption>
+                    </Description>
                 </Section>
             </Page>
         </Language>
@@ -121,7 +121,7 @@
             <Page>
                 <Section>
                     <Title>My Clinical Practice</Title>
-                    <Desciption>
+                    <Description>
                         <p>Clinical psychologist and member of the Order of Psychologists of Quebec
                             since 2002, I provide psychotherapy consultation services to adults
                             using mainly a cognitive-behavioral approach. Over the course of my
@@ -140,11 +140,11 @@
                             emotions. Clients consult me regularly to help them improve their
                             assertiveness skills and enhance their self-knowledge as well as to
                             increase their confidence and self-esteem.</p>
-                    </Desciption>
+                    </Description>
                 </Section>
                 <Section>
                     <Title>My Approach</Title>
-                    <Desciption>
+                    <Description>
                         <p>As a psychologist, my goal is to help you cope more effectively with the
                             difficulties you are currently facing, to reduce your distress and
                             suffering, and to improve the quality of your life. In the attempt to
@@ -163,11 +163,11 @@
                             objectives for therapy. We work together, seeking solutions to their
                             problems and identifying concrete tools designed to help them face the
                             difficulties they encounter in their lives.</p>
-                    </Desciption>
+                    </Description>
                 </Section>
                 <Section>
                     <Title>My Training and Experience</Title>
-                    <Desciption>
+                    <Description>
                         <p>I was awarded my doctorate degree from the University of Quebec at
                             Montreal and my bachelor degree from Concordia University. Since the
                             completion of my studies, I have pursued a number of complementary
@@ -194,11 +194,11 @@
                             and to the pursuit of continuous, post-university training programs. I
                             offer psychotherapeutic consultations and follow-up to adults of all
                             ages.</p>
-                    </Desciption>
+                    </Description>
                 </Section>
                 <Section>
                     <Title>Scientific Publications</Title>
-                    <Desciption>
+                    <Description>
                         <p>Blais, M.R., Brière, N., Lachance, L., Riddle, A., &amp; Vallerand, R.J.
                             (1993). L'inventaire des motivations au travail de Blais. Revue
                             Québécoise de Psychologie, 14, 185-215.</p>
@@ -208,15 +208,15 @@
                         <p>Poulin-Dubois, D., Graham, S.A., &amp; Riddle, A.S. (1995). Salient
                             object parts and infants' acquisition of novel object words. First
                             Language, 15(45), 301-316.</p>
-                    </Desciption>
+                    </Description>
                 </Section>
                 <Section>
                     <Title>Other Services</Title>
-                    <Desciption>
+                    <Description>
                         <p>I am bilingual and can therefore offer meetings both in French and in
                             English. Please note that I am presently not accepting mandates from
                             tierce payers such as the CSST, SAAQ and EAPs for the time being.</p>
-                    </Desciption>
+                    </Description>
                 </Section>
             </Page>
         </Language>
@@ -236,7 +236,7 @@
             <Page>
                 <Section>
                     <Title>Ma pratique clinique</Title>
-                    <Desciption>
+                    <Description>
                         <p>Je suis sexologue clinicienne et membre de l’Ordre professionnel des
                             sexologues du Québec depuis sa création en 2013. J’ai un permis de
                             psychothérapie émis par l’Ordre des psychologues
@@ -266,11 +266,11 @@
                             ambivalence de l’orientation sexuelle, sexualités atypiques) ou
                             relationnel (difficulté à communiquer, infidélité, difficulté
                             d’adaptation au rôle de parent).</p>
-                    </Desciption>
+                    </Description>
                 </Section>
                 <Section>
                     <Title>Ma formation et mon expérience</Title>
-                    <Desciption>
+                    <Description>
                         <p>Je me représente les difficultés pour lesquelles une personne vient me
                             rencontrer, qu’elles soient d’ordre physique, psychologique, sexuel ou
                             relationnel, comme des symptômes la limitant à être
@@ -295,11 +295,11 @@
                             étroite collaboration nous permettra de chercher ensemble de nouvelles
                             avenues pour accéder à un plus grand bien-être et
                             une plus grande capacité à être en relation avec autrui.</p>
-                    </Desciption>
+                    </Description>
                 </Section>
                 <Section>
                     <Title>Approches</Title>
-                    <Desciption>
+                    <Description>
                         <p>Je détiens un baccalauréat et une maîtrise en sexologie clinique de
                             l’Université du Québec à Montréal. Je détiens également un baccalauréat
                             en activités physiques de l’Université de
@@ -318,25 +318,25 @@
                         <p>Je me suis jointe à la Clinique de psychologie Urbania à Blainville en
                             2008 où une équipe multidisciplinaire œuvre au bien-être des individus
                             de tous âges et aux couples.</p>
-                    </Desciption>
+                    </Description>
                 </Section>
                 <Section>
                     <Title>Publications</Title>
-                    <Desciption>
+                    <Description>
                         <p>Drapeau, Martine (2013) Le toucher dans l’érotisme, dans Santé Sexuelle,
                             hiver-printemps 2013-2014, numéro 12.</p>
                         <p>Houde, Nathalie, Drapeau, Martine (2011) Sexualité et éthique dans les
                             professions du toucher. Comprendre la sexualité pour mieux soigner.
                             Montréal : Éditions Modulo, 178 pages.</p>
-                    </Desciption>
+                    </Description>
                 </Section>
                 <Section>
                     <Title>Autres services</Title>
-                    <Desciption>
+                    <Description>
                         <p>Je suis bilingue et très à l'aise de vous offrir des rencontres en
                             français ou en anglais. J’accepte les mandats de tiers payeurs tels que
                             l’IVAC, la CSST et les PAE.</p>
-                    </Desciption>
+                    </Description>
                 </Section>
             </Page>
         </Language>
@@ -356,7 +356,7 @@
                 particuliers ainsi qu'aux entreprises.</Summary>
             <Page>
                 <Section>
-                    <Desciption>
+                    <Description>
                         <p>Diététiste diplômée de l'Université de Montréal et membre de l'ordre
                             professionnel des diététistes du Québec. Je travaille en pratique privée
                             depuis plus de 25 ans et je fais partie d’une équipe de diététistes
@@ -366,11 +366,11 @@
                             comprendre vos problèmes gastro-intestinaux, ou tout simplement pour
                             apprendre à bien manger, je suis là pour vous aider. Nous offrons aussi
                             des services en entreprises.</p>
-                    </Desciption>
+                    </Description>
                 </Section>
                 <Section>
                     <Title>Services aux particuliers</Title>
-                    <Desciption>
+                    <Description>
                         <p>
                             <ul>
                                 <li>Alimentation chez l'adolescent, l'adulte, la femme ménopausée,
@@ -384,11 +384,11 @@
                                     gestationnel</li>
                             </ul>
                         </p>
-                    </Desciption>
+                    </Description>
                 </Section>
                 <Section>
                     <Title>Services aux entreprises</Title>
-                    <Desciption>
+                    <Description>
                         <p>
                             <ul>
                                 <li>Midi-conférences: l’Assiette santé démystifiée, l’étiquetage
@@ -399,7 +399,7 @@
                                     recettes)</li>
                             </ul>
                         </p>
-                    </Desciption>
+                    </Description>
                 </Section>
             </Page>
         </Language>
@@ -417,7 +417,7 @@
                 propre motivation aux changements.</Summary>
             <Page>
                 <Section>
-                    <Desciption>
+                    <Description>
                         <p>La psychoéducation c’est pour tous!</p>
                         <p>Sylvie Lemire est psychoéducatrice et membre de l’Ordre des
                             psychoéducateurs et des psychoéducatrices du Québec. Elle est également
@@ -453,17 +453,17 @@
                         <p>Mme Sylvie Lemire accorde une importance toute particulière à la famille.
                             Créative et enthousiaste, elle saura vous amener à trouver une solution
                             qui vous ressemblera.</p>
-                    </Desciption>
+                    </Description>
                 </Section>
                 <Section>
                     <Title>Autres services</Title>
-                    <Desciption>
+                    <Description>
                         <p>Dans le cadre de son travail, Mme Lemire peut se déplacer à domicile ou
                             dans les différents milieux de vie de la personne pour observer et
                             comprendre son vécu.</p>
                         <p>Les clients faisant affaires avec des programmes d'aide aux employés
                             (PAE) sont les bienvenues!</p>
-                    </Desciption>
+                    </Description>
                 </Section>
             </Page>
         </Language>
@@ -482,7 +482,7 @@
                 <Section>
                     <Title>
                     </Title>
-                    <Desciption>
+                    <Description>
                         <p>Clinicien en travail social et psychothérapeute depuis 25 ans, je
                             rencontre des individus et des couples dans le cadre de ma pratique.
                             J’offre des services de psychothérapie auprès d’adultes, d’enfants et
@@ -497,7 +497,7 @@
                             d’hypnose conversationnelle, dans un contexte de psychothérapie, afin de
                             favoriser les changements à apporter chez la clientèle, lorsque
                             l’utilisation de l’hypnose s’y prête.</p>
-                    </Desciption>
+                    </Description>
                 </Section>
             </Page>
         </Language>
@@ -515,7 +515,7 @@
             <Page>
                 <Section>
                     <Title>Services</Title>
-                    <Desciption>
+                    <Description>
                         <p>Marie-Ève Robillard détient un doctorat en psychologie de l’Université de
                             Sherbrooke. Sa formation spécialisée auprès des enfants et des
                             adolescents ainsi que ses diverses expériences dans les milieux
@@ -544,7 +544,7 @@
                         <p>Elle accorde une importance particulière à la qualité de la relation
                             thérapeutique et propose des interventions en accord avec les besoins et
                             les attentes du client.</p>
-                    </Desciption>
+                    </Description>
                 </Section>
             </Page>
         </Language>
@@ -564,7 +564,7 @@
             <Page>
                 <Section>
                     <Title>Formation et expérience</Title>
-                    <Desciption>
+                    <Description>
                         <p>Membre de l'Ordre des Psychologues du Québec depuis 2002, j'ai complété
                             un baccalauréat en psychologie clinique à l'Université du Québec à
                             Montréal (B.Ps. 1999) puis une maîtrise en psychologie clinique à
@@ -597,11 +597,11 @@
                             consultations, je travaille en collaboration sur des projets d'écriture
                             et sur la création d'outils psychoéducatifs destinés aux jeunes et aux
                             parents.</p>
-                    </Desciption>
+                    </Description>
                 </Section>
                 <Section>
                     <Title>Clientèle, services et motifs de consultation</Title>
-                    <Desciption>
+                    <Description>
                         <p>Clientèle et services:<ul>
                                 <li>psychothérapie pour enfants (à partir de l'âge de huit ans)</li>
                                 <li>psychothérapie pour adolescents et jeunes adultes</li>
@@ -628,11 +628,11 @@
                                 <li>opposition</li>
                                 <li>adaptation à la séparation des parents et/ou famille recomposé</li>
                             </ul></p>
-                    </Desciption>
+                    </Description>
                 </Section>
                 <Section>
                     <Title>Premières rencontres d'évaluation</Title>
-                    <Desciption>
+                    <Description>
                         <p>Les premières rencontres servent d'une part à discuter du motif de
                             consultation et des attentes du client face à la psychothérapie et
                             d'autre part, à bien évaluer ses difficultés et leur impact sur les
@@ -652,11 +652,11 @@
                             consultation, il peut être souhaitable de faire une première rencontre
                             les parents, l'adolescent et moi tous ensemble pour nous permettre de
                             discuter de la confidentialité et des attentes de chacun.</p>
-                    </Desciption>
+                    </Description>
                 </Section>
                 <Section>
                     <Title>Approche en psychothérapie</Title>
-                    <Desciption>
+                    <Description>
                         <p>Depuis maintenant 15 ans, j'ai le privilège d'accompagner des enfants,
                             des adolescents, des familles et de jeunes adultes dans leur démarche en
                             psychothérapie. Au fil des années, j'ai intégré plusieurs approches à ma
@@ -681,48 +681,48 @@
                             observations et de nos stratégies. Pour les adolescents de 14 ans et
                             plus, des rencontres familiales peuvent également être recommandées,
                             selon les situations.</p>
-                    </Desciption>
+                    </Description>
                 </Section>
                 <Section>
                     <Title>Affiliations</Title>
-                    <Desciption>
+                    <Description>
                         <p>Je suis membre de l'Ordre des Psychologues du Québec, l'Association des
                             Psychologues du Québec et l'Association des Psychologues des
                             Laurentides.</p>
-                    </Desciption>
+                    </Description>
                 </Section>
                 <Section>
                     <Title>Autres informations utiles</Title>
-                    <Desciption>
+                    <Description>
                         <p>Les mandats par l'IVAC et par certains programmes d'aide aux employés
                             sont acceptés. Des reçus vous seront remis à chaque séance, ou selon
                             votre besoin, pour votre programme d'assurance collective ou pour vos
                             impôts. Les reçus sont émis au nom de la personne qui consulte. Chacun
                             des rendez-vous est payable par chèque ou argent comptant. Les
                             rencontres sont d'une durée de 50 minutes.</p>
-                    </Desciption>
+                    </Description>
                 </Section>
                 <Section>
                     <Title>Publications</Title>
-                    <Desciption>
+                    <Description>
                         <p>Fondation Je suis le héros de ma vie, Cédilotte, M., Verret, I. (2015) Je
                             suis le héros de ma vie, guide pédagogique pour les enfants et leurs
                             parents.</p>
                         <p>Cantin, M., Cédilotte, M.,Verret, I. (2016) Découvre l'espion en toi,
                             cahier éducatif pour les enfants et leurs parents sur la prévention des
                             agressions et des enlèvements.</p>
-                    </Desciption>
+                    </Description>
                 </Section>
                 <Section>
                     <Title>Horaire des consultations</Title>
-                    <Desciption>
+                    <Description>
                         <p>Je suis présente pour des consultations à mon bureau à la Clinique de
                             psychologie Urbania le mercredi et le vendredi. Pour un premier
                             rendez-vous, vous pouvez me contacter par téléphone au 514-772-0792 ou
                             par courriel à isabelleverret@hotmail.com.</p>
                         <p>Au plaisir de vous rencontrer!|
                             Isabelle Verret</p>
-                    </Desciption>
+                    </Description>
                 </Section>
             </Page>
         </Language>
@@ -746,7 +746,7 @@
             <Page>
                 <Section>
                     <Title>Formation et expérience</Title>
-                    <Desciption>
+                    <Description>
                         <p>Elle est une psychologue d’expérience et passionnée par sa profession.
                             Pour elle, c’est un privilège d’être témoin de la vie intime des hommes
                             et des femmes qu'elle rencontre. Diplômée de l’Université de Montréal,
@@ -786,11 +786,11 @@
                         <p>Elle aime accompagner les personnes pour les aider à effectuer les
                             changements désirés pour leur mieux-être. Elle continue à se
                             perfectionner régulièrement avec grand plaisir.</p>
-                    </Desciption>
+                    </Description>
                 </Section>
                 <Section>
                     <Title>Description de la pratique clinique</Title>
-                    <Desciption>
+                    <Description>
                         <p>Elle s’adresse auprès des adolescents de 16 ans et plus et aux adultes
                             qui sont aux prises avec : abus physique, abus sexuel, affirmation de
                             soi, anxiété, stress, anxiété sociale, timidité, attaque de panique,
@@ -801,11 +801,11 @@
                             harcèlement, homosexualité, orientation sexuelle, personne atteinte du
                             cancer, phobie, relation amoureuse, séparation, divorce, solitude,
                             stress post-traumatique, traumatisme.</p>
-                    </Desciption>
+                    </Description>
                 </Section>
                 <Section>
                     <Title>Méthodes d'intervention</Title>
-                    <Desciption>
+                    <Description>
                         <p>Lors des deux ou trois premières rencontres, dépendamment des personnes,
                             elle évalue votre situation et vous aide à concrétiser les changements
                             que vous désirez réaliser. Par la suite, elle vous explique comment elle
@@ -820,15 +820,15 @@
                             présent à régler vos difficultés et si votre présent est teinté
                             d’expériences passées elle utilisera la thérapie d’intégration par les
                             mouvements oculaires (IMO).</p>
-                    </Desciption>
+                    </Description>
                 </Section>
                 <Section>
                     <Title>Autres services</Title>
-                    <Desciption>
+                    <Description>
                         <p>Ateliers :|
                             Méditation de la pleine conscience de la respiration|
                             Réduction du stress basée sur la pleine conscience (MBSR)</p>
-                    </Desciption>
+                    </Description>
                 </Section>
             </Page>
         </Language>
@@ -851,7 +851,7 @@
             <Page>
                 <Section>
                     <Title>Mes services</Title>
-                    <Desciption>
+                    <Description>
                         <p>Je suis psychologue clinicien diplômé de l’Université de Montréal. Je
                             pratique la psychologie depuis plus de 20 ans. J’ai acquis de
                             l’expérience dans plusieurs domaines et travaillé auprès de plusieurs
@@ -876,7 +876,7 @@
                             préconise l’intervention la plus brève et efficace possible. Il me fera
                             plaisir de vous rencontrer afin d’évaluer votre situation et vous faire
                             part de ce que je peux faire pour vous.</p>
-                    </Desciption>
+                    </Description>
                 </Section>
             </Page>
         </Language>
@@ -885,7 +885,7 @@
             <Page>
                 <Section>
                     <Title>My services</Title>
-                    <Desciption>
+                    <Description>
                         <p>I am a clinical psychologist trained at Université de Montreal. I have
                             been practicing psychology for more than 20 years. I have acquired
                             experience in many domains and worked with different clienteles
@@ -908,7 +908,7 @@
                             shortest and most
                             efficient intervention. I will be more than glad to meet with you,
                             assess your situation and tell you what I can do for you.</p>
-                    </Desciption>
+                    </Description>
                 </Section>
             </Page>
         </Language>
@@ -929,7 +929,7 @@
             <Page>
                 <Section>
                     <Title>Formation et expérience</Title>
-                    <Desciption>
+                    <Description>
                         <p>Après l’obtention d’un diplôme de maîtrise en psychologie clinique en
                             1998 (clientèle adulte), mon intérêt pour les adolescents m’a orientée
                             vers
@@ -941,11 +941,11 @@
                             côté, ma pratique
                             privée me permet de pouvoir faire davantage de psychothérapie auprès
                             d'une clientèle adulte et adolescente (13 ans et plus).</p>
-                    </Desciption>
+                    </Description>
                 </Section>
                 <Section>
                     <Title>Ma pratique</Title>
-                    <Desciption>
+                    <Description>
                         <p>J’utilise principalement l’approche existentielle-humaniste à laquelle
                             j’intègre des éléments des approches psychodynamique et
                             cognitivo-comportementale.
@@ -957,14 +957,14 @@
                             l'estime de soi, les situation de crises,
                             les troubles anxieux, la dépression ainsi que les relations
                             interpersonnelles et amoureuses.</p>
-                    </Desciption>
+                    </Description>
                 </Section>
                 <Section>
                     <Title>Affiliations</Title>
-                    <Desciption>
+                    <Description>
                         <p>J’accepte les mandats de l’IVAC, des programmes d’aide aux employés
                             (PAEs) et des programmes d’assurances collectives.</p>
-                    </Desciption>
+                    </Description>
                 </Section>
             </Page>
         </Language>
@@ -985,7 +985,7 @@
             <Page>
                 <Section>
                     <Title>Services</Title>
-                    <Desciption>
+                    <Description>
                         <p>Je suis psychologue depuis 2023 et j’exerce à titre de doctorante en
                             psychologie depuis 2017. J’ai travaillé pendant mes internats en milieu
                             scolaire pour trouble du comportement et rupture du fonctionnement,
@@ -1015,7 +1015,7 @@
                             me permet de toujours continuer mes apprentissages et ma recherche de
                             connaissance dans le domaine et de les partager. Je partage ainsi mon
                             temps entre la clinique et l’enseignement.</p>
-                    </Desciption>
+                    </Description>
                 </Section>
             </Page>
         </Language>
@@ -1032,13 +1032,13 @@
                 adulte, en individuel et en couple.</Summary>
             <Page>
                 <Section>
-                    <Desciption>
+                    <Description>
                         <p>Bonjour! Je suis psychologue clinicienne auprès d'une clientèle adulte,
                             en individuel et en couple, depuis un peu plus de trente ans. Je suis
                             toujours aussi passionnée par mon travail. J'utilise principalement
                             l'approche cognitive dans une perspective biopsychosociale. Au plaisir
                             de vous rencontrer.</p>
-                    </Desciption>
+                    </Description>
                 </Section>
             </Page>
         </Language>
@@ -1058,7 +1058,7 @@
             </Summary>
             <Page>
                 <Section>
-                    <Desciption>
+                    <Description>
                         <p>Titulaire d’une maîtrise en sexologie clinique de l’Université du Québec
                             à Montréal, je suis membre de l’Ordre professionnel des sexologues du
                             Québec et détentrice du permis de psychothérapeute délivré par l’Ordre
@@ -1097,7 +1097,7 @@
                             affirmation de soi, estime de soi, confiance en soi, image corporelle,
                             anxiété, dépression…</p>
                         <p>J’accepte les mandats IVAC.</p>
-                    </Desciption>
+                    </Description>
                 </Section>
             </Page>
         </Language>
@@ -1117,7 +1117,7 @@
             <Page>
                 <Section>
                     <Title>Services</Title>
-                    <Desciption>
+                    <Description>
                         <p>Marise Gagné, Ph.D., est membre de l'Ordre des psychologues du Québec.
                             Elle est détentrice d’un doctorat Recherche et Intervention en
                             psychologie (Ph.D.) de l’Université de Montréal. Dre Gagné a enrichi son
@@ -1149,7 +1149,7 @@
                         <p>Dre Gagné travaille avec des clients de 16 ans et plus, principalement en
                             présentiel, mais propose également des séances de téléthérapie. Elle est
                             disponible en journée pour ses consultations.</p>
-                    </Desciption>
+                    </Description>
                 </Section>
             </Page>
         </Language>
@@ -1168,7 +1168,7 @@
             <Page>
                 <Section>
                     <Title>Formation et expérience professionnelle</Title>
-                    <Desciption>
+                    <Description>
                         <p>Formation<ul>
                                 <li>Baccalauréat en psychologie</li>
                                 <li>Majeure en développement de carrière</li>
@@ -1182,11 +1182,11 @@
                                 <li>Mobilisation citoyenne · Membre de l’Ordre des conseillers et
                             conseillères d’orientation du Québec depuis 2017</li>
                             </ul></p>
-                    </Desciption>
+                    </Description>
                 </Section>
                 <Section>
                     <Title>Services</Title>
-                    <Desciption>
+                    <Description>
                         <p>Mon objectif est de t'accompagner dans la redécouverte de ton identité
                             professionnelle. Que ce soit en orientation scolaire et professionnelle
                             ou bien en soutien à la parentalité, je sais que je pourrai t'aider à
@@ -1201,11 +1201,11 @@
                                 <li>Groupe de soutien : nouvelles mamans</li>
                             </ul>
                         </p>
-                    </Desciption>
+                    </Description>
                 </Section>
                 <Section>
                     <Title>Clientèles</Title>
-                    <Desciption>
+                    <Description>
                         <p>Les clientèles avec lesquelles j'ai le plus d'expérience sont les
                             suivantes:</p>
                         <p>
@@ -1230,11 +1230,11 @@
                             gratuite en orientation sur mon site Internet : www.franciscagagne.com</p>
                         <p>Il est également possible d’espacer nos rencontres de 2 semaines si c’est
                             plus confortable pour toi.</p>
-                    </Desciption>
+                    </Description>
                 </Section>
                 <Section>
                     <Title>Approche</Title>
-                    <Desciption>
+                    <Description>
                         <p>Existentielle-Humaniste<ul>
                                 <li>L'«être humain possède en lui les ressources nécessaires pour se
                             réaliser.»</li>
@@ -1252,7 +1252,7 @@
                             </ul></p>
                         <p>Sources: Ordre des psychologues du Québec | Association québécoise des
                             infirmières et infirmiers en santé mentale</p>
-                    </Desciption>
+                    </Description>
                 </Section>
             </Page>
         </Language>
@@ -1270,7 +1270,7 @@
             <Page>
                 <Section>
                     <Title>Bienvenue</Title>
-                    <Desciption>
+                    <Description>
                         <p>Emmanuelle Bourgault, coach familiale, éducatrice spécialisée et
                             intervenante en stimulation du langage. Après avoir travaillé dans les
                             écoles à titre d'enseignante en adaptation scolaire et à titre
@@ -1288,7 +1288,7 @@
                             (TC), trouble oppositionnel avec provocation (TOP), anxiété, trouble
                             développemental du language (TDL), charge mentale, rivalité fraternelle,
                             difficulté d'adaptation, gestion des émotions et plus encore.</p>
-                    </Desciption>
+                    </Description>
                 </Section>
             </Page>
         </Language>
@@ -1309,7 +1309,7 @@
             <Page>
                 <Section>
                     <Title>Formation et pratique professionnelle</Title>
-                    <Desciption>
+                    <Description>
                         <p>Membre de l’ordre des Psychoéducateurs et Psychoéducatrices du Québec
                             ainsi que médiatrice familiale, j’interviens auprès des familles vivant
                             des difficultés d’adaptations diverses. J’ai développé une expertise
@@ -1328,11 +1328,11 @@
                             c’est aussi une épreuve pour l’enfant qui perd ses points de repères.
                             C’est dans cette optique que j’offre mes services en médiation familiale
                             ou en consultations psychoéducatives.</p>
-                    </Desciption>
+                    </Description>
                 </Section>
                 <Section>
                     <Title>Médiation familiale</Title>
-                    <Desciption>
+                    <Description>
                         <p>La médiation familiale peut vous aider à négocier une entente juste et
                             équitable, dans l’intérêt de tous les membres de la famille. Ce
                             processus de résolution de conflits structuré aborde les aspects qui
@@ -1345,11 +1345,11 @@
                         <p>(Consultez le www.justice.gouv.qc.ca/mediationfamiliale/ pour en
                             apprendre davantage sur le Programme subventionné par le Ministère de la
                             Justice du Québec)</p>
-                    </Desciption>
+                    </Description>
                 </Section>
                 <Section>
                     <Title>Consultations psychoéducatives</Title>
-                    <Desciption>
+                    <Description>
                         <p>Le psychoéducateur travaille auprès des personnes qui éprouvent des
                             problèmes d’adaptation en raison de difficultés personnelles, familiales
                             ou sociales. Dans le cadre de leur travail, ils évaluent différentes
@@ -1366,19 +1366,19 @@
                         <p>Mes interventions sont inspirées principalement des approches systémiques
                             et cognitive-comportementales. Je privilégie un suivi court-terme,
                             orienté vers les solutions.</p>
-                    </Desciption>
+                    </Description>
                 </Section>
                 <Section>
                     <Title>Clientèles</Title>
-                    <Desciption>
+                    <Description>
                         <p>Mes services visent les parents, les enfants et les adolescents.</p>
-                    </Desciption>
+                    </Description>
                 </Section>
                 <Section>
                     <Title>Autres services</Title>
-                    <Desciption>
+                    <Description>
                         <p>J'accepte des mandats provenant de Programmes d'aide aux employés (PAE).</p>
-                    </Desciption>
+                    </Description>
                 </Section>
             </Page>
         </Language>

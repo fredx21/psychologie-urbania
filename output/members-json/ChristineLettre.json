@@ -1,0 +1,22 @@
+{
+  "name": "Christine Lettre",
+  "phoneNumber": "450-491-4431",
+  "emailAddress": "clettrepsychologue@outlook.com",
+  "photo": "img/christine-lettre.jpg",
+  "pageName": "ChristineLettre",
+  "languages": [
+    {
+      "name": "Français",
+      "code": "",
+      "academic": "Psychologue, M.Ps.",
+      "summary": "Psychologue depuis plus de trente ans, je travaille auprès d'une clientèle\r\n                adulte, en individuel et en couple.",
+      "page": {
+        "sections": [
+          {
+            "description": "<p>Bonjour! Je suis psychologue clinicienne auprès d'une clientèle adulte,\r\n                            en individuel et en couple, depuis un peu plus de trente ans. Je suis\r\n                            toujours aussi passionnée par mon travail. J'utilise principalement\r\n                            l'approche cognitive dans une perspective biopsychosociale. Au plaisir\r\n                            de vous rencontrer.</p>"
+          }
+        ]
+      }
+    }
+  ]
+}

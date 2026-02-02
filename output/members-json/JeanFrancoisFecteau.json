@@ -1,0 +1,23 @@
+{
+  "name": "Jean-François Fecteau",
+  "phoneNumber": "450 543 4333",
+  "emailAddress": "jeanfrancoisfecteau@hotmail.com",
+  "photo": "img/jean-francois-fecteau.jpg",
+  "pageName": "JeanFrancoisFecteau",
+  "languages": [
+    {
+      "name": "Français",
+      "code": "",
+      "academic": "Travailleur sociale, MSS, psychothérapeute",
+      "summary": "Clinicien en travail social et psychothérapeute depuis 25 ans, je rencontre des\r\n                individus et des couples dans le cadre de ma pratique.",
+      "page": {
+        "sections": [
+          {
+            "title": "",
+            "description": "<p>Clinicien en travail social et psychothérapeute depuis 25 ans, je\r\n                            rencontre des individus et des couples dans le cadre de ma pratique.\r\n                            J’offre des services de psychothérapie auprès d’adultes, d’enfants et\r\n                            d’adolescents.</p>\r\n                        <p>Je travaille principalement au niveau de la santé mentale avec des gens\r\n                            qui souffrent d’anxiété, de dépression ou de stress post-traumatique\r\n                            mais il m’arrive aussi de rencontrer des clients qui ont des difficultés\r\n                            conjugales, familiales ou qui vivent une remise en question.</p>\r\n                        <p>Depuis 2004, j’ai développé une expertise en hypnose clinique. À cet\r\n                            effet, je rencontre des gens qui souffrent de douleurs chroniques ou\r\n                            d’autres problématiques. J’utilise principalement les techniques\r\n                            d’hypnose conversationnelle, dans un contexte de psychothérapie, afin de\r\n                            favoriser les changements à apporter chez la clientèle, lorsque\r\n                            l’utilisation de l’hypnose s’y prête.</p>"
+          }
+        ]
+      }
+    }
+  ]
+}

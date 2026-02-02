@@ -1,0 +1,22 @@
+{
+  "name": "Alexandra Colle",
+  "phoneNumber": "514-963-7856",
+  "emailAddress": "colle.alexandra@outlook.com",
+  "photo": "img/alexandra-colle.jpg",
+  "pageName": "AlexandraColle",
+  "languages": [
+    {
+      "name": "Français",
+      "code": "",
+      "academic": "Sexologue et psychothérapeute",
+      "summary": "Sexologue et psychothérapeute, je travaille dans une ambiance chaleureuse et\r\n                accueillante auprès des adolescents, des adultes et des aînés. J’interviens\r\n                également auprès des couples en favorisant l’atteinte d’un mieux-être psychologique,\r\n                sexuel et relationnel.",
+      "page": {
+        "sections": [
+          {
+            "description": "<p>Titulaire d’une maîtrise en sexologie clinique de l’Université du Québec\r\n                            à Montréal, je suis membre de l’Ordre professionnel des sexologues du\r\n                            Québec et détentrice du permis de psychothérapeute délivré par l’Ordre\r\n                            des psychologues du Québec. J’ai acquis mon expérience clinique auprès\r\n                            d’une clientèle diversifiée, notamment au sein de la Clinique de\r\n                            sexologie de l’UQAM et du CISSS de Laval.</p>\r\n                        <p>Mon approche est principalement humaniste-existentielle et je m’inspire\r\n                            des conceptions systémiques-interactionnelles afin de mieux adapter mes\r\n                            interventions auprès des couples que je rencontre. Je considère la\r\n                            relation thérapeutique comme une partie intégrante du cheminement et\r\n                            c’est pourquoi je travaille avec vous dans une optique de coopération et\r\n                            priorise un climat de confiance pour l’atteinte de vos objectifs. Ainsi,\r\n                            j’estime que chaque expérience est unique et que l’individu au centre du\r\n                            processus possède les forces et les ressources pour se réaliser.</p>\r\n                        <p>La psychothérapie peut être considérée comme un moment pour s’arrêter,\r\n                            pour prendre du recul sur sa vie. Un moment que l’on prend pour soi ou\r\n                            son couple afin d’y explorer, dans un espace empathique et non-jugeant,\r\n                            un inconfort, une impasse ou une blessure. Cette exploration permettra\r\n                            de faire ressortir le sens de ces difficultés et d’y relier, parfois,\r\n                            divers enjeux sous-jacents. Cette compréhension est importante pour vous\r\n                            permettre de mettre en œuvre vos forces et vos capacités et ainsi,\r\n                            rendre possible l’émergence d’un changement profond vers un mieux-être.</p>\r\n                        <p>Plusieurs motifs peuvent encourager une personne ou un couple à entamer\r\n                            un processus thérapeutique, mais à mon sens, aucune difficulté n’est\r\n                            considérée comme «trop superficielle» ou «trop grande» pour être\r\n                            abordée. Il peut parfois sembler difficile de s’ouvrir sur des parties\r\n                            intimes et personnelles de soi, mais sachez que je prendrai soin de vous\r\n                            accompagner dans ce cheminement en vous offrant un cadre sécuritaire et\r\n                            en m’adaptant à votre rythme, vos objectifs et besoins.</p>\r\n                        <p>Voici quelques exemples de thématiques abordées :</p>\r\n                        <p>Fonction sexuelle (difficultés érectiles, éjaculatoires, baisse de désir\r\n                            sexuel, douleurs génitales, anorgasmie) consommation de pornographie,\r\n                            fantasmes sexuels, orientation sexuelle, identité de genre, difficultés\r\n                            dans l’intimité, difficultés relationnelles, communication, rupture\r\n                            amoureuse, jalousie, infidélité, victime d’agression sexuelle,\r\n                            affirmation de soi, estime de soi, confiance en soi, image corporelle,\r\n                            anxiété, dépression…</p>\r\n                        <p>J’accepte les mandats IVAC.</p>"
+          }
+        ]
+      }
+    }
+  ]
+}
