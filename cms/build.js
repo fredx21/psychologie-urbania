@@ -169,10 +169,37 @@ function generateTeamMemberHtml(member, langCode) {
 }
 
 /**
+ * Vérifie que tous les membres dans content/members sont présents dans memberOrder
+ */
+function validateMemberOrder() {
+  const memberOrder = configData.team.memberOrder;
+  const memberOrderSet = new Set(memberOrder);
+  const files = fs.readdirSync(CONFIG.contentDir).filter(f => f.endsWith('.json'));
+  const missingMembers = [];
+
+  for (const file of files) {
+    if (!memberOrderSet.has(file)) {
+      missingMembers.push(file);
+    }
+  }
+
+  if (missingMembers.length > 0) {
+    console.error(`  ✗ ERREUR: Les membres suivants ne sont pas dans memberOrder:`);
+    for (const member of missingMembers) {
+      console.error(`    - ${member}`);
+    }
+    throw new Error(`Membres manquants dans memberOrder: ${missingMembers.join(', ')}`);
+  }
+}
+
+/**
  * Génère la page team.html avec tous les membres
  */
 function generateTeamPage(teamTemplate) {
   console.log('Génération de la page équipe...');
+
+  // Vérifier que tous les membres sont dans memberOrder
+  validateMemberOrder();
 
   const memberOrder = configData.team.memberOrder;
   let membersHtml = '';
