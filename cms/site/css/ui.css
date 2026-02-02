@@ -1,17 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@400;600;700&family=Source+Sans+3:wght@300;400;500;600&display=swap');
 
 :root {
-    --color-bg: #e7ecef;
+    --color-bg: #cad2c5;
     --color-surface: #ffffff;
-    --color-surface-alt: #f1f4f7;
-    --color-primary: #274c77;
-    --color-primary-dark: #1d3858;
-    --color-accent: #6096ba;
-    --color-text: #1f2b32;
-    --color-text-muted: #5a6672;
-    --color-border: #cbd6df;
-    --shadow-soft: 0 24px 60px rgba(39, 76, 119, 0.12);
-    --shadow-card: 0 16px 40px rgba(39, 76, 119, 0.18);
+    --color-surface-alt: #e9efe8;
+    --color-primary: #52796f;
+    --color-primary-dark: #2f3e46;
+    --color-accent: #84a98c;
+    --color-text: #223033;
+    --color-text-muted: #4b5a5e;
+    --color-border: #bcc6ba;
+    --shadow-soft: 0 24px 60px rgba(47, 62, 70, 0.12);
+    --shadow-card: 0 16px 40px rgba(47, 62, 70, 0.18);
     --member-photo-height: 180px;
     --radius-lg: 12px;
     --radius-md: 10px;
@@ -34,7 +34,7 @@ body {
     font-size: 16px;
     line-height: 1.7;
     overflow-x: hidden;
-    background: radial-gradient(circle at top, #f8fafc 0%, var(--color-bg) 45%, #dbe3ea 100%);
+    background: radial-gradient(circle at top, #f6f8f5 0%, var(--color-bg) 45%, #b7c3b6 100%);
 }
 
 img {
