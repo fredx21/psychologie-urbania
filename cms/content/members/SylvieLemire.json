@@ -1,0 +1,26 @@
+{
+  "name": "Sylvie Lemire",
+  "phoneNumber": "514 240 7151",
+  "emailAddress": "sylvie.lemire@live.ca",
+  "photo": "img/sylvie-lemire.jpg",
+  "pageName": "SylvieLemire",
+  "languages": [
+    {
+      "name": "Français",
+      "code": "",
+      "academic": "Psychoéducatrice, PS.ÉD., psychothérapeute",
+      "summary": "Sylvie Lemire est psychoéducatrice et psychothérapeute. Diplômée depuis 1993, elle a développé une expertise pour aider les personnes de tous âges à trouver leur propre motivation aux changements.",
+      "page": {
+        "sections": [
+          {
+            "description": "<p>La psychoéducation c'est pour tous!</p> <p>Sylvie Lemire est psychoéducatrice et membre de l'Ordre des psychoéducateurs et des psychoéducatrices du Québec. Elle est également psychothérapeute, ayant reçu son permis de l'Ordre des psychologues du Québec en 2015. Diplômée depuis 1993, elle a développé une expertise pour aider les personnes de tous âges à trouver leur propre motivation aux changements. Elle se distingue tout particulièrement par sa personnalité simple, joviale et conviviale qui sait mettre sa clientèle en confiance.</p> <p>Pour ce faire, elle s'est intéressée spécialement aux approches cognitivo-comportementales et à la programmation neurolinguistique.</p> <p>Elle a développé une expertise pour offrir des services auprès des enfants, des adolescents et des adultes vivant avec des problèmes émotionnels. Elle intervient, entre autres, auprès des personnes aux prises avec de l'anxiété, des problèmes relationnels, des difficultés d'adaptations, un manque de motivation, de l'embonpoint, de l'impulsivité, des abus de toutes sortes, des difficultés comportementales, familiales, de couple, d'acceptation de soi et d'estime de soi.</p> <p>Elle a également développé une expertise auprès de la clientèle ayant une déficience intellectuelle et auprès des personnes vivant avec un trouble envahissant du développement.</p> <p>Avec la personne, elle évalue et explore les motifs qui l'ont amenée à vivre des situations difficiles pour permettre l'identification de ses besoins.</p> <p>En collaboration avec la personne, elle élabore un plan d'action lui permettant de cibler une nouvelle direction, en prenant soin de trouver les moyens adaptés à ses besoins.</p> <p>Elle assure le suivi du plan d'action en prenant soin des conditions du milieu de vie de la personne, favorisant ainsi son adaptation. Son approche globale de la situation permet de solutionner la problématique efficacement.</p> <p>Mme Sylvie Lemire accorde une importance toute particulière à la famille. Créative et enthousiaste, elle saura vous amener à trouver une solution qui vous ressemblera.</p>"
+          },
+          {
+            "title": "Autres services",
+            "description": "<p>Dans le cadre de son travail, Mme Lemire peut se déplacer à domicile ou dans les différents milieux de vie de la personne pour observer et comprendre son vécu.</p> <p>Les clients faisant affaires avec des programmes d'aide aux employés (PAE) sont les bienvenues!</p>"
+          }
+        ]
+      }
+    }
+  ]
+}

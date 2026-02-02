@@ -1,0 +1,68 @@
+{
+  "name": "Andrea Riddle",
+  "phoneNumber": "450 508 4778",
+  "emailAddress": "info@psychologie-urbania.com",
+  "photo": "img/andrea-riddle.jpg",
+  "pageName": "AndreaRiddle",
+  "languages": [
+    {
+      "name": "Français",
+      "code": "",
+      "academic": "Psychologue, Ph.D.",
+      "summary": "Dre Andrea Riddle est psychologue clinicienne et fondatrice de la Clinique de Psychologie Urbania. Depuis plus de 20 ans, elle offre des services de psychothérapie d'orientation cognitive-comportementale à une clientèle adulte.",
+      "page": {
+        "sections": [
+          {
+            "title": "Ma pratique clinique",
+            "description": "<p>Je suis psychologue clinicienne et membre de l'Ordre des psychologues du Québec depuis 2002. Je pratique, depuis cette date, la psychothérapie d'orientation cognitive-comportementale auprès des adultes.</p> <p>Au fil de ma carrière, j'ai développé une expertise dans le traitement des troubles d'anxiété. J'interviens tout particulièrement auprès des personnes souffrant de phobies, de panique, d'angoisse et d'anxiété, d'inquiétudes, de comportements obsessifs-compulsifs et de réactions post-traumatiques.</p> <p>On retrouve aussi parmi ma clientèle des individus qui souffrent de la dépression et qui vivent un deuil suite à une séparation, un décès ou autres pertes.</p> <p>Ma formation et mon expérience m'amènent également à traiter diverses problématiques liées au travail notamment, la gestion du stress, l'épuisement professionnel, les troubles d'adaptation ainsi que le surmenage et la conciliation travail-famille.</p> <p>J'interviens aussi auprès des personnes ayant des problèmes relationnelles (amour, travail, amitié) et des difficultés à gérer leurs émotions. Les clients me consultent régulièrement pour améliorer leurs habiletés d'affirmation et leur connaissance de soi ainsi que pour augmenter leur confiance et leur estime.</p>"
+          },
+          {
+            "title": "Mon approche",
+            "description": "<p>Mon objectif en tant que psychologue est de vous aider à faire face plus efficacement aux difficultés de votre vie, de réduire la détresse que vous ressentez et de vous aider à obtenir une meilleure qualité de vie. Pour se faire, j'utilise l'approche cognitive-comportementale qui est reconnue pour sa rigueur et son efficacité. Je me réfère aussi aux concepts et aux stratégies d'autres orientations (ex : humaniste, thérapie brève) afin d'offrir des services adaptés aux personnes et à leurs difficultés.</p> <p>La thérapie cognitive-comportementale (TCC) favorise le développement de nouvelles habiletés, de nouvelles façons de voir et de réagir. Les interventions visent à vous aider à régler vos problèmes actuels et à prévenir leur réapparition. Mon style est interactif et nous travaillons ensemble afin d'identifier et de comprendre vos difficultés et d'établir des objectifs concrets de la thérapie. En collaboration étroite, nous cherchons à découvrir les solutions à vos problèmes et à favoriser l'acquisition d'outils concrets pour vous aider à faire face de manière efficace aux difficultés que vous rencontrerez dans votre vie.</p>"
+          },
+          {
+            "title": "Ma formation et expérience",
+            "description": "<p>Je détiens un doctorat en psychologie de l'Université du Québec à Montréal et un baccalauréat de l'Université Concordia. Depuis l'obtention de mes diplômes universitaires, j'ai suivi diverses formations complémentaires en lien direct avec ma pratique privée.</p> <p>Lors des premières années de ma carrière, j'ai conjugué la psychothérapie dans les secteurs publique et privé et la consultation en milieu organisationnel. En clinique, j'ai débuté ma carrière à l'Institut Allan Mémorial (l'Hôpital Royal Victoria) où je me suis impliquée dans des programmes de psychothérapie individuelle et de groupe. Conjointement, j'ai travaillé en cabinet privé à la Clinique de psychologie cognitivo-comportementale situé dans le nord de Montréal.</p> <p>Parallèlement à mon travail clinique, je me suis impliquée à titre de consultante en milieu organisationnel. Plus particulièrement, j'ai été coordonnatrice pendant des années d'un centre d'évaluation qui avait pour but la sélection de gestionnaires et le développement de leurs habiletés de gestion en milieu bancaire. Dans le cadre de ce travail, j'ai assumé des fonctions de gestion de personnel, d'évaluation et de coaching de gestionnaires, et de développement d'outils d'évaluation et de sélection.</p> <p>Mes recherches doctorales ont portées majoritairement sur des problématiques liées au travail et à la conciliation travail-famille. J'ai collaboré à plusieurs études sur la motivation, l'épuisement (le burnout), le stress et la santé au travail.</p> <p>Fondatrice de la Clinique de psychologie Urbania à Blainville, je me consacre aujourd'hui à temps plein à la consultation en cabinet privée, à la gestion de la clinique et à la poursuite de formations continues. J'offre des services de consultation et de suivi psychothérapeutique aux jeunes adultes et aux adultes.</p>"
+          },
+          {
+            "title": "Publications scientifiques",
+            "description": "<p>Blais, M.R., Brière, N., Lachance, L., Riddle, A., &amp; Vallerand, R.J. (1993). L'inventaire des motivations au travail de Blais. Revue Québécoise de Psychologie, 14, 185-215.</p> <p>Blais, M., Hess, U., Bourbonnais, J., Saintonge, J., &amp; Riddle, A. (1995). Mens sana ad corpus sanum: Un modèle de motivation-stress-santé appliqué au couple et au travail. Santé Mentale au Québec, 20, 139-162.</p> <p>Poulin-Dubois, D., Graham, S.A., &amp; Riddle, A.S. (1995). Salient object parts and infants' acquisition of novel object words. First Language, 15(45), 301-316.</p>"
+          },
+          {
+            "title": "Autres services",
+            "description": "<p>Je suis bilingue et très à l'aise de vous offrir des rencontres en français ou en anglais. Veuillez noter que je n'accepte pas présentement de mandats de tiers-payeurs tels que la CSST, la SAAQ, et les PAEs pour un certain temps.</p>"
+          }
+        ]
+      }
+    },
+    {
+      "name": "English",
+      "code": "en",
+      "academic": "Psychologist, Ph.D.",
+      "page": {
+        "sections": [
+          {
+            "title": "My Clinical Practice",
+            "description": "<p>Clinical psychologist and member of the Order of Psychologists of Quebec since 2002, I provide psychotherapy consultation services to adults using mainly a cognitive-behavioral approach. Over the course of my career, I have developed an expertise in the treatment of anxiety disorders. I work mainly with individuals suffering from phobias, panic, generalized anxiety and stress, worry and ruminations, obsessive-compulsive behaviors and post-traumatic reactions.</p> <p>A large part of my clientele also includes individuals who suffer from depression and grief following a separation, death or other loss. My training and experience through the years has led me to treat a number of work-related difficulties as well, most notably, work stress, professional burnout, adjustment disorder as well work-family conflict and role overload.</p> <p>Finally, I also help individuals who are experiencing relationship difficulties (couple, work, and friends) and problems managing their emotions. Clients consult me regularly to help them improve their assertiveness skills and enhance their self-knowledge as well as to increase their confidence and self-esteem.</p>"
+          },
+          {
+            "title": "My Approach",
+            "description": "<p>As a psychologist, my goal is to help you cope more effectively with the difficulties you are currently facing, to reduce your distress and suffering, and to improve the quality of your life. In the attempt to attain these goals, I first and foremost provide a warm and empathic environment for managing problematic emotions such as fear, anger and sadness. Further, I use a cognitive-behavioral approach which is known for its rigour and effectiveness. I also incorporate concepts and strategies from other psychological orientations (e.g., solution-based therapy, humanist approach) in order to offer services that are adapted to individuals and their particular needs.</p> <p>Cognitive-behavioral therapy (CBT) fosters the development of new skills and new ways of viewing and reacting to life situations. Interventions aim to help individuals resolve their current problems and prevent their reoccurrence. In a collaborative effort, my clients and I work to identify and understand their difficulties and to establish concrete objectives for therapy. We work together, seeking solutions to their problems and identifying concrete tools designed to help them face the difficulties they encounter in their lives.</p>"
+          },
+          {
+            "title": "My Training and Experience",
+            "description": "<p>I was awarded my doctorate degree from the University of Quebec at Montreal and my bachelor degree from Concordia University. Since the completion of my studies, I have pursued a number of complementary training workshops directly related to my clinical work.</p> <p>During the first years of my career, I combined psychotherapy in the public and private sectors with consulting work in the organizational domain. As regards my clinical practice, I began my career at the Allan Memorial Institute (Royal Victoria Hospital) where I was involved in individual and group psychotherapy. Conjointly, I offered consultation services in the private sector at the Clinique de Psychologie Cognitivo-Comportementale situated in the North of Montreal.</p> <p>Parallel to my clinical work, I spent several years involved as a consultant in the organizational domain. Specifically, I was coordinator for an evaluation centre whose goal was the selection of management personnel and the development of their managing skills. As coordinator, I was responsible for human resource management and training, evaluation and coaching of managers as well as the development of selection and coaching tools. My doctoral research focused mainly on work-related problems and work-family conciliation. I was involved in a number of studies investigating the topics of motivation, stress, burnout, depression and health.</p> <p>Founder of the Clinique de Psychologie Urbania in Blainville, I now devote my time to my clinical practice, to the management of the clinic and to the pursuit of continuous, post-university training programs. I offer psychotherapeutic consultations and follow-up to adults of all ages.</p>"
+          },
+          {
+            "title": "Scientific Publications",
+            "description": "<p>Blais, M.R., Brière, N., Lachance, L., Riddle, A., &amp; Vallerand, R.J. (1993). L'inventaire des motivations au travail de Blais. Revue Québécoise de Psychologie, 14, 185-215.</p> <p>Blais, M., Hess, U., Bourbonnais, J., Saintonge, J., &amp; Riddle, A. (1995). Mens sana ad corpus sanum: Un modèle de motivation-stress-santé appliqué au couple et au travail. Santé Mentale au Québec, 20, 139-162.</p> <p>Poulin-Dubois, D., Graham, S.A., &amp; Riddle, A.S. (1995). Salient object parts and infants' acquisition of novel object words. First Language, 15(45), 301-316.</p>"
+          },
+          {
+            "title": "Other Services",
+            "description": "<p>I am bilingual and can therefore offer meetings both in French and in English. Please note that I am presently not accepting mandates from tierce payers such as the CSST, SAAQ and EAPs for the time being.</p>"
+          }
+        ]
+      }
+    }
+  ]
+}

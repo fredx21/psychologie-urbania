@@ -1,11 +1,11 @@
 {
   "name": "psychologie-urbania",
-  "version": "1.0.0",
-  "description": "Conversion XML to JSON pour les membres de l'équipe",
-  "main": "xml2json.js",
+  "version": "2.0.0",
+  "description": "CMS pour la Clinique de Psychologie Urbania",
+  "main": "cms/build.js",
   "scripts": {
-    "start": "node xml2json.js",
-    "generate": "node generate-html-from-json.js"
+    "build": "node cms/build.js",
+    "dev": "node cms/build.js && npx serve docs"
   },
   "dependencies": {
     "xml2js": "^0.6.2"
