@@ -1,0 +1,12 @@
+{
+  "contentDir": "content/members",
+  "siteDir": "site",
+  "outputDir": "../docs",
+  "staticPages": [
+    "index.html",
+    "services.html",
+    "contact.html",
+    "career.html",
+    "links.html"
+  ]
+}

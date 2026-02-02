@@ -7,10 +7,13 @@ const fs = require('fs');
 const path = require('path');
 
 // Configuration
+const configPath = path.join(__dirname, 'config.json');
+const configData = JSON.parse(fs.readFileSync(configPath, 'utf-8'));
+
 const CONFIG = {
-  contentDir: path.join(__dirname, 'content', 'members'),
-  siteDir: path.join(__dirname, 'site'),
-  outputDir: path.join(__dirname, '..', 'docs'),
+  contentDir: path.join(__dirname, configData.contentDir),
+  siteDir: path.join(__dirname, configData.siteDir),
+  outputDir: path.join(__dirname, configData.outputDir),
   year: new Date().getFullYear()
 };
 
@@ -172,7 +175,7 @@ function copyAssets() {
 function copyStaticPages() {
   console.log('Copie des pages statiques...');
   
-  const staticPages = ['index.html', 'services.html', 'contact.html', 'career.html', 'links.html'];
+  const staticPages = configData.staticPages;
   
   for (const page of staticPages) {
     const srcPath = path.join(CONFIG.siteDir, page);
