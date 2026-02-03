@@ -350,16 +350,42 @@ li {
     margin-top: 14px;
     display: inline-flex;
     align-items: center;
-    padding: 10px 18px;
-    border-radius: var(--radius-pill);
-    background-color: var(--color-primary);
+    color: var(--color-primary-dark);
     text-transform: uppercase;
-    letter-spacing: 0.12em;
+    letter-spacing: 0.08em;
     font-size: 12px;
+    font-weight: 600;
 }
 
 .detailLink a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 38px;
+    padding: 0 40px 0 18px;
+    border-radius: var(--radius-pill);
+    background-color: transparent;
+    border: 1px solid var(--color-accent);
+    color: inherit;
+    position: relative;
+    line-height: 1;
+    transition: background 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+}
+
+.detailLink a::after {
+    content: "→";
+    font-size: 14px;
+    line-height: 1;
+    position: absolute;
+    right: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.detailLink a:hover {
+    background-color: var(--color-accent);
     color: #fff;
+    border-color: transparent;
 }
 
 .layout-grid {
@@ -511,7 +537,7 @@ li {
 
 .memberPhoto {
     height: 360px;
-    background-position: 50% 35%;
+    background-position: 50% 20%;
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: var(--radius-sm);
