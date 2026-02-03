@@ -1,0 +1,39 @@
+{
+  "name": "Martine Drapeau",
+  "phoneNumber": "514 995 6677",
+  "emailAddress": "martined@videotron.ca",
+  "photo": "img/martine-drapeau.jpg",
+  "pageName": "MartineDrapeau",
+  "languages": [
+    {
+      "name": "Français",
+      "code": "",
+      "academic": "Sexologue, M.A., psychothérapeute",
+      "summary": "Psychothérapeute et sexologue depuis plusieurs années, j'ai une expertise dans le traitement de problématiques liées à l'identité sexuelle, à l'ambivalence de l'orientation sexuelle et à la réponse sexuelle. La santé, le bien-être et l'épanouissement sexuels sont aussi au centre de mon champs d'intérêt.",
+      "page": {
+        "sections": [
+          {
+            "title": "Ma pratique clinique",
+            "description": "<p>Je suis sexologue clinicienne et membre de l'Ordre professionnel des sexologues du Québec depuis sa création en 2013. J'ai un permis de psychothérapie émis par l'Ordre des psychologues du Québec, depuis 2014. J'ai commencé ma pratique à titre de sexologue et psychothérapeute en 1997. J'enseigne également au département de sexologie à l'Université du Québec à Montréal depuis 1999.</p> <p>Au cours de ma carrière, je me suis formée dans différentes approches. Tout d'abord sexoanalyste, j'ai tenté de comprendre le problème présenté par l'individu en amenant à la conscience les significations que ses difficultés pouvaient avoir. Cela m'apparaissant insuffisant, j'ai décidé de mieux comprendre les symptômes qui se manifestaient dans le corps par l'approche sexocorporelle. Cette approche m'a permis de découvrir des moyens concrets pour aider la personne à élargir son potentiel humain. Il me manquait toutefois quelque chose que j'ai trouvé en me formant à la psychothérapie du lien. Cette approche est devenue la base de ma pratique en psychothérapie. Elle intègre à la fois ma compréhension de l'inconscient, prend en compte les réactions corporelles, et donne une appréciation de la relation que l'individu entretient d'abord avec lui-même, et avec son environnement.</p> <p>La clientèle que je reçois en consultation sont des individus ou des couples qui éprouvent différents types de difficultés d'ordre psychologique (dépression, anxiété, pauvre estime de soi, difficulté à s'exprimer, mal-être, deuil), sexuel (manque de désir sexuel, éjaculation précoce, difficulté érectile, anorgasmie, ambivalence de l'orientation sexuelle, sexualités atypiques) ou relationnel (difficulté à communiquer, infidélité, difficulté d'adaptation au rôle de parent).</p>"
+          },
+          {
+            "title": "Ma formation et mon expérience",
+            "description": "<p>Je me représente les difficultés pour lesquelles une personne vient me rencontrer, qu'elles soient d'ordre physique, psychologique, sexuel ou relationnel, comme des symptômes la limitant à être pleinement libre avec elle-même, et par conséquent, libre dans sa relation avec l'autre (l'autre étant un membre de la famille, un ami, un partenaire « potentiel » ou son partenaire de vie). Entreprendre une démarche thérapeutique avec moi consistera à explorer le sens que prennent ces symptômes, à écouter ce que cela a à dire à propos de soi, et à trouver ensemble les moyens qui mettront fin aux symptômes et qui permettront d'accéder à une plus grande liberté intérieure.</p> <p>La psychothérapie du lien est l'approche que je privilégie. Cette approche de type humaniste est multimodale. C'est-à-dire qu'elle intègre des compréhensions provenant de diverses théories, comme les théories psychodynamiques, relationnelles, ainsi que les plus récentes données en neurosciences. C'est une approche flexible qui me permet de m'adapter à la personne ou au couple qui est en démarche avec moi. L'approche se veut interactive où le client et le thérapeute participent à l'identification et la compréhension des difficultés, ainsi qu'à l'établissement des objectifs qui seront poursuivis dans la démarche thérapeutique. Cette étroite collaboration nous permettra de chercher ensemble de nouvelles avenues pour accéder à un plus grand bien-être et une plus grande capacité à être en relation avec autrui.</p>"
+          },
+          {
+            "title": "Approches",
+            "description": "<p>Je détiens un baccalauréat et une maîtrise en sexologie clinique de l'Université du Québec à Montréal. Je détiens également un baccalauréat en activités physiques de l'Université de Sherbrooke, et une formation en massothérapie. Ces deux dernières formations m'ont permis de bien comprendre la mécanique du corps et ses manifestations psychosomatiques. Considérant l'ensemble de mon expérience, je peux dire que j'ai plus de 25 ans d'expérience en relation d'aide et plus de 30 ans d'expérience en enseignement. Au cours des 15 dernières années, je me suis intéressée à l'éthique professionnelle, et j'ai coécrit un livre sur la sexualité et l'éthique dans les professions du toucher. Cette expertise m'a donné l'occasion d'être témoin expert pour un ordre professionnel, et m'a permis d'accéder à un poste de syndique adjointe à l'Ordre professionnel des sexologues du Québec. D'autres ordres professionnels font aussi appel à mes services, à l'occasion.</p> <p>Je me suis jointe à la Clinique de psychologie Urbania à Blainville en 2008 où une équipe multidisciplinaire œuvre au bien-être des individus de tous âges et aux couples.</p>"
+          },
+          {
+            "title": "Publications",
+            "description": "<p>Drapeau, Martine (2013) Le toucher dans l'érotisme, dans Santé Sexuelle, hiver-printemps 2013-2014, numéro 12.</p> <p>Houde, Nathalie, Drapeau, Martine (2011) Sexualité et éthique dans les professions du toucher. Comprendre la sexualité pour mieux soigner. Montréal : Éditions Modulo, 178 pages.</p>"
+          },
+          {
+            "title": "Autres services",
+            "description": "<p>Je suis bilingue et très à l'aise de vous offrir des rencontres en français ou en anglais. J'accepte les mandats de tiers payeurs tels que l'IVAC, la CSST et les PAE.</p>"
+          }
+        ]
+      }
+    }
+  ]
+}

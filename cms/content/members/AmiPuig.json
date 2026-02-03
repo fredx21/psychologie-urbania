@@ -1,0 +1,23 @@
+{
+  "name": "Ami Puig",
+  "phoneNumber": "514-690-1222",
+  "emailAddress": "",
+  "photo": "img/ami-puig.jpg",
+  "pageName": "AmiPuig",
+  "languages": [
+    {
+      "name": "Français",
+      "code": "",
+      "academic": "Psychologue, D.Ps",
+      "summary": "Ami Puig est psychologue et travaille auprès des enfants, adolescents et jeunes adultes. Elle offre des services d'évaluation de TDAH auprès des jeunes ainsi que du coaching parental et familial.",
+      "page": {
+        "sections": [
+          {
+            "title": "Services",
+            "description": "<p>Je suis psychologue depuis 2023 et j'exerce à titre de doctorante en psychologie depuis 2017. J'ai travaillé pendant mes internats en milieu scolaire pour trouble du comportement et rupture du fonctionnement, ainsi qu'en milieu privé et j'ai réalisé ma thèse sur les im-pacts des stéréotypes sexuels dans le développement des enfants.</p> <p>Dès le départ de ma pratique, je me suis spécialisée avec une clientèle enfant, mais j'ai continué mes formations et mes apprentissages et je reçois aujourd'hui tous les types de clientèles, de l'enfant aux personnes âgées. L'approche que je privilégie est de nature psychodynamique et la compréhension du symp-tôme du client et de son développement est au cœur de mes suivis. Je privilégie la compré-hension et l'exploration du symptôme ainsi que du développement global du client qui vient me voir, car un symptôme a toujours une raison d'être. Le but peut être de l'enlever, mais en le saisissant mieux, il est alors possible de comprendre sa fonction spécifique dans la vie du client et ainsi, comment le diminuer, le changer ou l'accepter selon le besoin et la réalité de la personne.</p> <p>Avant de devenir psychologue, j'ai fait ma technique d'éducation à l'enfance et j'ai tra-vaillé huit ans en centre de la petite enfance en tant qu'éducatrice, ce qui m'a permis de travailler avec une grande diversité de problématiques, de personnalités et d'organisations familiales en tout genre. Cette expérience m'aide grandement aujourd'hui à saisir les dif-ficultés que présentent les enfants, mais également le développement général de l'être hu-main dès son enfance.</p> <p>Je suis également professeure de psychologie au cégep depuis 2021, ce qui me permet de toujours continuer mes apprentissages et ma recherche de connaissance dans le domaine et de les partager. Je partage ainsi mon temps entre la clinique et l'enseignement.</p>"
+          }
+        ]
+      }
+    }
+  ]
+}

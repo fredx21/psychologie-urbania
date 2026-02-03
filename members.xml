@@ -1,205 +1,409 @@
 <Team>
-  <Member>
-    <Name>Andrea Riddle</Name>
-    <PhoneNumber>450 508 4778</PhoneNumber>
-    <EmailAddress>info@psychologie-urbania.com</EmailAddress>
-    <Photo>img/andrea-riddle.jpg</Photo>
-    <PageName>AndreaRiddle</PageName>
-    <Language name="Français" code="">
-      <Academic>Psychologue, Ph.D.</Academic>
-      <Summary>Dre Andrea Riddle est psychologue clinicienne et fondatrice de la Clinique de Psychologie Urbania. Depuis plus de 20 ans, elle offre des services de psychothérapie d'orientation cognitive-comportementale à une clientèle adulte.</Summary>
-      <Page>
-          <Section>
-            <Title>Ma pratique clinique</Title>
-            <Desciption>
-              Je suis psychologue clinicienne et membre de l’Ordre des psychologues du Québec depuis 2002. Je pratique, depuis cette date, la psychothérapie d’orientation cognitive-comportementale auprès des adultes.||
-              Au fil de ma carrière, j’ai développé une expertise dans le traitement des troubles d'anxiété. J’interviens tout particulièrement auprès des personnes souffrant de phobies, de panique, d’angoisse et d’anxiété, d’inquiétudes, de comportements obsessifs-compulsifs et de réactions post-traumatiques.||
-              On retrouve aussi parmi ma clientèle des individus qui souffrent de la dépression et qui vivent un deuil suite à une séparation, un décès ou autres pertes.||
-              Ma formation et mon expérience m’amènent également à traiter diverses problématiques liées au travail notamment, la gestion du stress, l'épuisement professionnel, les troubles d'adaptation ainsi que le surmenage et la conciliation travail-famille.||
-              J'interviens aussi auprès des personnes ayant des problèmes relationnelles (amour, travail, amitié) et des difficultés à gérer leurs émotions. Les clients me consultent régulièrement pour améliorer leurs habiletés d’affirmation et leur connaissance de soi ainsi que pour augmenter leur confiance et leur estime.
-            </Desciption>
-          </Section>
-          <Section>
-            <Title>Mon approche</Title>
-            <Desciption>
-              Mon objectif en tant que psychologue est de vous aider à faire face plus efficacement aux difficultés de votre vie, de réduire la détresse que vous ressentez et de vous  aider à obtenir une meilleure qualité de vie. Pour se faire, j’utilise l’approche cognitive-comportementale qui est reconnue pour sa rigueur et son efficacité.  Je me réfère aussi aux concepts et aux stratégies d’autres orientations (ex : humaniste, thérapie brève) afin d’offrir des services adaptés aux personnes et à leurs difficultés.||
-              La thérapie cognitive-comportementale (TCC) favorise le développement de nouvelles habiletés, de nouvelles façons de voir et de réagir.  Les interventions visent à vous aider à régler vos problèmes actuels et à prévenir leur réapparition.  Mon style est interactif  et nous travaillons ensemble afin d’identifier et de comprendre vos difficultés et d’établir des objectifs concrets de la thérapie. En collaboration étroite, nous cherchons à découvrir les solutions à vos problèmes et à favoriser l’acquisition d’outils concrets pour vous aider à faire face de manière efficace aux difficultés que vous rencontrerez dans votre vie.
-            </Desciption>
-          </Section>
-          <Section>
-            <Title>Ma formation et expérience</Title>
-            <Desciption>
-              Je détiens un doctorat en psychologie de l’Université du Québec à Montréal et un baccalauréat de l’Université Concordia.  Depuis l’obtention de mes diplômes universitaires, j’ai suivi diverses formations complémentaires en lien direct avec ma pratique privée.||
-              Lors des premières années de ma carrière, j’ai conjugué la psychothérapie dans les secteurs publique et privé et la consultation en milieu organisationnel.  En clinique, j’ai débuté ma carrière à l’Institut Allan Mémorial (l’Hôpital Royal Victoria) où je me suis impliquée dans des programmes de psychothérapie individuelle et de groupe.  Conjointement, j’ai travaillé en cabinet privé à la Clinique de psychologie cognitivo-comportementale situé dans le nord de Montréal.||
-              Parallèlement à mon travail clinique, je me suis impliquée à titre de consultante en milieu organisationnel.  Plus particulièrement, j’ai été coordonnatrice pendant des années d’un centre d’évaluation qui avait pour but la sélection de gestionnaires et le développement de leurs habiletés de gestion en milieu bancaire. Dans le cadre de ce travail, j’ai assumé des fonctions de gestion de personnel, d’évaluation et de coaching de gestionnaires, et de développement d’outils d’évaluation et de sélection.||
-              Mes recherches doctorales ont portées majoritairement sur des problématiques liées au travail et à la conciliation travail-famille.  J’ai collaboré à plusieurs études sur la motivation, l’épuisement (le burnout), le stress et la santé au travail.||
-              Fondatrice de la Clinique de psychologie Urbania à Blainville, je me consacre aujourd’hui à temps plein à la consultation en cabinet privée, à la gestion de la clinique et à la poursuite de formations continues. J’offre des services de consultation et de suivi psychothérapeutique aux jeunes adultes et aux adultes.
-            </Desciption>
-          </Section>
-           <Section>
-            <Title>Publications scientifiques</Title>
-            <Desciption>
-        Blais, M.R., Brière, N., Lachance, L., Riddle, A., &amp; Vallerand, R.J. (1993). L'inventaire des motivations au travail de Blais. Revue Québécoise de Psychologie, 14, 185-215.||
-        Blais, M., Hess, U., Bourbonnais, J., Saintonge, J., &amp; Riddle, A. (1995). Mens sana ad corpus sanum: Un modèle de motivation-stress-santé appliqué au couple et au travail.  Santé Mentale au Québec, 20, 139-162.||
-        Poulin-Dubois, D., Graham, S.A., &amp; Riddle, A.S. (1995). Salient object parts and infants' acquisition of novel object words.  First Language, 15(45), 301-316.
-            </Desciption>
-         </Section>
-          <Section>
-            <Title>Autres services</Title>
-            <Desciption>
-              Je suis bilingue et très à l'aise de vous offrir des rencontres en français ou en anglais. Veuillez noter que je n'accepte pas présentement de mandats de tiers-payeurs tels que la CSST, la SAAQ, et les PAEs pour un certain temps.
-          </Desciption>
-          </Section>
-        </Page>
-    </Language>
-    <Language name="English" code="en">
-      <Academic>Psychologist, Ph.D.</Academic>
-      <Page>
-          <Section>
-            <Title>My Clinical Practice</Title>
-            <Desciption>
-Clinical psychologist and member of the Order of Psychologists of Quebec since 2002, I provide psychotherapy consultation services to adults using mainly a cognitive-behavioral approach. ||
-Over the course of my career, I have developed an expertise in the treatment of anxiety disorders. I work mainly with individuals suffering from phobias, panic, generalized anxiety and stress, worry and ruminations, obsessive-compulsive behaviors and post-traumatic reactions.||
-A large part of my clientele also includes individuals who suffer from depression and grief following a separation, death or other loss. My training and experience through the years has led me to treat a number of work-related difficulties as well, most notably, work stress, professional burnout, adjustment disorder as well work-family conflict and role overload.||
-Finally, I also help individuals who are experiencing relationship difficulties (couple, work, and friends) and problems managing their emotions. Clients consult me regularly to help them improve their assertiveness skills and enhance their self-knowledge as well as to increase their confidence and self-esteem.
-            </Desciption>
-          </Section>
-          <Section>
-            <Title>My Approach</Title>
-            <Desciption>
-As a psychologist, my goal is to help you cope more effectively with the difficulties you are currently facing, to reduce your distress and suffering, and to improve the quality of your life. In the attempt to attain these goals, I first and foremost provide a warm and empathic environment for managing problematic emotions such as fear, anger and sadness. Further, I use a cognitive-behavioral approach which is known for its rigour and effectiveness. I also incorporate concepts and strategies from other psychological orientations (e.g., solution-based therapy, humanist approach) in order to offer services that are adapted to individuals and their particular needs.||
-Cognitive-behavioral therapy (CBT) fosters the development of new skills and new ways of viewing and reacting to life situations. Interventions aim to help individuals resolve their current problems and prevent their reoccurrence. In a collaborative effort, my clients and I work to identify and understand their difficulties and to establish concrete objectives for therapy. We work together, seeking solutions to their problems and identifying concrete tools designed to help them face the difficulties they encounter in their lives.||
-            </Desciption>
-          </Section>
-          <Section>
-            <Title>My Training and Experience</Title>
-            <Desciption>
-I was awarded my doctorate degree from the University of Quebec at Montreal and my bachelor degree from Concordia University. Since the completion of my studies, I have pursued a number of complementary training workshops directly related to my clinical work.||
-During the first years of my career, I combined psychotherapy in the public and private sectors with consulting work in the organizational domain. As regards my clinical practice, I began my career at the Allan Memorial Institute (Royal Victoria Hospital) where I was involved in individual and group psychotherapy. Conjointly, I offered consultation services in the private sector at the Clinique de Psychologie Cognitivo-Comportementale situated in the North of Montreal.||
-Parallel to my clinical work, I spent several years involved as a consultant in the organizational domain. Specifically, I was coordinator for an evaluation centre whose goal was the selection of management personnel and the development of their managing skills. As coordinator, I was responsible for human resource management and training, evaluation and coaching of managers as well as the development of selection and coaching tools. ||
-My doctoral research focused mainly on work-related problems and work-family conciliation. I was involved in a number of studies investigating the topics of motivation, stress, burnout, depression and health.||
-Founder of the Clinique de Psychologie Urbania in Blainville, I now devote my time to my clinical practice, to the management of the clinic and to the pursuit of continuous, post-university training programs. I offer psychotherapeutic consultations and follow-up to adults of all ages. 
-            </Desciption>
-          </Section>
-           <Section>
-            <Title>Scientific Publications</Title>
-            <Desciption>
-        Blais, M.R., Brière, N., Lachance, L., Riddle, A., &amp; Vallerand, R.J. (1993). L'inventaire des motivations au travail de Blais. Revue Québécoise de Psychologie, 14, 185-215.||
-        Blais, M., Hess, U., Bourbonnais, J., Saintonge, J., &amp; Riddle, A. (1995). Mens sana ad corpus sanum: Un modèle de motivation-stress-santé appliqué au couple et au travail.  Santé Mentale au Québec, 20, 139-162.||
-        Poulin-Dubois, D., Graham, S.A., &amp; Riddle, A.S. (1995). Salient object parts and infants' acquisition of novel object words.  First Language, 15(45), 301-316.
-            </Desciption>
-         </Section>
-          <Section>
-            <Title>Other Services</Title>
-            <Desciption>
-              I am bilingual and can therefore offer meetings both in French and in English. Please note that I am presently not accepting mandates from tierce payers such as the CSST, SAAQ and EAPs for the time being.
-          </Desciption>
-          </Section>
-        </Page>
-    </Language>
-  </Member>
-   <Member>
-    <Name>Martine Drapeau</Name>
-    <PhoneNumber>514 995 6677</PhoneNumber>
-    <EmailAddress>martined@videotron.ca</EmailAddress>
-    <Photo>img/martine-drapeau.jpg</Photo>
-    <PageName>MartineDrapeau</PageName>
-    <Language name="Français" code="">
-      <Academic>Sexologue, M.A., psychothérapeute</Academic>
-      <Summary>Psychothérapeute et sexologue depuis plusieurs années, j'ai une expertise dans le traitement de problématiques liées à l'identité sexuelle, à l'ambivalence de l'orientation sexuelle et à la réponse sexuelle. La santé, le bien-être et l'épanouissement sexuels sont aussi au centre de mon champs d'intérêt. </Summary>
-      <Page>
-      <Section>
-            <Title>Ma pratique clinique</Title>
-            <Desciption>
-Je suis sexologue clinicienne et membre de l’Ordre professionnel des sexologues du Québec depuis sa création en 2013. J’ai un permis de psychothérapie émis par l’Ordre des psychologues 
-du Québec, depuis 2014. J’ai commencé ma pratique à titre de sexologue et psychothérapeute en 1997. J’enseigne également au département de sexologie à l’Université du Québec à Montréal 
-depuis 1999.||
-Au cours de ma carrière, je me suis formée dans différentes approches. Tout d’abord sexoanalyste, j’ai tenté de comprendre le problème présenté par l’individu en amenant à la 
-conscience les significations que ses difficultés pouvaient avoir. Cela m’apparaissant insuffisant, j’ai décidé de mieux comprendre les symptômes qui se manifestaient dans le corps par l’approche 
-sexocorporelle. Cette approche m’a permis de découvrir des moyens concrets pour aider la personne à élargir son potentiel humain. Il me manquait toutefois quelque chose que j’ai trouvé 
-en me formant à la psychothérapie du lien. Cette approche est devenue la base de ma pratique en psychothérapie. Elle intègre à la fois ma compréhension de l’inconscient, prend en compte les 
-réactions corporelles, et donne une appréciation de la relation que l’individu entretient d’abord avec lui-même, et avec son environnement.||
-La clientèle que je reçois en consultation sont des individus ou des couples qui éprouvent différents types de difficultés d’ordre psychologique (dépression, anxiété, pauvre estime de soi, 
-difficulté à s’exprimer, mal-être, deuil), sexuel (manque de désir sexuel, éjaculation précoce, difficulté érectile, anorgasmie, ambivalence de l’orientation sexuelle, sexualités atypiques) ou 
-relationnel (difficulté à communiquer, infidélité, difficulté d’adaptation au rôle de parent).
-            </Desciption>
-			</Section>
-			<Section>
-			<Title>Ma formation et mon expérience</Title>
-        <Desciption>
-Je me représente les difficultés pour lesquelles une personne vient me rencontrer, qu’elles soient d’ordre physique, psychologique, sexuel ou relationnel, comme des symptômes la limitant à être 
-pleinement libre avec elle-même, et par conséquent, libre dans sa relation avec l’autre (l'autre étant un membre de la famille, un ami, un partenaire « potentiel » ou son partenaire de vie). 
-Entreprendre une démarche thérapeutique avec moi consistera à explorer le sens que prennent ces symptômes, à écouter ce que cela a à dire à propos de soi, et à trouver ensemble les moyens 
-qui mettront fin aux symptômes et qui permettront d’accéder à une plus grande liberté intérieure.||
-La psychothérapie du lien est l’approche que je privilégie. Cette approche de type humaniste est multimodale. C’est-à-dire qu’elle intègre des compréhensions provenant de diverses théories, 
-comme les théories psychodynamiques, relationnelles, ainsi que les plus récentes données en neurosciences. C’est une approche flexible qui me permet de m’adapter à la personne ou au 
-couple qui est en démarche avec moi. L’approche se veut interactive où le client et le thérapeute participent à l’identification et la compréhension des difficultés, ainsi qu’à l’établissement des 
-objectifs qui seront poursuivis dans la démarche thérapeutique.  Cette étroite collaboration nous permettra de chercher ensemble de nouvelles avenues pour accéder à un plus grand bien-être et 
-une plus grande capacité à être en relation avec autrui.
-		</Desciption>
-        </Section>
-        <Section>
-          <Title>Approches</Title>
-          <Desciption>Je détiens un baccalauréat et une maîtrise en sexologie clinique de l’Université du Québec à Montréal. Je détiens également un baccalauréat en activités physiques de l’Université de 
-Sherbrooke, et une formation en massothérapie. Ces deux dernières formations m’ont permis de bien comprendre la mécanique du corps et ses manifestations psychosomatiques. ||
-Considérant l’ensemble de mon expérience, je peux dire que j’ai plus de 25 ans d’expérience en relation d’aide et plus de 30 ans d’expérience en enseignement. ||
-Au cours des 15 dernières années, je me suis intéressée à l’éthique professionnelle, et j’ai coécrit un livre sur la sexualité et l’éthique dans les professions du toucher. Cette expertise m’a donné 
-l’occasion d’être témoin expert pour un ordre professionnel, et m’a permis d’accéder à un poste de syndique adjointe à l’Ordre professionnel des sexologues du Québec. D’autres ordres 
-professionnels font aussi appel à mes services, à l’occasion.||
-Je me suis jointe à la Clinique de psychologie Urbania à Blainville en 2008 où une équipe multidisciplinaire œuvre au bien-être des individus de tous âges et aux couples.
-		</Desciption>
-        </Section>
-        <Section>
-          <Title>Publications</Title>
-          <Desciption>
-Drapeau, Martine (2013) Le toucher dans l’érotisme, dans Santé Sexuelle, hiver-printemps 2013-2014, numéro 12.||
-Houde, Nathalie, Drapeau, Martine (2011) Sexualité et éthique dans les professions du toucher. Comprendre la sexualité pour mieux soigner. Montréal : Éditions Modulo, 178 pages.		  
-		  </Desciption>
-        </Section>
-        <Section>
-          <Title>Autres services</Title>
-          <Desciption>Je suis bilingue et très à l'aise de vous offrir des rencontres en français ou en anglais. J’accepte les mandats de tiers payeurs tels que l’IVAC, la CSST et les PAE.
-		  </Desciption>
-        </Section>
-      </Page>
-    </Language>
-  </Member>
-  <Member>
-    <Name>Sylvie Larouche</Name>
-    <PhoneNumber>450 437 3301</PhoneNumber>
-    <EmailAddress>larouches@profilsante.qc.ca</EmailAddress>
-    <Photo>img/sylvie-larouche.jpg</Photo>
-    <WebSite>http://www.profilsante.qc.ca/</WebSite>
-    <PageName>SylvieLarouche</PageName>
-    <Language name="Français" code="">
-      <Academic>Diététiste, B.Sc </Academic>
-      <Summary>Diététiste en pratique privée depuis plus de 25 ans, Sylvie Larouche peux vous aider, entre autres, dans l'amaigrissement, le cholestérol, la diabète, la grossesse, l'obésité et la nutrition sportive. Elle offre des services aux particuliers ainsi qu'aux entreprises.</Summary>
-      <Page>
-      <Section>
-      <Desciption>Diététiste diplômée de l'Université de Montréal et membre de l'ordre professionnel des diététistes du Québec.  Je travaille en pratique privée depuis plus de 25 ans et je fais partie d’une équipe de diététistes spécialisées non seulement dans la perte de poids mais aussi dans tout ce qui est relié à la nutrition. Que ce soit pour rétablir un taux de cholestérol sanguin trop élevé, apprendre à gérer votre diabète, mieux comprendre vos problèmes gastro-intestinaux, ou tout simplement pour apprendre à bien manger, je suis là pour vous aider. Nous offrons aussi des services en entreprises.
-  </Desciption>
-      </Section>
-        <Section>
-          <Title>Services aux particuliers</Title>
-          <Desciption>
-  •	Alimentation chez l'adolescent, l'adulte, la femme ménopausée, le sportif|
-  •	Allergies alimentaires|
-  •	Hypertension Artérielle|
-  •	Diverticulose, colite ulcéreuse, colon irritable, maladie coeliaque, constipation, diarrhée|
-  •	Hypoglycémie, Anémie|
-  •	Diabète, pré-diabète, intolérance au glucose, diabète gestationnel
-  </Desciption>
-        </Section>
-       <Section>
-          <Title>Services aux entreprises</Title>
-          <Desciption>
-  •	Midi-conférences : l’Assiette santé démystifiée, l’étiquetage nutritionnel, les alicaments ou super aliments (aliments enrichis d’oméga-3, de probiotiques…) les bons gras et les mauvais gras… etc.…|
-  •	Calculs de valeurs nutritives (traiteurs, restaurants, livres de recettes)
-  </Desciption>
-        </Section>
-      </Page>
-    </Language>
-  </Member>
+    <Member>
+        <Name>Andrea Riddle</Name>
+        <PhoneNumber>450 508 4778</PhoneNumber>
+        <EmailAddress>info@psychologie-urbania.com</EmailAddress>
+        <Photo>img/andrea-riddle.jpg</Photo>
+        <PageName>AndreaRiddle</PageName>
+        <Language name="Français" code="">
+            <Academic>Psychologue, Ph.D.</Academic>
+            <Summary>Dre Andrea Riddle est psychologue clinicienne et fondatrice de la Clinique de
+                Psychologie Urbania. Depuis plus de 20 ans, elle offre des services de
+                psychothérapie d'orientation cognitive-comportementale à une clientèle adulte.</Summary>
+            <Page>
+                <Section>
+                    <Title>Ma pratique clinique</Title>
+                    <Description>
+                        <p>Je suis psychologue clinicienne et membre de l’Ordre des psychologues du
+                            Québec depuis 2002. Je pratique, depuis cette date, la psychothérapie
+                            d’orientation cognitive-comportementale auprès des adultes.</p>
+                        <p>Au fil de ma carrière, j’ai développé une expertise dans le traitement
+                            des troubles d'anxiété. J’interviens tout particulièrement auprès des
+                            personnes souffrant de phobies, de panique, d’angoisse et d’anxiété,
+                            d’inquiétudes, de comportements obsessifs-compulsifs et de réactions
+                            post-traumatiques.</p>
+                        <p>On retrouve aussi parmi ma clientèle des individus qui souffrent de la
+                            dépression et qui vivent un deuil suite à une séparation, un décès ou
+                            autres pertes.</p>
+                        <p>Ma formation et mon expérience m’amènent également à traiter diverses
+                            problématiques liées au travail notamment, la gestion du stress,
+                            l'épuisement professionnel, les troubles d'adaptation ainsi que le
+                            surmenage et la conciliation travail-famille.</p>
+                        <p>J'interviens aussi auprès des personnes ayant des problèmes
+                            relationnelles (amour, travail, amitié) et des difficultés à gérer leurs
+                            émotions. Les clients me consultent régulièrement pour améliorer leurs
+                            habiletés d’affirmation et leur connaissance de soi ainsi que pour
+                            augmenter leur confiance et leur estime.</p>
+                    </Description>
+                </Section>
+                <Section>
+                    <Title>Mon approche</Title>
+                    <Description>
+                        <p>Mon objectif en tant que psychologue est de vous aider à faire face plus
+                            efficacement aux difficultés de votre vie, de réduire la détresse que
+                            vous ressentez et de vous aider à obtenir une meilleure qualité de vie.
+                            Pour se faire, j’utilise l’approche cognitive-comportementale qui est
+                            reconnue pour sa rigueur et son efficacité. Je me réfère aussi aux
+                            concepts et aux stratégies d’autres orientations (ex : humaniste,
+                            thérapie brève) afin d’offrir des services adaptés aux personnes et à
+                            leurs difficultés.</p>
+                        <p>La thérapie cognitive-comportementale (TCC) favorise le développement de
+                            nouvelles habiletés, de nouvelles façons de voir et de réagir. Les
+                            interventions visent à vous aider à régler vos problèmes actuels et à
+                            prévenir leur réapparition. Mon style est interactif et nous travaillons
+                            ensemble afin d’identifier et de comprendre vos difficultés et d’établir
+                            des objectifs concrets de la thérapie. En collaboration étroite, nous
+                            cherchons à découvrir les solutions à vos problèmes et à favoriser
+                            l’acquisition d’outils concrets pour vous aider à faire face de manière
+                            efficace aux difficultés que vous rencontrerez dans votre vie.</p>
+                    </Description>
+                </Section>
+                <Section>
+                    <Title>Ma formation et expérience</Title>
+                    <Description>
+                        <p>Je détiens un doctorat en psychologie de l’Université du Québec à
+                            Montréal et un baccalauréat de l’Université Concordia. Depuis
+                            l’obtention de mes diplômes universitaires, j’ai suivi diverses
+                            formations complémentaires en lien direct avec ma pratique privée.</p>
+                        <p>Lors des premières années de ma carrière, j’ai conjugué la psychothérapie
+                            dans les secteurs publique et privé et la consultation en milieu
+                            organisationnel. En clinique, j’ai débuté ma carrière à l’Institut Allan
+                            Mémorial (l’Hôpital Royal Victoria) où je me suis impliquée dans des
+                            programmes de psychothérapie individuelle et de groupe. Conjointement,
+                            j’ai travaillé en cabinet privé à la Clinique de psychologie
+                            cognitivo-comportementale situé dans le nord de Montréal.</p>
+                        <p>Parallèlement à mon travail clinique, je me suis impliquée à titre de
+                            consultante en milieu organisationnel. Plus particulièrement, j’ai été
+                            coordonnatrice pendant des années d’un centre d’évaluation qui avait
+                            pour but la sélection de gestionnaires et le développement de leurs
+                            habiletés de gestion en milieu bancaire. Dans le cadre de ce travail,
+                            j’ai assumé des fonctions de gestion de personnel, d’évaluation et de
+                            coaching de gestionnaires, et de développement d’outils d’évaluation et
+                            de sélection.</p>
+                        <p>Mes recherches doctorales ont portées majoritairement sur des
+                            problématiques liées au travail et à la conciliation travail-famille.
+                            J’ai collaboré à plusieurs études sur la motivation, l’épuisement (le
+                            burnout), le stress et la santé au travail.</p>
+                        <p>Fondatrice de la Clinique de psychologie Urbania à Blainville, je me
+                            consacre aujourd’hui à temps plein à la consultation en cabinet privée,
+                            à la gestion de la clinique et à la poursuite de formations continues.
+                            J’offre des services de consultation et de suivi psychothérapeutique aux
+                            jeunes adultes et aux adultes.</p>
+                    </Description>
+                </Section>
+                <Section>
+                    <Title>Publications scientifiques</Title>
+                    <Description>
+                        <p>Blais, M.R., Brière, N., Lachance, L., Riddle, A., &amp; Vallerand, R.J.
+                            (1993). L'inventaire des motivations au travail de Blais. Revue
+                            Québécoise de Psychologie, 14, 185-215.</p>
+                        <p>Blais, M., Hess, U., Bourbonnais, J., Saintonge, J., &amp; Riddle, A.
+                            (1995). Mens sana ad corpus sanum: Un modèle de motivation-stress-santé
+                            appliqué au couple et au travail. Santé Mentale au Québec, 20, 139-162.</p>
+                        <p>Poulin-Dubois, D., Graham, S.A., &amp; Riddle, A.S. (1995). Salient
+                            object parts and infants' acquisition of novel object words. First
+                            Language, 15(45), 301-316.</p>
+                    </Description>
+                </Section>
+                <Section>
+                    <Title>Autres services</Title>
+                    <Description>
+                        <p>Je suis bilingue et très à l'aise de vous offrir des rencontres en
+                            français ou en anglais. Veuillez noter que je n'accepte pas présentement
+                            de mandats de tiers-payeurs tels que la CSST, la SAAQ, et les PAEs pour
+                            un certain temps.</p>
+                    </Description>
+                </Section>
+            </Page>
+        </Language>
+        <Language name="English" code="en">
+            <Academic>Psychologist, Ph.D.</Academic>
+            <Page>
+                <Section>
+                    <Title>My Clinical Practice</Title>
+                    <Description>
+                        <p>Clinical psychologist and member of the Order of Psychologists of Quebec
+                            since 2002, I provide psychotherapy consultation services to adults
+                            using mainly a cognitive-behavioral approach. Over the course of my
+                            career, I have developed an expertise in the treatment of anxiety
+                            disorders. I work mainly with individuals suffering from phobias, panic,
+                            generalized anxiety and stress, worry and ruminations,
+                            obsessive-compulsive behaviors and post-traumatic reactions.</p>
+                        <p>A large part of my clientele also includes individuals who suffer from
+                            depression and grief following a separation, death or other loss. My
+                            training and experience through the years has led me to treat a number
+                            of work-related difficulties as well, most notably, work stress,
+                            professional burnout, adjustment disorder as well work-family conflict
+                            and role overload.</p>
+                        <p>Finally, I also help individuals who are experiencing relationship
+                            difficulties (couple, work, and friends) and problems managing their
+                            emotions. Clients consult me regularly to help them improve their
+                            assertiveness skills and enhance their self-knowledge as well as to
+                            increase their confidence and self-esteem.</p>
+                    </Description>
+                </Section>
+                <Section>
+                    <Title>My Approach</Title>
+                    <Description>
+                        <p>As a psychologist, my goal is to help you cope more effectively with the
+                            difficulties you are currently facing, to reduce your distress and
+                            suffering, and to improve the quality of your life. In the attempt to
+                            attain these goals, I first and foremost provide a warm and empathic
+                            environment for managing problematic emotions such as fear, anger and
+                            sadness. Further, I use a cognitive-behavioral approach which is known
+                            for its rigour and effectiveness. I also incorporate concepts and
+                            strategies from other psychological orientations (e.g., solution-based
+                            therapy, humanist approach) in order to offer services that are adapted
+                            to individuals and their particular needs.</p>
+                        <p>Cognitive-behavioral therapy (CBT) fosters the development of new skills
+                            and new ways of viewing and reacting to life situations. Interventions
+                            aim to help individuals resolve their current problems and prevent their
+                            reoccurrence. In a collaborative effort, my clients and I work to
+                            identify and understand their difficulties and to establish concrete
+                            objectives for therapy. We work together, seeking solutions to their
+                            problems and identifying concrete tools designed to help them face the
+                            difficulties they encounter in their lives.</p>
+                    </Description>
+                </Section>
+                <Section>
+                    <Title>My Training and Experience</Title>
+                    <Description>
+                        <p>I was awarded my doctorate degree from the University of Quebec at
+                            Montreal and my bachelor degree from Concordia University. Since the
+                            completion of my studies, I have pursued a number of complementary
+                            training workshops directly related to my clinical work.</p>
+                        <p>During the first years of my career, I combined psychotherapy in the
+                            public and private sectors with consulting work in the organizational
+                            domain. As regards my clinical practice, I began my career at the Allan
+                            Memorial Institute (Royal Victoria Hospital) where I was involved in
+                            individual and group psychotherapy. Conjointly, I offered consultation
+                            services in the private sector at the Clinique de Psychologie
+                            Cognitivo-Comportementale situated in the North of Montreal.</p>
+                        <p>Parallel to my clinical work, I spent several years involved as a
+                            consultant in the organizational domain. Specifically, I was coordinator
+                            for an evaluation centre whose goal was the selection of management
+                            personnel and the development of their managing skills. As coordinator,
+                            I was responsible for human resource management and training, evaluation
+                            and coaching of managers as well as the development of selection and
+                            coaching tools. My doctoral research focused mainly on work-related
+                            problems and work-family conciliation. I was involved in a number of
+                            studies investigating the topics of motivation, stress, burnout,
+                            depression and health.</p>
+                        <p>Founder of the Clinique de Psychologie Urbania in Blainville, I now
+                            devote my time to my clinical practice, to the management of the clinic
+                            and to the pursuit of continuous, post-university training programs. I
+                            offer psychotherapeutic consultations and follow-up to adults of all
+                            ages.</p>
+                    </Description>
+                </Section>
+                <Section>
+                    <Title>Scientific Publications</Title>
+                    <Description>
+                        <p>Blais, M.R., Brière, N., Lachance, L., Riddle, A., &amp; Vallerand, R.J.
+                            (1993). L'inventaire des motivations au travail de Blais. Revue
+                            Québécoise de Psychologie, 14, 185-215.</p>
+                        <p>Blais, M., Hess, U., Bourbonnais, J., Saintonge, J., &amp; Riddle, A.
+                            (1995). Mens sana ad corpus sanum: Un modèle de motivation-stress-santé
+                            appliqué au couple et au travail. Santé Mentale au Québec, 20, 139-162.</p>
+                        <p>Poulin-Dubois, D., Graham, S.A., &amp; Riddle, A.S. (1995). Salient
+                            object parts and infants' acquisition of novel object words. First
+                            Language, 15(45), 301-316.</p>
+                    </Description>
+                </Section>
+                <Section>
+                    <Title>Other Services</Title>
+                    <Description>
+                        <p>I am bilingual and can therefore offer meetings both in French and in
+                            English. Please note that I am presently not accepting mandates from
+                            tierce payers such as the CSST, SAAQ and EAPs for the time being.</p>
+                    </Description>
+                </Section>
+            </Page>
+        </Language>
+    </Member>
+    <Member>
+        <Name>Martine Drapeau</Name>
+        <PhoneNumber>514 995 6677</PhoneNumber>
+        <EmailAddress>martined@videotron.ca</EmailAddress>
+        <Photo>img/martine-drapeau.jpg</Photo>
+        <PageName>MartineDrapeau</PageName>
+        <Language name="Français" code="">
+            <Academic>Sexologue, M.A., psychothérapeute</Academic>
+            <Summary>Psychothérapeute et sexologue depuis plusieurs années, j'ai une expertise dans
+                le traitement de problématiques liées à l'identité sexuelle, à l'ambivalence de
+                l'orientation sexuelle et à la réponse sexuelle. La santé, le bien-être et
+                l'épanouissement sexuels sont aussi au centre de mon champs d'intérêt. </Summary>
+            <Page>
+                <Section>
+                    <Title>Ma pratique clinique</Title>
+                    <Description>
+                        <p>Je suis sexologue clinicienne et membre de l’Ordre professionnel des
+                            sexologues du Québec depuis sa création en 2013. J’ai un permis de
+                            psychothérapie émis par l’Ordre des psychologues
+                            du Québec, depuis 2014. J’ai commencé ma pratique à titre de sexologue
+                            et psychothérapeute en 1997. J’enseigne également au département de
+                            sexologie à l’Université du Québec à Montréal
+                            depuis 1999.</p>
+                        <p>Au cours de ma carrière, je me suis formée dans différentes approches.
+                            Tout d’abord sexoanalyste, j’ai tenté de comprendre le problème présenté
+                            par l’individu en amenant à la
+                            conscience les significations que ses difficultés pouvaient avoir. Cela
+                            m’apparaissant insuffisant, j’ai décidé de mieux comprendre les
+                            symptômes qui se manifestaient dans le corps par l’approche
+                            sexocorporelle. Cette approche m’a permis de découvrir des moyens
+                            concrets pour aider la personne à élargir son potentiel humain. Il me
+                            manquait toutefois quelque chose que j’ai trouvé
+                            en me formant à la psychothérapie du lien. Cette approche est devenue la
+                            base de ma pratique en psychothérapie. Elle intègre à la fois ma
+                            compréhension de l’inconscient, prend en compte les
+                            réactions corporelles, et donne une appréciation de la relation que
+                            l’individu entretient d’abord avec lui-même, et avec son environnement.</p>
+                        <p>La clientèle que je reçois en consultation sont des individus ou des
+                            couples qui éprouvent différents types de difficultés d’ordre
+                            psychologique (dépression, anxiété, pauvre estime de soi,
+                            difficulté à s’exprimer, mal-être, deuil), sexuel (manque de désir
+                            sexuel, éjaculation précoce, difficulté érectile, anorgasmie,
+                            ambivalence de l’orientation sexuelle, sexualités atypiques) ou
+                            relationnel (difficulté à communiquer, infidélité, difficulté
+                            d’adaptation au rôle de parent).</p>
+                    </Description>
+                </Section>
+                <Section>
+                    <Title>Ma formation et mon expérience</Title>
+                    <Description>
+                        <p>Je me représente les difficultés pour lesquelles une personne vient me
+                            rencontrer, qu’elles soient d’ordre physique, psychologique, sexuel ou
+                            relationnel, comme des symptômes la limitant à être
+                            pleinement libre avec elle-même, et par conséquent, libre dans sa
+                            relation avec l’autre (l'autre étant un membre de la famille, un ami, un
+                            partenaire « potentiel » ou son partenaire de vie).
+                            Entreprendre une démarche thérapeutique avec moi consistera à explorer
+                            le sens que prennent ces symptômes, à écouter ce que cela a à dire à
+                            propos de soi, et à trouver ensemble les moyens
+                            qui mettront fin aux symptômes et qui permettront d’accéder à une plus
+                            grande liberté intérieure.</p>
+                        <p>La psychothérapie du lien est l’approche que je privilégie. Cette
+                            approche de type humaniste est multimodale. C’est-à-dire qu’elle intègre
+                            des compréhensions provenant de diverses théories,
+                            comme les théories psychodynamiques, relationnelles, ainsi que les plus
+                            récentes données en neurosciences. C’est une approche flexible qui me
+                            permet de m’adapter à la personne ou au
+                            couple qui est en démarche avec moi. L’approche se veut interactive où
+                            le client et le thérapeute participent à l’identification et la
+                            compréhension des difficultés, ainsi qu’à l’établissement des
+                            objectifs qui seront poursuivis dans la démarche thérapeutique. Cette
+                            étroite collaboration nous permettra de chercher ensemble de nouvelles
+                            avenues pour accéder à un plus grand bien-être et
+                            une plus grande capacité à être en relation avec autrui.</p>
+                    </Description>
+                </Section>
+                <Section>
+                    <Title>Approches</Title>
+                    <Description>
+                        <p>Je détiens un baccalauréat et une maîtrise en sexologie clinique de
+                            l’Université du Québec à Montréal. Je détiens également un baccalauréat
+                            en activités physiques de l’Université de
+                            Sherbrooke, et une formation en massothérapie. Ces deux dernières
+                            formations m’ont permis de bien comprendre la mécanique du corps et ses
+                            manifestations psychosomatiques. Considérant l’ensemble de mon
+                            expérience, je peux dire que j’ai plus de 25 ans d’expérience en
+                            relation d’aide et plus de 30 ans d’expérience en enseignement. Au cours
+                            des 15 dernières années, je me suis intéressée à l’éthique
+                            professionnelle, et j’ai coécrit un livre sur la sexualité et l’éthique
+                            dans les professions du toucher. Cette expertise m’a donné
+                            l’occasion d’être témoin expert pour un ordre professionnel, et m’a
+                            permis d’accéder à un poste de syndique adjointe à l’Ordre professionnel
+                            des sexologues du Québec. D’autres ordres
+                            professionnels font aussi appel à mes services, à l’occasion.</p>
+                        <p>Je me suis jointe à la Clinique de psychologie Urbania à Blainville en
+                            2008 où une équipe multidisciplinaire œuvre au bien-être des individus
+                            de tous âges et aux couples.</p>
+                    </Description>
+                </Section>
+                <Section>
+                    <Title>Publications</Title>
+                    <Description>
+                        <p>Drapeau, Martine (2013) Le toucher dans l’érotisme, dans Santé Sexuelle,
+                            hiver-printemps 2013-2014, numéro 12.</p>
+                        <p>Houde, Nathalie, Drapeau, Martine (2011) Sexualité et éthique dans les
+                            professions du toucher. Comprendre la sexualité pour mieux soigner.
+                            Montréal : Éditions Modulo, 178 pages.</p>
+                    </Description>
+                </Section>
+                <Section>
+                    <Title>Autres services</Title>
+                    <Description>
+                        <p>Je suis bilingue et très à l'aise de vous offrir des rencontres en
+                            français ou en anglais. J’accepte les mandats de tiers payeurs tels que
+                            l’IVAC, la CSST et les PAE.</p>
+                    </Description>
+                </Section>
+            </Page>
+        </Language>
+    </Member>
+    <Member>
+        <Name>Sylvie Larouche</Name>
+        <PhoneNumber>450 437 3301</PhoneNumber>
+        <EmailAddress>larouches@profilsante.qc.ca</EmailAddress>
+        <Photo>img/sylvie-larouche.jpg</Photo>
+        <WebSite>http://www.profilsante.qc.ca/</WebSite>
+        <PageName>SylvieLarouche</PageName>
+        <Language name="Français" code="">
+            <Academic>Diététiste, B.Sc </Academic>
+            <Summary>Diététiste en pratique privée depuis plus de 25 ans, Sylvie Larouche peux vous
+                aider, entre autres, dans l'amaigrissement, le cholestérol, la diabète, la
+                grossesse, l'obésité et la nutrition sportive. Elle offre des services aux
+                particuliers ainsi qu'aux entreprises.</Summary>
+            <Page>
+                <Section>
+                    <Description>
+                        <p>Diététiste diplômée de l'Université de Montréal et membre de l'ordre
+                            professionnel des diététistes du Québec. Je travaille en pratique privée
+                            depuis plus de 25 ans et je fais partie d’une équipe de diététistes
+                            spécialisées non seulement dans la perte de poids mais aussi dans tout
+                            ce qui est relié à la nutrition. Que ce soit pour rétablir un taux de
+                            cholestérol sanguin trop élevé, apprendre à gérer votre diabète, mieux
+                            comprendre vos problèmes gastro-intestinaux, ou tout simplement pour
+                            apprendre à bien manger, je suis là pour vous aider. Nous offrons aussi
+                            des services en entreprises.</p>
+                    </Description>
+                </Section>
+                <Section>
+                    <Title>Services aux particuliers</Title>
+                    <Description>
+                        <p>
+                            <ul>
+                                <li>Alimentation chez l'adolescent, l'adulte, la femme ménopausée,
+                                    le sportif</li>
+                                <li>Allergies alimentaires</li>
+                                <li>Hypertension Artérielle</li>
+                                <li>Diverticulose, colite ulcéreuse, colon irritable, maladie
+                                    coeliaque, constipation, diarrhée</li>
+                                <li>Hypoglycémie, Anémie</li>
+                                <li>Diabète, pré-diabète, intolérance au glucose, diabète
+                                    gestationnel</li>
+                            </ul>
+                        </p>
+                    </Description>
+                </Section>
+                <Section>
+                    <Title>Services aux entreprises</Title>
+                    <Description>
+                        <p>
+                            <ul>
+                                <li>Midi-conférences: l’Assiette santé démystifiée, l’étiquetage
+                                    nutritionnel, les alicaments ou super aliments (aliments
+                                    enrichis d’oméga-3, de probiotiques…) les bons gras et les
+                                    mauvais gras, etc…</li>
+                                <li>Calculs de valeurs nutritives (traiteurs, restaurants, livres de
+                                    recettes)</li>
+                            </ul>
+                        </p>
+                    </Description>
+                </Section>
+            </Page>
+        </Language>
+    </Member>
     <Member>
         <Name>Sylvie Lemire</Name>
         <PhoneNumber>514 240 7151</PhoneNumber>
@@ -207,28 +411,59 @@ Houde, Nathalie, Drapeau, Martine (2011) Sexualité et éthique dans les profess
         <Photo>img/sylvie-lemire.jpg</Photo>
         <PageName>SylvieLemire</PageName>
         <Language name="Français" code="">
-            <Academic>Psychoéducatrice,  PS.ÉD., psychothérapeute</Academic>
-            <Summary>Sylvie Lemire est psychoéducatrice et psychothérapeute. Diplômée depuis 1993, elle a développé une expertise pour aider les personnes de tous âges à trouver leur propre motivation aux changements.</Summary>
+            <Academic>Psychoéducatrice, PS.ÉD., psychothérapeute</Academic>
+            <Summary>Sylvie Lemire est psychoéducatrice et psychothérapeute. Diplômée depuis 1993,
+                elle a développé une expertise pour aider les personnes de tous âges à trouver leur
+                propre motivation aux changements.</Summary>
             <Page>
                 <Section>
-                    <Desciption>
-                        La psychoéducation c’est pour tous!||
-                        Sylvie Lemire est psychoéducatrice et membre de l’Ordre des psychoéducateurs et des psychoéducatrices du Québec. Elle est également psychothérapeute, ayant reçu son permis de l'Ordre des psychologues du Québec en 2015. Diplômée depuis 1993, elle a développé une expertise pour aider les personnes de tous âges à trouver leur propre motivation aux changements. Elle se distingue tout particulièrement par sa personnalité simple, joviale et conviviale qui sait mettre sa clientèle en confiance.||
-                        Pour ce faire, elle s’est intéressée spécialement aux approches cognitivo-comportementales et à la programmation neurolinguistique.||
-                        Elle a développé une expertise pour offrir des services auprès des enfants, des adolescents et des adultes vivant avec des problèmes émotionnels. Elle intervient, entre autres, auprès des personnes aux prises avec de l’anxiété, des problèmes relationnels, des difficultés d’adaptations, un manque de motivation, de l’embonpoint, de l’impulsivité, des abus de toutes sortes, des difficultés comportementales, familiales, de couple, d’acceptation de soi et d’estime de soi.||
-                        Elle a également développé une expertise auprès de la clientèle ayant une déficience intellectuelle et auprès des personnes vivant avec un trouble envahissant du développement.||
-                        Avec la personne, elle évalue et explore les motifs qui l’ont amenée à vivre des situations difficiles pour permettre l’identification de ses besoins.||
-                        En collaboration avec la personne, elle élabore un plan d’action lui permettant de cibler une nouvelle direction, en prenant soin de trouver les moyens adaptés à ses besoins.||
-                        Elle assure le suivi du plan d’action en prenant soin des conditions du milieu de vie de la personne, favorisant ainsi son adaptation. Son approche globale de la situation permet de solutionner la problématique efficacement.||
-                        Mme Sylvie Lemire accorde une importance toute particulière à la famille. Créative et enthousiaste, elle saura vous amener à trouver une solution qui vous ressemblera.
-                    </Desciption>
+                    <Description>
+                        <p>La psychoéducation c’est pour tous!</p>
+                        <p>Sylvie Lemire est psychoéducatrice et membre de l’Ordre des
+                            psychoéducateurs et des psychoéducatrices du Québec. Elle est également
+                            psychothérapeute, ayant reçu son permis de l'Ordre des psychologues du
+                            Québec en 2015. Diplômée depuis 1993, elle a développé une expertise
+                            pour aider les personnes de tous âges à trouver leur propre motivation
+                            aux changements. Elle se distingue tout particulièrement par sa
+                            personnalité simple, joviale et conviviale qui sait mettre sa clientèle
+                            en confiance.</p>
+                        <p>Pour ce faire, elle s’est intéressée spécialement aux approches
+                            cognitivo-comportementales et à la programmation neurolinguistique.</p>
+                        <p>Elle a développé une expertise pour offrir des services auprès des
+                            enfants, des adolescents et des adultes vivant avec des problèmes
+                            émotionnels. Elle intervient, entre autres, auprès des personnes aux
+                            prises avec de l’anxiété, des problèmes relationnels, des difficultés
+                            d’adaptations, un manque de motivation, de l’embonpoint, de
+                            l’impulsivité, des abus de toutes sortes, des difficultés
+                            comportementales, familiales, de couple, d’acceptation de soi et
+                            d’estime de soi.</p>
+                        <p>Elle a également développé une expertise auprès de la clientèle ayant une
+                            déficience intellectuelle et auprès des personnes vivant avec un trouble
+                            envahissant du développement.</p>
+                        <p>Avec la personne, elle évalue et explore les motifs qui l’ont amenée à
+                            vivre des situations difficiles pour permettre l’identification de ses
+                            besoins.</p>
+                        <p>En collaboration avec la personne, elle élabore un plan d’action lui
+                            permettant de cibler une nouvelle direction, en prenant soin de trouver
+                            les moyens adaptés à ses besoins.</p>
+                        <p>Elle assure le suivi du plan d’action en prenant soin des conditions du
+                            milieu de vie de la personne, favorisant ainsi son adaptation. Son
+                            approche globale de la situation permet de solutionner la problématique
+                            efficacement.</p>
+                        <p>Mme Sylvie Lemire accorde une importance toute particulière à la famille.
+                            Créative et enthousiaste, elle saura vous amener à trouver une solution
+                            qui vous ressemblera.</p>
+                    </Description>
                 </Section>
                 <Section>
                     <Title>Autres services</Title>
-                    <Desciption>
-                        Dans le cadre de son travail, Mme Lemire peut se déplacer à domicile ou dans les différents milieux de vie de la personne pour observer et comprendre son vécu.||
-                        Les clients faisant affaires avec des programmes d'aide aux employés (PAE) sont les bienvenues!
-                    </Desciption>
+                    <Description>
+                        <p>Dans le cadre de son travail, Mme Lemire peut se déplacer à domicile ou
+                            dans les différents milieux de vie de la personne pour observer et
+                            comprendre son vécu.</p>
+                        <p>Les clients faisant affaires avec des programmes d'aide aux employés
+                            (PAE) sont les bienvenues!</p>
+                    </Description>
                 </Section>
             </Page>
         </Language>
@@ -241,15 +476,28 @@ Houde, Nathalie, Drapeau, Martine (2011) Sexualité et éthique dans les profess
         <PageName>JeanFrancoisFecteau</PageName>
         <Language name="Français" code="">
             <Academic>Travailleur sociale, MSS, psychothérapeute</Academic>
-            <Summary>Clinicien en travail social et psychothérapeute depuis 25 ans, je rencontre des individus et des couples dans le cadre de ma pratique. </Summary>
+            <Summary>Clinicien en travail social et psychothérapeute depuis 25 ans, je rencontre des
+                individus et des couples dans le cadre de ma pratique. </Summary>
             <Page>
                 <Section>
                     <Title>
                     </Title>
-                    <Desciption>Clinicien en travail social et psychothérapeute depuis 25 ans, je rencontre des individus et des couples dans le cadre de ma pratique. J’offre des services de psychothérapie auprès d’adultes, d’enfants et d’adolescents.||
-                        Je travaille principalement au niveau de la santé mentale avec des gens qui souffrent d’anxiété, de dépression ou de stress post-traumatique mais il m’arrive aussi de rencontrer des clients qui ont des difficultés conjugales, familiales ou qui vivent une remise en question.||
-                        Depuis 2004, j’ai développé une expertise en hypnose clinique. À cet effet, je rencontre des gens qui souffrent de douleurs chroniques ou d’autres problématiques. J’utilise principalement les techniques d’hypnose conversationnelle, dans un contexte de psychothérapie, afin de favoriser les changements à apporter chez la clientèle, lorsque l’utilisation de l’hypnose s’y prête.
-                    </Desciption>
+                    <Description>
+                        <p>Clinicien en travail social et psychothérapeute depuis 25 ans, je
+                            rencontre des individus et des couples dans le cadre de ma pratique.
+                            J’offre des services de psychothérapie auprès d’adultes, d’enfants et
+                            d’adolescents.</p>
+                        <p>Je travaille principalement au niveau de la santé mentale avec des gens
+                            qui souffrent d’anxiété, de dépression ou de stress post-traumatique
+                            mais il m’arrive aussi de rencontrer des clients qui ont des difficultés
+                            conjugales, familiales ou qui vivent une remise en question.</p>
+                        <p>Depuis 2004, j’ai développé une expertise en hypnose clinique. À cet
+                            effet, je rencontre des gens qui souffrent de douleurs chroniques ou
+                            d’autres problématiques. J’utilise principalement les techniques
+                            d’hypnose conversationnelle, dans un contexte de psychothérapie, afin de
+                            favoriser les changements à apporter chez la clientèle, lorsque
+                            l’utilisation de l’hypnose s’y prête.</p>
+                    </Description>
                 </Section>
             </Page>
         </Language>
@@ -262,188 +510,409 @@ Houde, Nathalie, Drapeau, Martine (2011) Sexualité et éthique dans les profess
         <PageName>MarieEveRobillard</PageName>
         <Language name="Français" code="">
             <Academic>Psychologue, D.Ps</Academic>
-            <Summary>Psychologue, Madame Robillard travaille avec les adultes, adolescents et enfants.</Summary>
+            <Summary>Psychologue, Madame Robillard travaille avec les adultes, adolescents et
+                enfants.</Summary>
             <Page>
                 <Section>
                     <Title>Services</Title>
-                    <Desciption>
-                        Marie-Ève Robillard détient un doctorat en psychologie de l’Université de Sherbrooke. Sa formation spécialisée auprès des enfants et des adolescents ainsi que ses diverses expériences dans les milieux universitaire, communautaire, scolaire et privé lui ont permis de se familiariser avec une diversité de problématiques (p.ex. TDAH, anxiété, trouble d’opposition, conflit de loyauté, difficultés relationnelles et de comportements). Elle a complété sa formation clinique en 2019 et termine actuellement sa thèse doctorale, portant sur la compréhension des liens entre les facteurs scolaires et les symptômes dépressifs chez les enfants à haut potentiel intellectuel (HPI/douance). Son offre de services inclut également l’évaluation cognitive et affective des jeunes entre 5 et 17 ans.||
-                        Entre 2017 et 2019, Marie-Ève a effectué ses internats en Centre jeunesse auprès d’une clientèle particulièrement vulnérable (P.ex. Trouble de l’attachement, Trauma complexe développemental, trouble de la personnalité) ainsi qu’au CISSS dans le programme santé mentale jeunesse et en pédopsychiatrie.||
-                        Depuis 2020, elle travaille également avec une clientèle adulte. Son travail se base sur les approches psychodynamique et humaniste tout en intégrant des techniques se rapportant à la thérapie cognitivo-comportementale de 2ième et 3ième vague. Elle est familière, entre autres, avec des problématiques tels que le trouble de l’adaptation, le deuil, la dépression, l’épuisement professionnel, les difficultés relationnelles, l’anxiété ainsi que les enjeux d’estime de soi et de confiance en soi.||
-                        Elle accorde une importance particulière à la qualité de la relation thérapeutique et propose des interventions en accord avec les besoins et les attentes du client.                      </Desciption>
+                    <Description>
+                        <p>Marie-Ève Robillard détient un doctorat en psychologie de l’Université de
+                            Sherbrooke. Sa formation spécialisée auprès des enfants et des
+                            adolescents ainsi que ses diverses expériences dans les milieux
+                            universitaire, communautaire, scolaire et privé lui ont permis de se
+                            familiariser avec une diversité de problématiques (p.ex. TDAH, anxiété,
+                            trouble d’opposition, conflit de loyauté, difficultés relationnelles et
+                            de comportements). Elle a complété sa formation clinique en 2019 et
+                            termine actuellement sa thèse doctorale, portant sur la compréhension
+                            des liens entre les facteurs scolaires et les symptômes dépressifs chez
+                            les enfants à haut potentiel intellectuel (HPI/douance). Son offre de
+                            services inclut également l’évaluation cognitive et affective des jeunes
+                            entre 5 et 17 ans.</p>
+                        <p>Entre 2017 et 2019, Marie-Ève a effectué ses internats en Centre jeunesse
+                            auprès d’une clientèle particulièrement vulnérable (P.ex. Trouble de
+                            l’attachement, Trauma complexe développemental, trouble de la
+                            personnalité) ainsi qu’au CISSS dans le programme santé mentale jeunesse
+                            et en pédopsychiatrie.</p>
+                        <p>Depuis 2020, elle travaille également avec une clientèle adulte. Son
+                            travail se base sur les approches psychodynamique et humaniste tout en
+                            intégrant des techniques se rapportant à la thérapie
+                            cognitivo-comportementale de 2ième et 3ième vague. Elle est familière,
+                            entre autres, avec des problématiques tels que le trouble de
+                            l’adaptation, le deuil, la dépression, l’épuisement professionnel, les
+                            difficultés relationnelles, l’anxiété ainsi que les enjeux d’estime de
+                            soi et de confiance en soi.</p>
+                        <p>Elle accorde une importance particulière à la qualité de la relation
+                            thérapeutique et propose des interventions en accord avec les besoins et
+                            les attentes du client.</p>
+                    </Description>
                 </Section>
             </Page>
         </Language>
-</Member>
+    </Member>
     <Member>
-    <Name>Isabelle Verret</Name>
-    <PhoneNumber>514-772-0792</PhoneNumber>
-    <EmailAddress>isabelleverret@hotmail.com</EmailAddress>
-    <Photo>img/isabelle-verret.jpg</Photo>
-    <PageName>IsabelleVerret</PageName>
-    <Language name="Français" code="">
-      <Academic>Psychologue, M.Ps, psychothérapeute</Academic>
-      <Summary>Psychologue depuis 2002, Isabelle Verret intervient auprès des enfants, adolescents et jeunes adultes. Son approche est essentiellement humaniste-existentielle à laquelle elle intègre des éléments de l'approche cognitive-comportementale.  </Summary>
-      <Page>
-        <Section>
-          <Title>Formation et expérience</Title>
-          <Desciption> Membre de l'Ordre des Psychologues du Québec depuis 2002, j'ai complété un baccalauréat en psychologie clinique à l'Université du Québec à Montréal (B.Ps. 1999) puis une maîtrise en psychologie clinique à l’Université Laval (M.Ps. 2001). Ma maîtrise m'a permis d'intervenir auprès d'adultes en milieu hospitalier en psychooncologie, en psychologie externe et à l'urgence psychiatrique. Suite à mes études, j'ai travaillé au Yukon auprès d'élèves présentant des troubles de comportement et d'adaptation sociale. J'ai animé des ateliers avec les parents sur la discipline et la communication avec les enfants. Les jeunes ont été alors pour moi un véritable coup de coeur et de retour au Québec, j'ai poursuivi ma carrière dans le champ de la psychologie scolaire, dans les écoles primaires et secondaires des Basses-Laurentides. Mon mandat dans les écoles était d’effectuer des évaluations psychologiques, de mettre en place des plans d’interventions adaptées aux besoins des élèves, d’animer en classe des activités psychoéducatives et d'intervenir lors de situations de crise. En 2004, j'ai démarré parallèlement ma pratique privée avec les enfants, les adolescents, les jeunes adultes et les parents.||
-              De 2007 à 2011, je me suis spécialisée dans les classes à effectif réduit au secondaire pour les adolescents aux prises avec des troubles de santé mentale sévères. Un de mes mandats était de créer des ponts entre le milieu scolaire, les services sociaux et la pédopsychiatrie. Sur le terrain, je rencontrais les élèves en suivi thérapeutique pour développer des stratégies d'auto-contrôle face à l'impulsivité, les obsessions, l'anxiété, les problèmes de conduites et les difficultés relationnelles. J'accompagnais le personnel enseignant dans leurs interventions et dirigeais les protocoles d'urgence. J'ai mis fin à mon passage dans les écoles en 2011 et je me consacre depuis à mon bureau privé, à la Clinique de psychologie Urbania. Conjointement aux consultations, je travaille en collaboration sur des projets d'écriture et sur la création d'outils psychoéducatifs destinés aux jeunes et aux parents.
-          </Desciption>
-        </Section>
-        <Section>
-          <Title>Clientèle, services et motifs de consultation</Title>
-          <Desciption> Clientèle et services:|
-              •	psychothérapie pour enfants (à partir de l'âge de huit ans)|
-              •	psychothérapie pour adolescents et jeunes adultes|
-              •	suivi pour les parents|
-              •	rencontres familiales|
-              •	communication avec les autres professionnels de la santé (médecin, pédopsychiatre), des services sociaux (travailleur social, psychoeducateur) ou du domaine de l'éducation (professeur, éducateur spécialisé)||
-              Motifs de consultation:|
-              •	problèmes relationnels|
-              •	difficultés d'adaptation à l'école|
-              •	difficultés de comportement |
-              •	dépression|
-              •	troubles anxieux, phobies, paniques|
-              •	deuil|
-              •	estime de soi|
-              •	intimidation|
-              •	troubles de l'humeur|
-              •	troubles de personnalité|
-              •	victimes d'abus sexuels|
-              •	opposition|
-              •	adaptation à la séparation des parents et/ou famille recomposé|
-          </Desciption>
-        </Section>
-          <Section>
-              <Title>Premières rencontres d'évaluation</Title>
-              <Desciption>
-                  Les premières rencontres servent d'une part à discuter du motif de consultation et des attentes du client face à la psychothérapie et d'autre part, à bien évaluer ses difficultés et leur impact sur les diverses sphères de sa vie. Des questionnaires peuvent être utilisés également pour compléter les entrevues. Cette période dite d'évaluation nous permet de discuter de ma compréhension de la situation de la personne et de ses besoins et d'échanger sur des recommandations possibles pour elle.||
-                  Pour les enfants de 13 ans et moins, ces rencontres se font seule avec les parents. Elles m'amènent par ailleurs à évaluer si le besoin est plutôt de l'ordre du suivi parental ou de la thérapie avec l'enfant. Parfois seul un suivi avec les parents suffit pour voir un changement dans le comportement de l'enfant. Pour les adolescents, la loi nous dit qu'à partir de 14 ans, l'adolescent a droit au secret professionnel et qu'il peut consentir seul au service d'un psychologue. Dans le cadre du bureau privé, les parents étant souvent au courant de la demande de consultation, il peut être souhaitable de faire une première rencontre les parents, l'adolescent et moi tous ensemble pour nous permettre de discuter de la confidentialité et des attentes de chacun.
-              </Desciption>
-          </Section>
-          <Section>
-              <Title>Approche en psychothérapie</Title>
-              <Desciption>
-                  Depuis maintenant 15 ans, j'ai le privilège d'accompagner des enfants, des adolescents, des familles et de jeunes adultes dans leur démarche en psychothérapie. Au fil des années, j'ai intégré plusieurs approches à ma pratique. D'abord formée en psychologie existentielle-humaniste, cette école continue d'influencer grandement ma pratique avec les jeunes et les adultes. Je m'inspire également des principes issus des orientations cognitivo-comportementale et systémique. Avec les enfants et les adolescents, des éléments de thérapie par le jeu et d'art-thérapie complètent mon approche.||
-                  Ce bagage théorique m'amène à voir la relation thérapeutique comme étant interactive, collaborative et créative. Je cherche à amener la personne à mieux comprendre les éléments qui alimentent ses difficultés. Nous explorons ensemble ses manières de penser, de réagir et de se comporter dans ses relations. En devenant plus consciente de ce qui contribue à ses difficultés, la personne peut développer des comportements et des attitudes plus en lien avec ses valeurs et ce qu'elle souhaite. Elle peut alors prendre ses propres décisions dans le but de choisir comment elle veut réagir pour se sentir mieux avec elle-même et avec les autres.||
-                  Pour les enfants de 13 ans et moins, la collaboration avec les parents étant precieuse pour la psychothérapie, des rencontres familiales sont proposées en cours de suivi. Ces séances  visent à faire un bilan de nos observations et de nos stratégies. Pour les adolescents de 14 ans et plus, des rencontres familiales peuvent également être recommandées, selon les situations.
-              </Desciption>
-          </Section>
-          <Section>
-     <Title>Affiliations</Title>
-       <Desciption>Je suis membre de l'Ordre des Psychologues du Québec, l'Association des Psychologues du Québec et l'Association des Psychologues des Laurentides.
-  </Desciption>
-        </Section>
-     <Section>
-          <Title>Autres informations utiles</Title>
-          <Desciption>Les mandats par l'IVAC et par certains programmes d'aide aux employés sont acceptés. Des reçus vous seront remis à chaque séance, ou selon votre besoin, pour votre programme d'assurance collective ou pour vos impôts. Les reçus sont émis au nom de la personne qui consulte. Chacun des rendez-vous est payable par chèque ou argent comptant. Les rencontres sont d'une durée de 50 minutes.
-          </Desciption>
-       </Section>
-          <Section>
-              <Title>Publications</Title>
-              <Desciption>
-                  Fondation Je suis le héros de ma vie, Cédilotte, M., Verret, I. (2015) Je suis le héros de ma vie, guide pédagogique pour les enfants et leurs parents.||
-                  Cantin, M., Cédilotte, M.,Verret, I. (2016) Découvre l'espion en toi, cahier éducatif pour les enfants et leurs parents sur la prévention des agressions et des enlèvements.
-              </Desciption>
-          </Section>
-          <Section>
-              <Title>Horaire des consultations</Title>
-              <Desciption>
-                  Je suis présente pour des consultations à mon bureau à la Clinique de psychologie Urbania le mercredi et le vendredi. Pour un premier rendez-vous, vous pouvez me contacter par téléphone au 514-772-0792 ou par courriel à isabelleverret@hotmail.com.||
-                  Au plaisir de vous rencontrer!|
-                  Isabelle Verret
-             </Desciption>
-          </Section>
-      </Page>
-    </Language>
-  </Member>
-  <Member>
-    <Name>Murielle Guillotte</Name>
-    <PhoneNumber>514-745-1423</PhoneNumber>
-    <EmailAddress>murielleguillote@live.ca</EmailAddress>
-    <Photo>img/murielle-guillotte.jpg</Photo>
-	<WebSite>http://www.murielleguillotte.com/</WebSite>
-    <PageName>MurielleGuillotte</PageName>
-    <Language name="Français" code="">
-      <Academic>Psychologue, M.Ps</Academic>
-      <Summary>
-		Elle est membre de l’ordre des psychologues du Québec depuis plus de 20 ans. Elle est d’approche éclectique, c’est-à-dire qu’elle utilise différentes thérapies. Ainsi, selon sa propre expérience, elle se sent plus en mesure de vous accompagner pour les changements désirés. Elle anime aussi des ateliers sur la médiation et comment mieux vire le moment présent.
-	  </Summary>
-	  <Page>
-        <Section>
-          <Title>Formation et expérience</Title>
-          <Desciption>Elle est une psychologue d’expérience et passionnée par sa profession. Pour elle, c’est un privilège d’être témoin de la vie intime des hommes et des femmes qu'elle rencontre. Diplômée de l’Université de Montréal, elle a obtenu une maîtrise en Psychologie en counseling.||
-		  Elle a travaillé dans un Centre Jeunesse (Laurentides-Lanaudière) auprès de familles et de familles d’accueil. Elle est allée avec l’équipe en abus sexuel du Centre Jeunesse, suivre une formation en Californie avec l’équipe Giarretto. Dr. Hank Giarretto de renommé international, était pionnier d'un programme en abus sexuel. D’ailleurs à son retour, elle a coanimé des ateliers pour adolescents en abus sexuel et a accompagné des personnes en psychothérapie avec cette problématique. Depuis plus de 20 ans elle a son bureau en pratique privée et a suivi différentes formations pour améliorer sa pratique en psychothérapie, d'où son expérience auprès de diverses clientèles.||
-		  Déjà à l'Université le stress l'intéressait. Elle pratiquait la méditation et a expérimenté différents types de méditations et le yoga tout au long de sa vie. À l'époque, dans le cadre d'un cours, elle a eu la chance de rencontrer Dr. Hans Selye. L'intérêt pour ce sujet, s'est poursuivi tout au long de sa carrière par des cours et le travail auprès de sa clientèle en psychothérapie ainsi que par les ateliers qu'elle a animés.||
-		  Elle a créé et animé ces ateliers: "Apprendre à gérer son stress", "Estime de soi", "Apprendre à gérer ses émotions", "À la rencontre du plaisir". Ce dernier était axé sur comment mieux vivre le moment présent.||
-		  Il reste que depuis environ 15 ans, elle enseignait une forme de méditation à ses clients en psychothérapie. Finalement, il y a 5 ans, elle a été attirée par la méditation de la pleine conscience, qu'elle pratique régulièrement depuis et l'enseignait à ses clients en psychothérapie. D'ailleurs, elle a suivi un entrainement professionnel avec Dr. Jon Kabbat-Zinn et Dr. Saki Santorelli et avec d'autres spécialistes en lien avec la pleine conscience. Ainsi elle a intégré la pleine conscience, dans sa pratique professionnelle. Depuis environ 1 an, elle anime des ateliers à cet effet, et en septembre 2015, elle donnera un atelier : réduction du stress basée sur la pleine conscience (MBSR).||
-		  Elle aime accompagner les personnes pour les aider à effectuer les changements désirés pour leur mieux-être. Elle continue à se perfectionner régulièrement avec grand plaisir.||
-		  </Desciption>
-        </Section>
-        <Section>
-          <Title>Description de la pratique clinique</Title>
-          <Desciption>Elle s’adresse auprès des adolescents de 16 ans et plus et aux adultes qui sont aux prises avec : abus physique, abus sexuel, affirmation de soi, anxiété, stress, anxiété sociale, timidité, attaque de panique, "burnout", épuisement professionnel, difficultés de communication, conciliation travail/famille, confiance en soi, dépendance affective, dépression, deuil, difficultés liées au travail, difficultés relationnelles, douleur, épuisement professionnel, estime de soi, harcèlement, homosexualité, orientation sexuelle, personne atteinte du cancer, phobie, relation amoureuse, séparation, divorce, solitude, stress post-traumatique, traumatisme.</Desciption>
-        </Section>
-        <Section>
-          <Title>Méthodes d'intervention</Title>
-          <Desciption> 		  
-          Lors des deux ou trois premières rencontres, dépendamment des personnes, elle évalue votre situation et vous aide à concrétiser les changements que vous désirez réaliser. Par la suite, elle vous explique comment elle travaillera avec vous. Elle vous enseignera des moyens pratiques pour mieux gérer votre quotidien et ce à travers la psychothérapie qui se veut à court ou à long terme, selon vos objectifs.|| Elle est d’approche éclectique (c’est-à-dire qu’elle exerce différentes thérapies : analyse-transactionnelle, cognitivo-comportementale et gestalt, intégration par mouvements oculaires (IMO)). Ainsi, selon sa propre expérience elle se sent plus en mesure de vous accompagner pour les changements que vous désirez. Elle travaille avec vous dans le présent à régler vos difficultés et si votre présent est teinté d’expériences passées elle utilisera la thérapie d’intégration par les mouvements oculaires (IMO).
-		</Desciption>
-        </Section>
-        <Section>
-          <Title>Autres services</Title>
-          <Desciption>Ateliers :|
-Méditation de la pleine conscience de la respiration|
-Réduction du stress basée sur la pleine conscience (MBSR)
-</Desciption>
-        </Section>
-        </Page>
-    </Language>
-  </Member>
-  <Member>
-    <Name>Jacques McNulty</Name>
-    <PhoneNumber>450-275-1123</PhoneNumber>
-    <EmailAddress></EmailAddress>
-    <Photo>img/jacques-mcnulty.jpg</Photo>
-    <PageName>JacquesMcNulty</PageName>
-    <Language name="Français" code="">
-      <Academic>Psychologue</Academic>
-      <Summary>
-	  Je suis psychologue travaillant auprès des adultes, des couples, des adolescents (15 ans et plus) et des aînés depuis plus de 20 ans. Mon approche est centrée sur le client et intègre des éléments des écoles de 
-	  pensée psychodynamique et cognitive-comportementale. J'offre mes services en français et en anglais.
-	  </Summary>
-      <Page>
-        <Section>
-          <Title>Mes services</Title>
-          <Desciption>
-Je suis psychologue clinicien diplômé de l’Université de Montréal. Je pratique la psychologie depuis plus de 20 ans. J’ai acquis de l’expérience dans plusieurs domaines et travaillé auprès de plusieurs clientèles
-incluant les adultes présentant des difficultés reliées à la santé mentale et psychologique (dépression, anxiété, trouble bipolaire, trouble de la personnalité, stress post-traumatique, faible estime de soi, trouble du sommeil, etc.), 
-des difficultés relationnelles (difficultés de couple, séparation, dépendance affective, victimes d’abus, conflits familiaux, deuil d’un être cher, etc.), des difficultés liées au travail (conflits interpersonnels, épuisement professionnel, 
-harcèlement, etc.) et des difficultés de santé physique (cancer, fin de vie, handicap physique, etc.). J’ai aussi travaillé auprès des adultes et des adolescents (15 ans et plus) présentant des difficultés au niveau du comportement, de 
-l’alcoolisme et de la toxicomanie. Je vois les adultes, les couples, les adolescents (15 ans et plus) et les aînés. Je pratique en français et en anglais. Mon approche en psychothérapie est centrée sur le client et intègre des éléments des 
-écoles de pensée psychodynamique et cognitive-comportementale. Je préconise l’intervention la plus brève et efficace possible. Il me fera plaisir de vous rencontrer afin d’évaluer votre situation et vous faire part de ce que je peux faire pour vous.		  
-		  </Desciption>
-        </Section>
-      </Page>
-    </Language>
-	    <Language name="English" code="en">
-      <Academic>Psychologist</Academic>
-      <Page>
-          <Section>
-            <Title>My services</Title>
-            <Desciption>
-I am a clinical psychologist trained at Université de Montreal. I have been practicing psychology for more than 20 years. I have acquired experience in many domains and worked with different clienteles including adults 
-presenting with mental health and psychological issues (depression, anxiety, bipolar disorder, personality disorder, posttraumatic-stress disorder, low self-esteem, sleeping difficulties, etc.), relationship problems 
-(couple issues, separation, emotional dependency, abuse survivors, family conflicts, death of a loved one, etc.), work-related difficulties (interpersonal conflicts, burn-out, harrassment, etc.) and physical-health problems 
-(cancer, end of life, physical handicap, etc.). I have also worked with adults and adolescents (15 years old and up) presenting with behavioral and substance-abuse issues. I see adults, couples, adolescents (aged 15 and up) 
-as well as seniors. I am fluent in French and English. My approach in psychotherapy is client-centered and integrates elements from the psychodynamic and cognitive-behavioral schools of thought. I aim for the shortest and most 
-efficient intervention. I will be more than glad to meet with you, assess your situation and tell you what I can do for you.            
-			</Desciption>
-          </Section>
-      </Page>
-	 </Language>
-  </Member>
+        <Name>Isabelle Verret</Name>
+        <PhoneNumber>514-772-0792</PhoneNumber>
+        <EmailAddress>isabelleverret@hotmail.com</EmailAddress>
+        <Photo>img/isabelle-verret.jpg</Photo>
+        <PageName>IsabelleVerret</PageName>
+        <Language name="Français" code="">
+            <Academic>Psychologue, M.Ps, psychothérapeute</Academic>
+            <Summary>Psychologue depuis 2002, Isabelle Verret intervient auprès des enfants,
+                adolescents et jeunes adultes. Son approche est essentiellement
+                humaniste-existentielle à laquelle elle intègre des éléments de l'approche
+                cognitive-comportementale. </Summary>
+            <Page>
+                <Section>
+                    <Title>Formation et expérience</Title>
+                    <Description>
+                        <p>Membre de l'Ordre des Psychologues du Québec depuis 2002, j'ai complété
+                            un baccalauréat en psychologie clinique à l'Université du Québec à
+                            Montréal (B.Ps. 1999) puis une maîtrise en psychologie clinique à
+                            l’Université Laval (M.Ps. 2001). Ma maîtrise m'a permis d'intervenir
+                            auprès d'adultes en milieu hospitalier en psychooncologie, en
+                            psychologie externe et à l'urgence psychiatrique. Suite à mes études,
+                            j'ai travaillé au Yukon auprès d'élèves présentant des troubles de
+                            comportement et d'adaptation sociale. J'ai animé des ateliers avec les
+                            parents sur la discipline et la communication avec les enfants. Les
+                            jeunes ont été alors pour moi un véritable coup de coeur et de retour au
+                            Québec, j'ai poursuivi ma carrière dans le champ de la psychologie
+                            scolaire, dans les écoles primaires et secondaires des
+                            Basses-Laurentides. Mon mandat dans les écoles était d’effectuer des
+                            évaluations psychologiques, de mettre en place des plans d’interventions
+                            adaptées aux besoins des élèves, d’animer en classe des activités
+                            psychoéducatives et d'intervenir lors de situations de crise. En 2004,
+                            j'ai démarré parallèlement ma pratique privée avec les enfants, les
+                            adolescents, les jeunes adultes et les parents.</p>
+                        <p>De 2007 à 2011, je me suis spécialisée dans les classes à effectif réduit
+                            au secondaire pour les adolescents aux prises avec des troubles de santé
+                            mentale sévères. Un de mes mandats était de créer des ponts entre le
+                            milieu scolaire, les services sociaux et la pédopsychiatrie. Sur le
+                            terrain, je rencontrais les élèves en suivi thérapeutique pour
+                            développer des stratégies d'auto-contrôle face à l'impulsivité, les
+                            obsessions, l'anxiété, les problèmes de conduites et les difficultés
+                            relationnelles. J'accompagnais le personnel enseignant dans leurs
+                            interventions et dirigeais les protocoles d'urgence. J'ai mis fin à mon
+                            passage dans les écoles en 2011 et je me consacre depuis à mon bureau
+                            privé, à la Clinique de psychologie Urbania. Conjointement aux
+                            consultations, je travaille en collaboration sur des projets d'écriture
+                            et sur la création d'outils psychoéducatifs destinés aux jeunes et aux
+                            parents.</p>
+                    </Description>
+                </Section>
+                <Section>
+                    <Title>Clientèle, services et motifs de consultation</Title>
+                    <Description>
+                        <p>Clientèle et services:<ul>
+                                <li>psychothérapie pour enfants (à partir de l'âge de huit ans)</li>
+                                <li>psychothérapie pour adolescents et jeunes adultes</li>
+                                <li>suivi pour les parents</li>
+                                <li>rencontres familiales</li>
+                                <li>communication avec les autres professionnels de la santé
+                            (médecin, pédopsychiatre), des services sociaux (travailleur social,
+                            psychoeducateur) ou du domaine de l'éducation (professeur, éducateur
+                            spécialisé)</li>
+                            </ul>
+                        </p>
+                        <p>Motifs de consultation:<ul>
+                                <li>problèmes relationnels</li>
+                                <li>difficultés d'adaptation à l'école</li>
+                                <li>difficultés de comportement </li>
+                                <li>dépression</li>
+                                <li>troubles anxieux, phobies, paniques</li>
+                                <li>deuil</li>
+                                <li>estime de soi</li>
+                                <li>intimidation</li>
+                                <li>troubles de l'humeur</li>
+                                <li>troubles de personnalité</li>
+                                <li>victimes d'abus sexuels</li>
+                                <li>opposition</li>
+                                <li>adaptation à la séparation des parents et/ou famille recomposé</li>
+                            </ul></p>
+                    </Description>
+                </Section>
+                <Section>
+                    <Title>Premières rencontres d'évaluation</Title>
+                    <Description>
+                        <p>Les premières rencontres servent d'une part à discuter du motif de
+                            consultation et des attentes du client face à la psychothérapie et
+                            d'autre part, à bien évaluer ses difficultés et leur impact sur les
+                            diverses sphères de sa vie. Des questionnaires peuvent être utilisés
+                            également pour compléter les entrevues. Cette période dite d'évaluation
+                            nous permet de discuter de ma compréhension de la situation de la
+                            personne et de ses besoins et d'échanger sur des recommandations
+                            possibles pour elle.</p>
+                        <p>Pour les enfants de 13 ans et moins, ces rencontres se font seule avec
+                            les parents. Elles m'amènent par ailleurs à évaluer si le besoin est
+                            plutôt de l'ordre du suivi parental ou de la thérapie avec l'enfant.
+                            Parfois seul un suivi avec les parents suffit pour voir un changement
+                            dans le comportement de l'enfant. Pour les adolescents, la loi nous dit
+                            qu'à partir de 14 ans, l'adolescent a droit au secret professionnel et
+                            qu'il peut consentir seul au service d'un psychologue. Dans le cadre du
+                            bureau privé, les parents étant souvent au courant de la demande de
+                            consultation, il peut être souhaitable de faire une première rencontre
+                            les parents, l'adolescent et moi tous ensemble pour nous permettre de
+                            discuter de la confidentialité et des attentes de chacun.</p>
+                    </Description>
+                </Section>
+                <Section>
+                    <Title>Approche en psychothérapie</Title>
+                    <Description>
+                        <p>Depuis maintenant 15 ans, j'ai le privilège d'accompagner des enfants,
+                            des adolescents, des familles et de jeunes adultes dans leur démarche en
+                            psychothérapie. Au fil des années, j'ai intégré plusieurs approches à ma
+                            pratique. D'abord formée en psychologie existentielle-humaniste, cette
+                            école continue d'influencer grandement ma pratique avec les jeunes et
+                            les adultes. Je m'inspire également des principes issus des orientations
+                            cognitivo-comportementale et systémique. Avec les enfants et les
+                            adolescents, des éléments de thérapie par le jeu et d'art-thérapie
+                            complètent mon approche.</p>
+                        <p>Ce bagage théorique m'amène à voir la relation thérapeutique comme étant
+                            interactive, collaborative et créative. Je cherche à amener la personne
+                            à mieux comprendre les éléments qui alimentent ses difficultés. Nous
+                            explorons ensemble ses manières de penser, de réagir et de se comporter
+                            dans ses relations. En devenant plus consciente de ce qui contribue à
+                            ses difficultés, la personne peut développer des comportements et des
+                            attitudes plus en lien avec ses valeurs et ce qu'elle souhaite. Elle
+                            peut alors prendre ses propres décisions dans le but de choisir comment
+                            elle veut réagir pour se sentir mieux avec elle-même et avec les autres.</p>
+                        <p>Pour les enfants de 13 ans et moins, la collaboration avec les parents
+                            étant precieuse pour la psychothérapie, des rencontres familiales sont
+                            proposées en cours de suivi. Ces séances visent à faire un bilan de nos
+                            observations et de nos stratégies. Pour les adolescents de 14 ans et
+                            plus, des rencontres familiales peuvent également être recommandées,
+                            selon les situations.</p>
+                    </Description>
+                </Section>
+                <Section>
+                    <Title>Affiliations</Title>
+                    <Description>
+                        <p>Je suis membre de l'Ordre des Psychologues du Québec, l'Association des
+                            Psychologues du Québec et l'Association des Psychologues des
+                            Laurentides.</p>
+                    </Description>
+                </Section>
+                <Section>
+                    <Title>Autres informations utiles</Title>
+                    <Description>
+                        <p>Les mandats par l'IVAC et par certains programmes d'aide aux employés
+                            sont acceptés. Des reçus vous seront remis à chaque séance, ou selon
+                            votre besoin, pour votre programme d'assurance collective ou pour vos
+                            impôts. Les reçus sont émis au nom de la personne qui consulte. Chacun
+                            des rendez-vous est payable par chèque ou argent comptant. Les
+                            rencontres sont d'une durée de 50 minutes.</p>
+                    </Description>
+                </Section>
+                <Section>
+                    <Title>Publications</Title>
+                    <Description>
+                        <p>Fondation Je suis le héros de ma vie, Cédilotte, M., Verret, I. (2015) Je
+                            suis le héros de ma vie, guide pédagogique pour les enfants et leurs
+                            parents.</p>
+                        <p>Cantin, M., Cédilotte, M.,Verret, I. (2016) Découvre l'espion en toi,
+                            cahier éducatif pour les enfants et leurs parents sur la prévention des
+                            agressions et des enlèvements.</p>
+                    </Description>
+                </Section>
+                <Section>
+                    <Title>Horaire des consultations</Title>
+                    <Description>
+                        <p>Je suis présente pour des consultations à mon bureau à la Clinique de
+                            psychologie Urbania le mercredi et le vendredi. Pour un premier
+                            rendez-vous, vous pouvez me contacter par téléphone au 514-772-0792 ou
+                            par courriel à isabelleverret@hotmail.com.</p>
+                        <p>Au plaisir de vous rencontrer!|
+                            Isabelle Verret</p>
+                    </Description>
+                </Section>
+            </Page>
+        </Language>
+    </Member>
+    <Member>
+        <Name>Murielle Guillotte</Name>
+        <PhoneNumber>514-745-1423</PhoneNumber>
+        <EmailAddress>murielleguillote@live.ca</EmailAddress>
+        <Photo>img/murielle-guillotte.jpg</Photo>
+        <WebSite>http://www.murielleguillotte.com/</WebSite>
+        <PageName>MurielleGuillotte</PageName>
+        <Language name="Français" code="">
+            <Academic>Psychologue, M.Ps</Academic>
+            <Summary>
+                Elle est membre de l’ordre des psychologues du Québec depuis plus de 20 ans. Elle
+                est d’approche éclectique, c’est-à-dire qu’elle utilise différentes thérapies.
+                Ainsi, selon sa propre expérience, elle se sent plus en mesure de vous accompagner
+                pour les changements désirés. Elle anime aussi des ateliers sur la médiation et
+                comment mieux vire le moment présent.
+            </Summary>
+            <Page>
+                <Section>
+                    <Title>Formation et expérience</Title>
+                    <Description>
+                        <p>Elle est une psychologue d’expérience et passionnée par sa profession.
+                            Pour elle, c’est un privilège d’être témoin de la vie intime des hommes
+                            et des femmes qu'elle rencontre. Diplômée de l’Université de Montréal,
+                            elle a obtenu une maîtrise en Psychologie en counseling.</p>
+                        <p>Elle a travaillé dans un Centre Jeunesse (Laurentides-Lanaudière) auprès
+                            de familles et de familles d’accueil. Elle est allée avec l’équipe en
+                            abus sexuel du Centre Jeunesse, suivre une formation en Californie avec
+                            l’équipe Giarretto. Dr. Hank Giarretto de renommé international, était
+                            pionnier d'un programme en abus sexuel. D’ailleurs à son retour, elle a
+                            coanimé des ateliers pour adolescents en abus sexuel et a accompagné des
+                            personnes en psychothérapie avec cette problématique. Depuis plus de 20
+                            ans elle a son bureau en pratique privée et a suivi différentes
+                            formations pour améliorer sa pratique en psychothérapie, d'où son
+                            expérience auprès de diverses clientèles.</p>
+                        <p>Déjà à l'Université le stress l'intéressait. Elle pratiquait la
+                            méditation et a expérimenté différents types de méditations et le yoga
+                            tout au long de sa vie. À l'époque, dans le cadre d'un cours, elle a eu
+                            la chance de rencontrer Dr. Hans Selye. L'intérêt pour ce sujet, s'est
+                            poursuivi tout au long de sa carrière par des cours et le travail auprès
+                            de sa clientèle en psychothérapie ainsi que par les ateliers qu'elle a
+                            animés.</p>
+                        <p>Elle a créé et animé ces ateliers: "Apprendre à gérer son stress",
+                            "Estime de soi", "Apprendre à gérer ses émotions", "À la rencontre du
+                            plaisir". Ce dernier était axé sur comment mieux vivre le moment
+                            présent.</p>
+                        <p>Il reste que depuis environ 15 ans, elle enseignait une forme de
+                            méditation à ses clients en psychothérapie. Finalement, il y a 5 ans,
+                            elle a été attirée par la méditation de la pleine conscience, qu'elle
+                            pratique régulièrement depuis et l'enseignait à ses clients en
+                            psychothérapie. D'ailleurs, elle a suivi un entrainement professionnel
+                            avec Dr. Jon Kabbat-Zinn et Dr. Saki Santorelli et avec d'autres
+                            spécialistes en lien avec la pleine conscience. Ainsi elle a intégré la
+                            pleine conscience, dans sa pratique professionnelle. Depuis environ 1
+                            an, elle anime des ateliers à cet effet, et en septembre 2015, elle
+                            donnera un atelier : réduction du stress basée sur la pleine conscience
+                            (MBSR).</p>
+                        <p>Elle aime accompagner les personnes pour les aider à effectuer les
+                            changements désirés pour leur mieux-être. Elle continue à se
+                            perfectionner régulièrement avec grand plaisir.</p>
+                    </Description>
+                </Section>
+                <Section>
+                    <Title>Description de la pratique clinique</Title>
+                    <Description>
+                        <p>Elle s’adresse auprès des adolescents de 16 ans et plus et aux adultes
+                            qui sont aux prises avec : abus physique, abus sexuel, affirmation de
+                            soi, anxiété, stress, anxiété sociale, timidité, attaque de panique,
+                            "burnout", épuisement professionnel, difficultés de communication,
+                            conciliation travail/famille, confiance en soi, dépendance affective,
+                            dépression, deuil, difficultés liées au travail, difficultés
+                            relationnelles, douleur, épuisement professionnel, estime de soi,
+                            harcèlement, homosexualité, orientation sexuelle, personne atteinte du
+                            cancer, phobie, relation amoureuse, séparation, divorce, solitude,
+                            stress post-traumatique, traumatisme.</p>
+                    </Description>
+                </Section>
+                <Section>
+                    <Title>Méthodes d'intervention</Title>
+                    <Description>
+                        <p>Lors des deux ou trois premières rencontres, dépendamment des personnes,
+                            elle évalue votre situation et vous aide à concrétiser les changements
+                            que vous désirez réaliser. Par la suite, elle vous explique comment elle
+                            travaillera avec vous. Elle vous enseignera des moyens pratiques pour
+                            mieux gérer votre quotidien et ce à travers la psychothérapie qui se
+                            veut à court ou à long terme, selon vos objectifs.</p>
+                        <p>Elle est d’approche éclectique (c’est-à-dire qu’elle exerce différentes
+                            thérapies : analyse-transactionnelle, cognitivo-comportementale et
+                            gestalt, intégration par mouvements oculaires (IMO)). Ainsi, selon sa
+                            propre expérience elle se sent plus en mesure de vous accompagner pour
+                            les changements que vous désirez. Elle travaille avec vous dans le
+                            présent à régler vos difficultés et si votre présent est teinté
+                            d’expériences passées elle utilisera la thérapie d’intégration par les
+                            mouvements oculaires (IMO).</p>
+                    </Description>
+                </Section>
+                <Section>
+                    <Title>Autres services</Title>
+                    <Description>
+                        <p>Ateliers :|
+                            Méditation de la pleine conscience de la respiration|
+                            Réduction du stress basée sur la pleine conscience (MBSR)</p>
+                    </Description>
+                </Section>
+            </Page>
+        </Language>
+    </Member>
+    <Member>
+        <Name>Jacques McNulty</Name>
+        <PhoneNumber>450-275-1123</PhoneNumber>
+        <EmailAddress></EmailAddress>
+        <Photo>img/jacques-mcnulty.jpg</Photo>
+        <PageName>JacquesMcNulty</PageName>
+        <Language name="Français" code="">
+            <Academic>Psychologue</Academic>
+            <Summary>
+                Je suis psychologue travaillant auprès des adultes, des couples, des adolescents (15
+                ans et plus) et des aînés depuis plus de 20 ans. Mon approche est centrée sur le
+                client et intègre des éléments des écoles de
+                pensée psychodynamique et cognitive-comportementale. J'offre mes services en
+                français et en anglais.
+            </Summary>
+            <Page>
+                <Section>
+                    <Title>Mes services</Title>
+                    <Description>
+                        <p>Je suis psychologue clinicien diplômé de l’Université de Montréal. Je
+                            pratique la psychologie depuis plus de 20 ans. J’ai acquis de
+                            l’expérience dans plusieurs domaines et travaillé auprès de plusieurs
+                            clientèles
+                            incluant les adultes présentant des difficultés reliées à la santé
+                            mentale et psychologique (dépression, anxiété, trouble bipolaire,
+                            trouble de la personnalité, stress post-traumatique, faible estime de
+                            soi, trouble du sommeil, etc.),
+                            des difficultés relationnelles (difficultés de couple, séparation,
+                            dépendance affective, victimes d’abus, conflits familiaux, deuil d’un
+                            être cher, etc.), des difficultés liées au travail (conflits
+                            interpersonnels, épuisement professionnel,
+                            harcèlement, etc.) et des difficultés de santé physique (cancer, fin de
+                            vie, handicap physique, etc.). J’ai aussi travaillé auprès des adultes
+                            et des adolescents (15 ans et plus) présentant des difficultés au niveau
+                            du comportement, de
+                            l’alcoolisme et de la toxicomanie. Je vois les adultes, les couples, les
+                            adolescents (15 ans et plus) et les aînés. Je pratique en français et en
+                            anglais. Mon approche en psychothérapie est centrée sur le client et
+                            intègre des éléments des
+                            écoles de pensée psychodynamique et cognitive-comportementale. Je
+                            préconise l’intervention la plus brève et efficace possible. Il me fera
+                            plaisir de vous rencontrer afin d’évaluer votre situation et vous faire
+                            part de ce que je peux faire pour vous.</p>
+                    </Description>
+                </Section>
+            </Page>
+        </Language>
+        <Language name="English" code="en">
+            <Academic>Psychologist</Academic>
+            <Page>
+                <Section>
+                    <Title>My services</Title>
+                    <Description>
+                        <p>I am a clinical psychologist trained at Université de Montreal. I have
+                            been practicing psychology for more than 20 years. I have acquired
+                            experience in many domains and worked with different clienteles
+                            including adults
+                            presenting with mental health and psychological issues (depression,
+                            anxiety, bipolar disorder, personality disorder, posttraumatic-stress
+                            disorder, low self-esteem, sleeping difficulties, etc.), relationship
+                            problems
+                            (couple issues, separation, emotional dependency, abuse survivors,
+                            family conflicts, death of a loved one, etc.), work-related difficulties
+                            (interpersonal conflicts, burn-out, harrassment, etc.) and
+                            physical-health problems
+                            (cancer, end of life, physical handicap, etc.). I have also worked with
+                            adults and adolescents (15 years old and up) presenting with behavioral
+                            and substance-abuse issues. I see adults, couples, adolescents (aged 15
+                            and up)
+                            as well as seniors. I am fluent in French and English. My approach in
+                            psychotherapy is client-centered and integrates elements from the
+                            psychodynamic and cognitive-behavioral schools of thought. I aim for the
+                            shortest and most
+                            efficient intervention. I will be more than glad to meet with you,
+                            assess your situation and tell you what I can do for you.</p>
+                    </Description>
+                </Section>
+            </Page>
+        </Language>
+    </Member>
     <Member>
         <Name>Marie-Josée Leger</Name>
         <PhoneNumber>514 588 1907</PhoneNumber>
@@ -452,31 +921,50 @@ efficient intervention. I will be more than glad to meet with you, assess your s
         <PageName>MarieJoseeLeger</PageName>
         <Language name="Français" code="">
             <Academic>Psychologue, M.Ps.</Academic>
-            <Summary>Membre de l'ordre des psycholgues du Québec, je travaille depuis plus d'une quinzaine d'années auprès des adolescents et des adultes. J'utilise principalement une
-                approche existentielle-humaniste et j'interviens sur divers problématiques de santé mentale.</Summary>
+            <Summary>Membre de l'ordre des psycholgues du Québec, je travaille depuis plus d'une
+                quinzaine d'années auprès des adolescents et des adultes. J'utilise principalement
+                une
+                approche existentielle-humaniste et j'interviens sur divers problématiques de santé
+                mentale.</Summary>
             <Page>
                 <Section>
                     <Title>Formation et expérience</Title>
-                    <Desciption>
-                        Après l’obtention d’un diplôme de maîtrise en psychologie clinique en 1998 (clientèle adulte), mon intérêt pour les adolescents m’a orientée vers
-                        le système scolaire. Je travaille depuis plus d’une quinzaine d’années dans une école secondaire auprès des jeunes et des différents adultes qui gravitent
-                        autour d’eux. J'ai pu développer une certaine expertise auprès des adolescents présentant des problématiques de santé mentale. D'un autre côté, ma pratique
-                        privée me permet de pouvoir faire davantage de psychothérapie auprès d'une clientèle adulte et adolescente (13 ans et plus).
-                    </Desciption>
+                    <Description>
+                        <p>Après l’obtention d’un diplôme de maîtrise en psychologie clinique en
+                            1998 (clientèle adulte), mon intérêt pour les adolescents m’a orientée
+                            vers
+                            le système scolaire. Je travaille depuis plus d’une quinzaine d’années
+                            dans une école secondaire auprès des jeunes et des différents adultes
+                            qui gravitent
+                            autour d’eux. J'ai pu développer une certaine expertise auprès des
+                            adolescents présentant des problématiques de santé mentale. D'un autre
+                            côté, ma pratique
+                            privée me permet de pouvoir faire davantage de psychothérapie auprès
+                            d'une clientèle adulte et adolescente (13 ans et plus).</p>
+                    </Description>
                 </Section>
                 <Section>
                     <Title>Ma pratique</Title>
-                    <Desciption>
-                        J’utilise principalement l’approche existentielle-humaniste à laquelle j’intègre des éléments des approches psychodynamique et cognitivo-comportementale.
-                        Je travaille auprès des adolescents, des adultes, et des parents (en lien avec des difficultés avec leurs enfants). J'ai développé une certaine expertise dans le
-                        traitement des problématiques liés à l'abus sexuel et physique, l'adaptation à l’école, les cycles de vie, l'épuisement professionnel, l'estime de soi, les situation de crises,
-                        les troubles anxieux, la dépression ainsi que les relations interpersonnelles et amoureuses.
-                    </Desciption>
+                    <Description>
+                        <p>J’utilise principalement l’approche existentielle-humaniste à laquelle
+                            j’intègre des éléments des approches psychodynamique et
+                            cognitivo-comportementale.
+                            Je travaille auprès des adolescents, des adultes, et des parents (en
+                            lien avec des difficultés avec leurs enfants). J'ai développé une
+                            certaine expertise dans le
+                            traitement des problématiques liés à l'abus sexuel et physique,
+                            l'adaptation à l’école, les cycles de vie, l'épuisement professionnel,
+                            l'estime de soi, les situation de crises,
+                            les troubles anxieux, la dépression ainsi que les relations
+                            interpersonnelles et amoureuses.</p>
+                    </Description>
                 </Section>
                 <Section>
                     <Title>Affiliations</Title>
-                    <Desciption>J’accepte les mandats de l’IVAC, des programmes d’aide aux employés (PAEs) et des programmes d’assurances collectives.
-                    </Desciption>
+                    <Description>
+                        <p>J’accepte les mandats de l’IVAC, des programmes d’aide aux employés
+                            (PAEs) et des programmes d’assurances collectives.</p>
+                    </Description>
                 </Section>
             </Page>
         </Language>
@@ -490,18 +978,44 @@ efficient intervention. I will be more than glad to meet with you, assess your s
         <Language name="Français" code="">
             <Academic>Psychologue, D.Ps</Academic>
             <Summary>
-                Ami Puig est psychologue et travaille auprès des enfants, adolescents et jeunes adultes. Elle offre des services d'évaluation de TDAH auprès des jeunes ainsi que du coaching parental et familial.
+                Ami Puig est psychologue et travaille auprès des enfants, adolescents et jeunes
+                adultes. Elle offre des services d'évaluation de TDAH auprès des jeunes ainsi que du
+                coaching parental et familial.
             </Summary>
             <Page>
                 <Section>
                     <Title>Services</Title>
-                    <Desciption>
-                        Je suis psychologue depuis 2023 et j’exerce à titre de doctorante en psychologie depuis 2017. J’ai travaillé pendant mes internats en milieu scolaire pour trouble du comportement et rupture du fonctionnement, ainsi qu’en milieu privé et j’ai réalisé ma thèse sur les im-pacts des stéréotypes sexuels dans le développement des enfants.||
-                        Dès le départ de ma pratique, je me suis spécialisée avec une clientèle enfant, mais j’ai continué mes formations et mes apprentissages et je reçois aujourd’hui tous les types de clientèles, de l’enfant aux personnes âgées.
-                        L’approche que je privilégie est de nature psychodynamique et la compréhension du symp-tôme du client et de son développement est au cœur de mes suivis. Je privilégie la compré-hension et l’exploration du symptôme ainsi que du développement global du client qui vient me voir, car un symptôme a toujours une raison d’être. Le but peut être de l’enlever, mais en le saisissant mieux, il est alors possible de comprendre sa fonction spécifique dans la vie du client et ainsi, comment le diminuer, le changer ou l’accepter selon le besoin et la réalité de la personne.||
-                        Avant de devenir psychologue, j’ai fait ma technique d’éducation à l’enfance et j’ai tra-vaillé huit ans en centre de la petite enfance en tant qu’éducatrice, ce qui m’a permis de travailler avec une grande diversité de problématiques, de personnalités et d’organisations familiales en tout genre. Cette expérience m’aide grandement aujourd’hui à saisir les dif-ficultés que présentent les enfants, mais également le développement général de l’être hu-main dès son enfance.||
-                        Je suis également professeure de psychologie au cégep depuis 2021, ce qui me permet de toujours continuer mes apprentissages et ma recherche de connaissance dans le domaine et de les partager. Je partage ainsi mon temps entre la clinique et l’enseignement.||
-                    </Desciption>
+                    <Description>
+                        <p>Je suis psychologue depuis 2023 et j’exerce à titre de doctorante en
+                            psychologie depuis 2017. J’ai travaillé pendant mes internats en milieu
+                            scolaire pour trouble du comportement et rupture du fonctionnement,
+                            ainsi qu’en milieu privé et j’ai réalisé ma thèse sur les im-pacts des
+                            stéréotypes sexuels dans le développement des enfants.</p>
+                        <p>Dès le départ de ma pratique, je me suis spécialisée avec une clientèle
+                            enfant, mais j’ai continué mes formations et mes apprentissages et je
+                            reçois aujourd’hui tous les types de clientèles, de l’enfant aux
+                            personnes âgées.
+                            L’approche que je privilégie est de nature psychodynamique et la
+                            compréhension du symp-tôme du client et de son développement est au cœur
+                            de mes suivis. Je privilégie la compré-hension et l’exploration du
+                            symptôme ainsi que du développement global du client qui vient me voir,
+                            car un symptôme a toujours une raison d’être. Le but peut être de
+                            l’enlever, mais en le saisissant mieux, il est alors possible de
+                            comprendre sa fonction spécifique dans la vie du client et ainsi,
+                            comment le diminuer, le changer ou l’accepter selon le besoin et la
+                            réalité de la personne.</p>
+                        <p>Avant de devenir psychologue, j’ai fait ma technique d’éducation à
+                            l’enfance et j’ai tra-vaillé huit ans en centre de la petite enfance en
+                            tant qu’éducatrice, ce qui m’a permis de travailler avec une grande
+                            diversité de problématiques, de personnalités et d’organisations
+                            familiales en tout genre. Cette expérience m’aide grandement aujourd’hui
+                            à saisir les dif-ficultés que présentent les enfants, mais également le
+                            développement général de l’être hu-main dès son enfance.</p>
+                        <p>Je suis également professeure de psychologie au cégep depuis 2021, ce qui
+                            me permet de toujours continuer mes apprentissages et ma recherche de
+                            connaissance dans le domaine et de les partager. Je partage ainsi mon
+                            temps entre la clinique et l’enseignement.</p>
+                    </Description>
                 </Section>
             </Page>
         </Language>
@@ -514,12 +1028,17 @@ efficient intervention. I will be more than glad to meet with you, assess your s
         <PageName>ChristineLettre</PageName>
         <Language name="Français" code="">
             <Academic>Psychologue, M.Ps.</Academic>
-            <Summary>Psychologue depuis plus de trente ans, je travaille auprès d'une clientèle adulte, en individuel et en couple.</Summary>
+            <Summary>Psychologue depuis plus de trente ans, je travaille auprès d'une clientèle
+                adulte, en individuel et en couple.</Summary>
             <Page>
                 <Section>
-                    <Desciption>
-                        Bonjour! Je suis psychologue clinicienne auprès d'une clientèle adulte, en individuel et en couple, depuis un peu plus de trente ans. Je suis toujours aussi passionnée par mon travail. J'utilise principalement l'approche cognitive dans une perspective biopsychosociale. Au plaisir de vous rencontrer.
-                    </Desciption>
+                    <Description>
+                        <p>Bonjour! Je suis psychologue clinicienne auprès d'une clientèle adulte,
+                            en individuel et en couple, depuis un peu plus de trente ans. Je suis
+                            toujours aussi passionnée par mon travail. J'utilise principalement
+                            l'approche cognitive dans une perspective biopsychosociale. Au plaisir
+                            de vous rencontrer.</p>
+                    </Description>
                 </Section>
             </Page>
         </Language>
@@ -532,19 +1051,53 @@ efficient intervention. I will be more than glad to meet with you, assess your s
         <PageName>AlexandraColle</PageName>
         <Language name="Français" code="">
             <Academic>Sexologue et psychothérapeute</Academic>
-            <Summary>Sexologue et psychothérapeute, je travaille dans une ambiance chaleureuse et accueillante auprès des adolescents, des adultes et des aînés. J’interviens également auprès des couples en favorisant l’atteinte d’un mieux-être psychologique, sexuel et relationnel.
+            <Summary>Sexologue et psychothérapeute, je travaille dans une ambiance chaleureuse et
+                accueillante auprès des adolescents, des adultes et des aînés. J’interviens
+                également auprès des couples en favorisant l’atteinte d’un mieux-être psychologique,
+                sexuel et relationnel.
             </Summary>
             <Page>
                 <Section>
-                    <Desciption>
-                        Titulaire d’une maîtrise en sexologie clinique de l’Université du Québec à Montréal, je suis membre de l’Ordre professionnel des sexologues du Québec et détentrice du permis de psychothérapeute délivré par l’Ordre des psychologues du Québec. J’ai acquis mon expérience clinique auprès d’une clientèle diversifiée, notamment au sein de la Clinique de sexologie de l’UQAM et du CISSS de Laval.||
-                        Mon approche est principalement humaniste-existentielle et je m’inspire des conceptions systémiques-interactionnelles afin de mieux adapter mes interventions auprès des couples que je rencontre. Je considère la relation thérapeutique comme une partie intégrante du cheminement et c’est pourquoi je travaille avec vous dans une optique de coopération et priorise un climat de confiance pour l’atteinte de vos objectifs. Ainsi, j’estime que chaque expérience est unique et que l’individu au centre du processus possède les forces et les ressources pour se réaliser.||
-                        La psychothérapie peut être considérée comme un moment pour s’arrêter, pour prendre du recul sur sa vie. Un moment que l’on prend pour soi ou son couple afin d’y explorer, dans un espace empathique et non-jugeant, un inconfort, une impasse ou une blessure. Cette exploration permettra de faire ressortir le sens de ces difficultés et d’y relier, parfois, divers enjeux sous-jacents. Cette compréhension est importante pour vous permettre de mettre en œuvre vos forces et vos capacités et ainsi, rendre possible l’émergence d’un changement profond vers un mieux-être.||
-                        Plusieurs motifs peuvent encourager une personne ou un couple à entamer un processus thérapeutique, mais à mon sens, aucune difficulté n’est considérée comme «trop superficielle» ou «trop grande» pour être abordée. Il peut parfois sembler difficile de s’ouvrir sur des parties intimes et personnelles de soi, mais sachez que je prendrai soin de vous accompagner dans ce cheminement en vous offrant un cadre sécuritaire et en m’adaptant à votre rythme, vos objectifs et besoins.||
-                        Voici quelques exemples de thématiques abordées :||
-                        Fonction sexuelle (difficultés érectiles, éjaculatoires, baisse de désir sexuel, douleurs génitales, anorgasmie) consommation de pornographie, fantasmes sexuels, orientation sexuelle, identité de genre, difficultés dans l’intimité, difficultés relationnelles, communication, rupture amoureuse, jalousie, infidélité, victime d’agression sexuelle, affirmation de soi, estime de soi, confiance en soi, image corporelle, anxiété, dépression…||
-                        J’accepte les mandats IVAC.||
-                    </Desciption>
+                    <Description>
+                        <p>Titulaire d’une maîtrise en sexologie clinique de l’Université du Québec
+                            à Montréal, je suis membre de l’Ordre professionnel des sexologues du
+                            Québec et détentrice du permis de psychothérapeute délivré par l’Ordre
+                            des psychologues du Québec. J’ai acquis mon expérience clinique auprès
+                            d’une clientèle diversifiée, notamment au sein de la Clinique de
+                            sexologie de l’UQAM et du CISSS de Laval.</p>
+                        <p>Mon approche est principalement humaniste-existentielle et je m’inspire
+                            des conceptions systémiques-interactionnelles afin de mieux adapter mes
+                            interventions auprès des couples que je rencontre. Je considère la
+                            relation thérapeutique comme une partie intégrante du cheminement et
+                            c’est pourquoi je travaille avec vous dans une optique de coopération et
+                            priorise un climat de confiance pour l’atteinte de vos objectifs. Ainsi,
+                            j’estime que chaque expérience est unique et que l’individu au centre du
+                            processus possède les forces et les ressources pour se réaliser.</p>
+                        <p>La psychothérapie peut être considérée comme un moment pour s’arrêter,
+                            pour prendre du recul sur sa vie. Un moment que l’on prend pour soi ou
+                            son couple afin d’y explorer, dans un espace empathique et non-jugeant,
+                            un inconfort, une impasse ou une blessure. Cette exploration permettra
+                            de faire ressortir le sens de ces difficultés et d’y relier, parfois,
+                            divers enjeux sous-jacents. Cette compréhension est importante pour vous
+                            permettre de mettre en œuvre vos forces et vos capacités et ainsi,
+                            rendre possible l’émergence d’un changement profond vers un mieux-être.</p>
+                        <p>Plusieurs motifs peuvent encourager une personne ou un couple à entamer
+                            un processus thérapeutique, mais à mon sens, aucune difficulté n’est
+                            considérée comme «trop superficielle» ou «trop grande» pour être
+                            abordée. Il peut parfois sembler difficile de s’ouvrir sur des parties
+                            intimes et personnelles de soi, mais sachez que je prendrai soin de vous
+                            accompagner dans ce cheminement en vous offrant un cadre sécuritaire et
+                            en m’adaptant à votre rythme, vos objectifs et besoins.</p>
+                        <p>Voici quelques exemples de thématiques abordées :</p>
+                        <p>Fonction sexuelle (difficultés érectiles, éjaculatoires, baisse de désir
+                            sexuel, douleurs génitales, anorgasmie) consommation de pornographie,
+                            fantasmes sexuels, orientation sexuelle, identité de genre, difficultés
+                            dans l’intimité, difficultés relationnelles, communication, rupture
+                            amoureuse, jalousie, infidélité, victime d’agression sexuelle,
+                            affirmation de soi, estime de soi, confiance en soi, image corporelle,
+                            anxiété, dépression…</p>
+                        <p>J’accepte les mandats IVAC.</p>
+                    </Description>
                 </Section>
             </Page>
         </Language>
@@ -557,17 +1110,46 @@ efficient intervention. I will be more than glad to meet with you, assess your s
         <PageName>MariseGagne</PageName>
         <Language name="Français" code="">
             <Academic>Psychologue, Ph.D.</Academic>
-            <Summary>Dre Marise Gagné, psychologue, offre ses services à une clientèle diverse âgée de 16 ans et plus. Elle adopte une approche humaniste et cognitive-comportementale de troisième vague.
+            <Summary>Dre Marise Gagné, psychologue, offre ses services à une clientèle diverse âgée
+                de 16 ans et plus. Elle adopte une approche humaniste et cognitive-comportementale
+                de troisième vague.
             </Summary>
             <Page>
                 <Section>
                     <Title>Services</Title>
-                    <Desciption>
-                        Marise Gagné, Ph.D., est membre de l'Ordre des psychologues du Québec. Elle est détentrice d’un doctorat Recherche et Intervention en psychologie (Ph.D.) de l’Université de Montréal. Dre Gagné a enrichi son expérience professionnelle au sein de la clinique de psychologie de l’Université de Montréal, l’équipe de santé mentale adulte du CLSC de Thérèse-de-Blainville et le centre de crise le Soleil Levant. Ces expériences lui ont permis de travailler avec une clientèle diverse, confrontée à des problématiques variées telles que des difficultés relationnelles, des enjeux de personnalité, des symptômes anxieux et/ou dépressifs, ainsi que des difficultés d'estime de soi.||
-                        Dre Gagné adopte principalement une approche humaniste et cognitive-comportementale de troisième vague avec une attention particulière à créer un espace de thérapie chaleureux, authentique et sans jugement. Elle valorise l’expérience subjective du client et veille à ce que chacun se sente entendu et compris. Son approche est centrée sur le développement personnel et la connexion avec ses émotions dans un cadre empreint de bienveillance. D’un point de vue théorique, elle adopte une perspective psychodynamique et relationnelle pour explorer les défis actuels du client à travers l'examen de ses expériences passées et présentes. Cela lui permet d’offrir un suivi respectueux de l’unicité de chaque parcours tout en soutenant le client dans sa démarche d’actualisation personnelle.||
-                        En plus de sa pratique clinique, Mme Gagné a eu l’occasion d’enseigner la psychologie à l’université pendant ses études doctorales, ce qui reflète son engagement envers l'apprentissage continu et le partage de ses connaissances. Elle investit régulièrement dans des formations, des lectures spécialisées et des séances de supervision de façon à répondre aux différents besoins de ses clients.||
-                        Dre Gagné travaille avec des clients de 16 ans et plus, principalement en présentiel, mais propose également des séances de téléthérapie. Elle est disponible en journée pour ses consultations.||
-                    </Desciption>
+                    <Description>
+                        <p>Marise Gagné, Ph.D., est membre de l'Ordre des psychologues du Québec.
+                            Elle est détentrice d’un doctorat Recherche et Intervention en
+                            psychologie (Ph.D.) de l’Université de Montréal. Dre Gagné a enrichi son
+                            expérience professionnelle au sein de la clinique de psychologie de
+                            l’Université de Montréal, l’équipe de santé mentale adulte du CLSC de
+                            Thérèse-de-Blainville et le centre de crise le Soleil Levant. Ces
+                            expériences lui ont permis de travailler avec une clientèle diverse,
+                            confrontée à des problématiques variées telles que des difficultés
+                            relationnelles, des enjeux de personnalité, des symptômes anxieux et/ou
+                            dépressifs, ainsi que des difficultés d'estime de soi.</p>
+                        <p>Dre Gagné adopte principalement une approche humaniste et
+                            cognitive-comportementale de troisième vague avec une attention
+                            particulière à créer un espace de thérapie chaleureux, authentique et
+                            sans jugement. Elle valorise l’expérience subjective du client et veille
+                            à ce que chacun se sente entendu et compris. Son approche est centrée
+                            sur le développement personnel et la connexion avec ses émotions dans un
+                            cadre empreint de bienveillance. D’un point de vue théorique, elle
+                            adopte une perspective psychodynamique et relationnelle pour explorer
+                            les défis actuels du client à travers l'examen de ses expériences
+                            passées et présentes. Cela lui permet d’offrir un suivi respectueux de
+                            l’unicité de chaque parcours tout en soutenant le client dans sa
+                            démarche d’actualisation personnelle.</p>
+                        <p>En plus de sa pratique clinique, Mme Gagné a eu l’occasion d’enseigner la
+                            psychologie à l’université pendant ses études doctorales, ce qui reflète
+                            son engagement envers l'apprentissage continu et le partage de ses
+                            connaissances. Elle investit régulièrement dans des formations, des
+                            lectures spécialisées et des séances de supervision de façon à répondre
+                            aux différents besoins de ses clients.</p>
+                        <p>Dre Gagné travaille avec des clients de 16 ans et plus, principalement en
+                            présentiel, mais propose également des séances de téléthérapie. Elle est
+                            disponible en journée pour ses consultations.</p>
+                    </Description>
                 </Section>
             </Page>
         </Language>
@@ -580,57 +1162,97 @@ efficient intervention. I will be more than glad to meet with you, assess your s
         <PageName>FranciscaGagne</PageName>
         <Language name="Français" code="">
             <Academic>Conseillère d’orientation, M. Éd.</Academic>
-            <Summary>Francisca Gagné est conseillère d’orientation, membre de l’Ordre des conseillers et conseillères d’orientation du Québec. Depuis plus de 10 ans, elle œuvre en relation d’aide dans les milieux communautaire et privé. </Summary>
+            <Summary>Francisca Gagné est conseillère d’orientation, membre de l’Ordre des
+                conseillers et conseillères d’orientation du Québec. Depuis plus de 10 ans, elle
+                œuvre en relation d’aide dans les milieux communautaire et privé. </Summary>
             <Page>
                 <Section>
                     <Title>Formation et expérience professionnelle</Title>
-                    <Desciption>
-                        Formation|
-                        •	Baccalauréat en psychologie|
-                        •	Majeure en développement de carrière|
-                        •	Maîtrise en counseling de carrière||
-                        Expérience|
-                        •	Plus de 10 années d'expérience en relation d'aide (communautaire et privé)|
-                        •	Coordination de projets communautaires|
-                        •	Mobilisation citoyenne · Membre de l’Ordre des conseillers et conseillères d’orientation du Québec depuis 2017||
-                    </Desciption>
+                    <Description>
+                        <p>Formation<ul>
+                                <li>Baccalauréat en psychologie</li>
+                                <li>Majeure en développement de carrière</li>
+                                <li>Maîtrise en counseling de carrière</li>
+                            </ul>
+                        </p>
+                        <p>Expérience<ul>
+                                <li>Plus de 10 années d'expérience en relation d'aide (communautaire
+                            et privé)</li>
+                                <li>Coordination de projets communautaires</li>
+                                <li>Mobilisation citoyenne · Membre de l’Ordre des conseillers et
+                            conseillères d’orientation du Québec depuis 2017</li>
+                            </ul></p>
+                    </Description>
                 </Section>
                 <Section>
                     <Title>Services</Title>
-                    <Desciption>
-                        Mon objectif est de t'accompagner dans la redécouverte de ton identité professionnelle. Que ce soit en orientation scolaire et professionnelle ou bien en soutien à la parentalité, je sais que je pourrai t'aider à trouver plus de clarté dans le nuage de questions qui semble te préoccuper dernièrement.||
-                        •	Aide au choix d’études et de carrière|
-                        •	 Bilan des compétences et développement de carrière|
-                        •	Réorientation professionnelle|
-                        •	Identité à travers la maternité|
-                        •	Groupe de soutien : nouvelles mamans||
-                    </Desciption>
+                    <Description>
+                        <p>Mon objectif est de t'accompagner dans la redécouverte de ton identité
+                            professionnelle. Que ce soit en orientation scolaire et professionnelle
+                            ou bien en soutien à la parentalité, je sais que je pourrai t'aider à
+                            trouver plus de clarté dans le nuage de questions qui semble te
+                            préoccuper dernièrement.</p>
+                        <p>
+                            <ul>
+                                <li>Aide au choix d’études et de carrière</li>
+                                <li>Bilan des compétences et développement de carrière</li>
+                                <li>Réorientation professionnelle</li>
+                                <li>Identité à travers la maternité</li>
+                                <li>Groupe de soutien : nouvelles mamans</li>
+                            </ul>
+                        </p>
+                    </Description>
                 </Section>
                 <Section>
                     <Title>Clientèles</Title>
-                    <Desciption>
-                        Les clientèles avec lesquelles j'ai le plus d'expérience sont les suivantes:||
-                        •	JEUNES: Étudiants Secondaire/Cégep/Université|
-                        •	ADULTES: 18 à 50 ans|
-                        •	MAMANS: Enceintes, nouvellement parent, en congé de maternité, en mode retour au travail|
-                        •	DIVERSITÉ: Personnes issues de l'immigration (1ère, 2e et + génération), adultes adoptés à l'international (identité complexe)|
-                        •	ÉPUISEMENT: Personnes ayant vécu un épuisement professionnel par le passé ou en processus de retourner au travail|
-                        •	ÉQUILIBRE et CONCILIATION: Personnes qui recherchent un meilleur équilibre travail-famille-vie personnelle|
-                        •	PRÉCARITÉ FINANCIÈRE: Personnes vivant avec un revenu précaire ou un emploi instable||
-                        Si ton budget est limité, n’hésite pas de m’écrire afin de discuter d’options alternatives. Notamment, j’ai dédié une page complète à l’aide gratuite en orientation sur mon site Internet : www.franciscagagne.com||
-                        Il est également possible d’espacer nos rencontres de 2 semaines si c’est plus confortable pour toi.||
-                    </Desciption>
+                    <Description>
+                        <p>Les clientèles avec lesquelles j'ai le plus d'expérience sont les
+                            suivantes:</p>
+                        <p>
+                            <ul>
+                                <li>JEUNES: Étudiants Secondaire/Cégep/Université</li>
+                                <li>ADULTES: 18 à 50 ans</li>
+                                <li>MAMANS: Enceintes, nouvellement parent, en congé de maternité,
+                                    en mode retour au travail</li>
+                                <li>DIVERSITÉ: Personnes issues de l'immigration (1ère, 2e et +
+                                    génération), adultes adoptés à l'international (identité
+                                    complexe)</li>
+                                <li>ÉPUISEMENT: Personnes ayant vécu un épuisement professionnel par
+                                    le passé ou en processus de retourner au travail</li>
+                                <li>ÉQUILIBRE et CONCILIATION: Personnes qui recherchent un meilleur
+                                    équilibre travail-famille-vie personnelle</li>
+                                <li>PRÉCARITÉ FINANCIÈRE: Personnes vivant avec un revenu précaire
+                                    ou un emploi instable</li>
+                            </ul>
+                        </p>
+                        <p>Si ton budget est limité, n’hésite pas de m’écrire afin de discuter
+                            d’options alternatives. Notamment, j’ai dédié une page complète à l’aide
+                            gratuite en orientation sur mon site Internet : www.franciscagagne.com</p>
+                        <p>Il est également possible d’espacer nos rencontres de 2 semaines si c’est
+                            plus confortable pour toi.</p>
+                    </Description>
                 </Section>
                 <Section>
                     <Title>Approche</Title>
-                    <Desciption>
-                        Existentielle-Humaniste|
-                        •	L'«être humain possède en lui les ressources nécessaires pour se réaliser.»|
-                        •	L'objectif est d'«amener la personne à devenir consciente de ses difficultés, à les comprendre et à prendre ses propres décisions dans le but d’agir en fonction de ce qu’elle est et de ce qu’elle ressent.»||
-                        Orientée vers les solutions|
-                        •	L'intervenant s'«intéresse aux solutions et aux stratégies que la personne a déjà utilisées lors de préoccupations antérieures et utilise alors les forces identifiées afin d’accompagner la personne dans le processus de changement.»||
-                        Sources: Ordre des psychologues du Québec | Association québécoise des infirmières et infirmiers en santé mentale||
-                    </Desciption>
+                    <Description>
+                        <p>Existentielle-Humaniste<ul>
+                                <li>L'«être humain possède en lui les ressources nécessaires pour se
+                            réaliser.»</li>
+                                <li>L'objectif est d'«amener la personne à devenir consciente de ses
+                            difficultés, à les comprendre et à prendre ses propres décisions dans le
+                            but d’agir en fonction de ce qu’elle est et de ce qu’elle ressent.»</li>
+                            </ul></p>
+                        <p>Orientée vers les solutions<ul>
+                                <li>L'intervenant s'«intéresse aux solutions et aux stratégies que
+                                    la personne a déjà utilisées lors de préoccupations antérieures
+                            et
+                                    utilise alors les forces identifiées afin d’accompagner la
+                            personne dans
+                                    le processus de changement.»</li>
+                            </ul></p>
+                        <p>Sources: Ordre des psychologues du Québec | Association québécoise des
+                            infirmières et infirmiers en santé mentale</p>
+                    </Description>
                 </Section>
             </Page>
         </Language>
@@ -643,15 +1265,30 @@ efficient intervention. I will be more than glad to meet with you, assess your s
         <PageName>EmmanuelleBourgault</PageName>
         <Language name="Français" code="">
             <Academic>Éducatrice spécialisée, B.Éd., coach familiale</Academic>
-            <Summary>Elle est coach familiale, éducatrice spécialisée et intervenante en stimulation du langage. Elle intervient auprès des enfants, les parents et les familles.</Summary>
+            <Summary>Elle est coach familiale, éducatrice spécialisée et intervenante en stimulation
+                du langage. Elle intervient auprès des enfants, les parents et les familles.</Summary>
             <Page>
                 <Section>
                     <Title>Bienvenue</Title>
-                    <Desciption>
-                        Emmanuelle Bourgault, coach familiale, éducatrice spécialisée et intervenante en stimulation du langage. Après avoir travaillé dans les écoles à titre d'enseignante en adaptation scolaire et à titre d'éducatrice spécialisée en agence de travail social, c'est en 2022 qu'elle lance sa pratique privée. Elle aide les familles à contrer certains défis du quotidien. L'écoute, la bienveillance, le respect et la douceur sont au coeur de sa pratique. ||
-                        Elle a en main plusieurs diplômes tels qu'un baccalauréat en enseignement, un DESS en adaptation scolaire et sociale, un programme court en intervention éducative en andragogie ainsi qu'une formation en stimulation du langage, en coaching familial et coaching de psychologie positive. ||
-                        Ses champs d'expertise sont: burnout parental, problèmes de routine; problèmes éducationnels, trouble du déficit d'attention (TDA, TDAH), trouble du spectre de l'autisme (TSA), déficience intellectuelle (DI), trouble de comportement (TC), trouble oppositionnel avec provocation (TOP), anxiété, trouble développemental du language (TDL), charge mentale, rivalité fraternelle, difficulté d'adaptation, gestion des émotions et plus encore.
-                    </Desciption>
+                    <Description>
+                        <p>Emmanuelle Bourgault, coach familiale, éducatrice spécialisée et
+                            intervenante en stimulation du langage. Après avoir travaillé dans les
+                            écoles à titre d'enseignante en adaptation scolaire et à titre
+                            d'éducatrice spécialisée en agence de travail social, c'est en 2022
+                            qu'elle lance sa pratique privée. Elle aide les familles à contrer
+                            certains défis du quotidien. L'écoute, la bienveillance, le respect et
+                            la douceur sont au coeur de sa pratique. Elle a en main plusieurs
+                            diplômes tels qu'un baccalauréat en enseignement, un DESS en adaptation
+                            scolaire et sociale, un programme court en intervention éducative en
+                            andragogie ainsi qu'une formation en stimulation du langage, en coaching
+                            familial et coaching de psychologie positive. Ses champs d'expertise
+                            sont: burnout parental, problèmes de routine; problèmes éducationnels,
+                            trouble du déficit d'attention (TDA, TDAH), trouble du spectre de
+                            l'autisme (TSA), déficience intellectuelle (DI), trouble de comportement
+                            (TC), trouble oppositionnel avec provocation (TOP), anxiété, trouble
+                            développemental du language (TDL), charge mentale, rivalité fraternelle,
+                            difficulté d'adaptation, gestion des émotions et plus encore.</p>
+                    </Description>
                 </Section>
             </Page>
         </Language>
@@ -665,41 +1302,83 @@ efficient intervention. I will be more than glad to meet with you, assess your s
         <PageName>LindaParent</PageName>
         <Language name="Français" code="">
             <Academic>Psychoéducatrice, Ps.Éd., médiatrice familiale </Academic>
-            <Summary>Psychoéducatrice et médiatrice familiale, j'interviens auprès des personnes éprouvant des difficultés d'adaptation en raison de difficultés personnelles, familiales ou sociales. Je travaille auprès des parents, enfants et adolescents en privilégiant un suvi court-terme, orienté vers les solutions.</Summary>
+            <Summary>Psychoéducatrice et médiatrice familiale, j'interviens auprès des personnes
+                éprouvant des difficultés d'adaptation en raison de difficultés personnelles,
+                familiales ou sociales. Je travaille auprès des parents, enfants et adolescents en
+                privilégiant un suvi court-terme, orienté vers les solutions.</Summary>
             <Page>
                 <Section>
                     <Title>Formation et pratique professionnelle</Title>
-                    <Desciption>
-                        Membre de l’ordre des Psychoéducateurs et Psychoéducatrices du Québec ainsi que médiatrice familiale, j’interviens auprès des familles vivant des difficultés d’adaptations diverses.  J’ai développé une expertise face aux défis qui peuvent se présenter dans la vie familiale et quant au développement de l’enfant.  L’accompagnement de chacun des membres à retrouver un équilibre au sein des interactions familiales fait partie prenante de ma profession depuis 18 ans.  Avec moi, vous aurez l’assurance d’un service professionnel rigoureux, respectueux et soucieux de bien vous accompagner face à vos besoins.||
-                        Mes expériences professionnelles m’ont amené à m’intéresser plus particulièrement aux impacts de la rupture conjugale sur l’ensemble du système familial.  Force est de constater que vivre une séparation n’est jamais une situation agréable.  C’est un processus avec lequel chacun apprend à composer selon ses propres forces et vulnérabilités.  Si la séparation est une étape difficile à vivre pour les deux conjoints, c’est aussi une épreuve pour l’enfant qui perd ses points de repères.  C’est dans cette optique que j’offre mes services en médiation familiale ou en consultations psychoéducatives.
-                    </Desciption>
+                    <Description>
+                        <p>Membre de l’ordre des Psychoéducateurs et Psychoéducatrices du Québec
+                            ainsi que médiatrice familiale, j’interviens auprès des familles vivant
+                            des difficultés d’adaptations diverses. J’ai développé une expertise
+                            face aux défis qui peuvent se présenter dans la vie familiale et quant
+                            au développement de l’enfant. L’accompagnement de chacun des membres à
+                            retrouver un équilibre au sein des interactions familiales fait partie
+                            prenante de ma profession depuis 18 ans. Avec moi, vous aurez
+                            l’assurance d’un service professionnel rigoureux, respectueux et
+                            soucieux de bien vous accompagner face à vos besoins.</p>
+                        <p>Mes expériences professionnelles m’ont amené à m’intéresser plus
+                            particulièrement aux impacts de la rupture conjugale sur l’ensemble du
+                            système familial. Force est de constater que vivre une séparation n’est
+                            jamais une situation agréable. C’est un processus avec lequel chacun
+                            apprend à composer selon ses propres forces et vulnérabilités. Si la
+                            séparation est une étape difficile à vivre pour les deux conjoints,
+                            c’est aussi une épreuve pour l’enfant qui perd ses points de repères.
+                            C’est dans cette optique que j’offre mes services en médiation familiale
+                            ou en consultations psychoéducatives.</p>
+                    </Description>
                 </Section>
                 <Section>
                     <Title>Médiation familiale</Title>
-                    <Desciption>
-                        La médiation familiale peut vous aider à négocier une entente juste et équitable, dans l’intérêt de tous les membres de la famille.  Ce processus de résolution de conflits structuré aborde les aspects qui vous préoccupent concernant l’autorité parentale, l’accès et la garde des enfants, le partage des biens et les responsabilités financières. Mon rôle en tant que médiatrice est de vous guider dans vos réflexions, de faciliter la communication des besoins de chacun et de vous informer afin que vous puissiez trouver des solutions qui vous conviennent, qui soient viables et qui tiennent compte de l’intérêt premier des enfants.||
-                        (Consultez le www.justice.gouv.qc.ca/mediationfamiliale/ pour en apprendre davantage sur le Programme subventionné par le Ministère de la Justice du Québec)
-                    </Desciption>
+                    <Description>
+                        <p>La médiation familiale peut vous aider à négocier une entente juste et
+                            équitable, dans l’intérêt de tous les membres de la famille. Ce
+                            processus de résolution de conflits structuré aborde les aspects qui
+                            vous préoccupent concernant l’autorité parentale, l’accès et la garde
+                            des enfants, le partage des biens et les responsabilités financières.
+                            Mon rôle en tant que médiatrice est de vous guider dans vos réflexions,
+                            de faciliter la communication des besoins de chacun et de vous informer
+                            afin que vous puissiez trouver des solutions qui vous conviennent, qui
+                            soient viables et qui tiennent compte de l’intérêt premier des enfants.</p>
+                        <p>(Consultez le www.justice.gouv.qc.ca/mediationfamiliale/ pour en
+                            apprendre davantage sur le Programme subventionné par le Ministère de la
+                            Justice du Québec)</p>
+                    </Description>
                 </Section>
                 <Section>
                     <Title>Consultations psychoéducatives</Title>
-                    <Desciption>
-                        Le psychoéducateur travaille auprès des personnes qui éprouvent des problèmes d’adaptation en raison de difficultés personnelles, familiales ou sociales. Dans le cadre de leur travail, ils évaluent différentes problématiques et proposent des solutions propres aux besoins de chacun des individus à qui ils viennent en aide (www.ordrepsed.qc.ca).||
-                        J’offre une  approche personnalisée pour vous aider à :|
-                        •	Traverser une crise ou une période difficile qui vous touche ou touche un membre de votre famille |
-                        •	Réorganiser votre vie suite à un événement déstabilisant|
-                        •	Être outillés afin de mieux composer avec les défis qui se présentent à vous||
-                        Mes interventions sont inspirées principalement des approches systémiques et cognitive-comportementales. Je privilégie un suivi court-terme, orienté vers les solutions.||
-                    </Desciption>
+                    <Description>
+                        <p>Le psychoéducateur travaille auprès des personnes qui éprouvent des
+                            problèmes d’adaptation en raison de difficultés personnelles, familiales
+                            ou sociales. Dans le cadre de leur travail, ils évaluent différentes
+                            problématiques et proposent des solutions propres aux besoins de chacun
+                            des individus à qui ils viennent en aide (www.ordrepsed.qc.ca).</p>
+                        <p>J’offre une approche personnalisée pour vous aider à : <ul>
+                                <li>Traverser une crise ou une période difficile qui vous touche ou
+                            touche un membre de votre famille</li>
+                                <li>Réorganiser votre vie suite à un événement déstabilisant</li>
+                                <li>Être outillés afin de mieux composer avec les défis qui se
+                            présentent à vous</li>
+                            </ul>
+                        </p>
+                        <p>Mes interventions sont inspirées principalement des approches systémiques
+                            et cognitive-comportementales. Je privilégie un suivi court-terme,
+                            orienté vers les solutions.</p>
+                    </Description>
                 </Section>
                 <Section>
                     <Title>Clientèles</Title>
-                    <Desciption>Mes services visent les parents, les enfants et les adolescents.</Desciption>
+                    <Description>
+                        <p>Mes services visent les parents, les enfants et les adolescents.</p>
+                    </Description>
                 </Section>
                 <Section>
                     <Title>Autres services</Title>
-                    <Desciption>J'accepte des mandats provenant de Programmes d'aide aux employés (PAE).
-                    </Desciption>
+                    <Description>
+                        <p>J'accepte des mandats provenant de Programmes d'aide aux employés (PAE).</p>
+                    </Description>
                 </Section>
             </Page>
         </Language>

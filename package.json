@@ -1,0 +1,18 @@
+{
+  "name": "psychologie-urbania",
+  "version": "2.0.0",
+  "description": "CMS pour la Clinique de Psychologie Urbania",
+  "main": "cms/build.ts",
+  "scripts": {
+    "build": "tsx cms/build.ts",
+    "dev": "tsx cms/build.ts && npx serve docs"
+  },
+  "dependencies": {
+    "xml2js": "^0.6.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "tsx": "^4.0.0",
+    "typescript": "^5.0.0"
+  }
+}

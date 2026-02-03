@@ -1,0 +1,31 @@
+{
+  "name": "Sylvie Larouche",
+  "phoneNumber": "450 437 3301",
+  "emailAddress": "larouches@profilsante.qc.ca",
+  "photo": "img/sylvie-larouche.jpg",
+  "webSite": "http://www.profilsante.qc.ca/",
+  "pageName": "SylvieLarouche",
+  "languages": [
+    {
+      "name": "Français",
+      "code": "",
+      "academic": "Diététiste, B.Sc",
+      "summary": "Diététiste en pratique privée depuis plus de 25 ans, Sylvie Larouche peux vous aider, entre autres, dans l'amaigrissement, le cholestérol, la diabète, la grossesse, l'obésité et la nutrition sportive. Elle offre des services aux particuliers ainsi qu'aux entreprises.",
+      "page": {
+        "sections": [
+          {
+            "description": "<p>Diététiste diplômée de l'Université de Montréal et membre de l'ordre professionnel des diététistes du Québec. Je travaille en pratique privée depuis plus de 25 ans et je fais partie d'une équipe de diététistes spécialisées non seulement dans la perte de poids mais aussi dans tout ce qui est relié à la nutrition. Que ce soit pour rétablir un taux de cholestérol sanguin trop élevé, apprendre à gérer votre diabète, mieux comprendre vos problèmes gastro-intestinaux, ou tout simplement pour apprendre à bien manger, je suis là pour vous aider. Nous offrons aussi des services en entreprises.</p>"
+          },
+          {
+            "title": "Services aux particuliers",
+            "description": "<p> <ul> <li>Alimentation chez l'adolescent, l'adulte, la femme ménopausée, le sportif</li> <li>Allergies alimentaires</li> <li>Hypertension Artérielle</li> <li>Diverticulose, colite ulcéreuse, colon irritable, maladie coeliaque, constipation, diarrhée</li> <li>Hypoglycémie, Anémie</li> <li>Diabète, pré-diabète, intolérance au glucose, diabète gestationnel</li> </ul> </p>"
+          },
+          {
+            "title": "Services aux entreprises",
+            "description": "<p> <ul> <li>Midi-conférences: l'Assiette santé démystifiée, l'étiquetage nutritionnel, les alicaments ou super aliments (aliments enrichis d'oméga-3, de probiotiques…) les bons gras et les mauvais gras, etc…</li> <li>Calculs de valeurs nutritives (traiteurs, restaurants, livres de recettes)</li> </ul> </p>"
+          }
+        ]
+      }
+    }
+  ]
+}

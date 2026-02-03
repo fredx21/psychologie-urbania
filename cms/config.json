@@ -1,0 +1,38 @@
+{
+  "contentDir": "content/members",
+  "siteDir": "site",
+  "outputDir": "../docs",
+  "staticPages": [
+    "index.html",
+    "services.html",
+    "contact.html",
+    "career.html",
+    "links.html"
+  ],
+  "member": {
+    "template": "member-template.html"
+  },
+  "team": {
+    "template": "team-template.html",
+    "output": "team.html",
+    "memberOrder": [
+      "AndreaRiddle.json",
+      "MartineDrapeau.json",
+      "SylvieLarouche.json",
+      "SylvieLemire.json",
+      "JeanFrancoisFecteau.json",
+      "MarieEveRobillard.json",
+      "IsabelleVerret.json",
+      "MurielleGuillotte.json",
+      "JacquesMcNulty.json",
+      "MarieJoseeLeger.json",
+      "AmiPuig.json",
+      "ChristineLettre.json",
+      "AlexandraColle.json",
+      "MariseGagne.json",
+      "FranciscaGagne.json",
+      "EmmanuelleBourgault.json",
+      "LindaParent.json"
+    ]
+  }
+}

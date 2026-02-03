@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Frederic Savard">
+  <title>Clinique de psychologie Urbania</title>
+  <link rel="stylesheet" href="css/ui.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-40245323-1', 'psychologie-urbania.com');
+    ga('send', 'pageview');
+  </script>
+  <script type="text/javascript" src="jquery/jquery-1.7.2.min.js"></script>
+  <script type="text/javascript" src="jquery/jquery.elipsis.min.js"></script>
+  <script type="text/javascript">
+    $(function () {
+      $('.member-description').ellipsis();
+    });
+    $( window ).resize(function() {
+      $('.member-description').ellipsis();
+    });
+  </script>
+</head>
+<body>
+  <div class="introContainer">
+    <div id="intro">
+      <div class="logo">Clinique de Psychologie Urbania</div>
+      <div class="navigationHeader">
+        <p>
+          <a href="./">accueil</a>
+          <a class="currentpage" href="team">équipe</a>
+          <a href="services">services</a>
+          <a href="career">carrière</a>
+          <a href="contact">contact</a>
+          <a href="links">liens</a>
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="mainContainer">
+    <div class="content">
+      <div class="cf">
+        <div class="header">
+          <h3><span>Notre équipe</span></h3>
+        </div>
+      </div>
+
+      {{{members}}}
+      <!-- MOCK DATA START -->
+      <div class="team-grid">
+        <div class="team-card memberIntroRow2Col">
+          <a class="memberCard" href="AndreaRiddle">
+            <div class="memberCard__media">
+              <img src="img/andrea-riddle.jpg" alt="Andrea Riddle"/>
+            </div>
+            <div class="memberCard__body member-description">
+              <h3><span>Andrea Riddle</span></h3>
+              <h1><span>Psychologue, Ph.D.</span></h1>
+              <p><span>Dre Andrea Riddle est psychologue clinicienne et fondatrice de la Clinique de Psychologie Urbania...</span></p>
+            </div>
+          </a>
+        </div>
+        <div class="team-card memberIntroRow2Col">
+          <a class="memberCard" href="MartineDrapeau">
+            <div class="memberCard__media">
+              <img src="img/martine-drapeau.jpg" alt="Martine Drapeau"/>
+            </div>
+            <div class="memberCard__body member-description">
+              <h3><span>Martine Drapeau</span></h3>
+              <h1><span>Sexologue, M.A., psychothérapeute</span></h1>
+              <p><span>Psychothérapeute et sexologue depuis plusieurs années...</span></p>
+            </div>
+          </a>
+        </div>
+      </div>
+      <!-- MOCK DATA END -->
+
+      <hr/>
+      <div class="sectiontext copyright">
+        Copyright {{year}} © Clinique de Psychologie Urbania. Tous droits réservés.
+      </div>
+    </div>
+  </div>
+  <!-- Google Code for team Conversion Page -->
+  <script type="text/javascript">
+    /* <![CDATA[ */
+    var google_conversion_id = 1040801619;
+    var google_conversion_language = "en";
+    var google_conversion_format = "3";
+    var google_conversion_color = "ffffff";
+    var google_conversion_label = "9T4sCKnrhgUQ076l8AM";
+    var google_conversion_value = 0;
+    /* ]]> */
+  </script>
+  <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+  </script>
+  <noscript>
+    <div style="display:inline;">
+      <img height="1" width="1" style="border-style:none;" alt=""
+        src="//www.googleadservices.com/pagead/conversion/1040801619/?value=0&label=9T4sCKnrhgUQ076l8AM&guid=ON&script=0" />
+    </div>
+  </noscript>
+</body>
+</html>
