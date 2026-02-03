@@ -52,6 +52,13 @@ a:hover {
     color: var(--color-primary-dark);
 }
 
+a:focus-visible,
+button:focus-visible,
+summary:focus-visible {
+    outline: 2px solid var(--color-accent);
+    outline-offset: 3px;
+}
+
 p {
     margin-bottom: 12px;
 }
@@ -256,6 +263,7 @@ li {
     line-height: 1.2;
     font-weight: 600;
     color: var(--color-primary-dark);
+    margin-bottom: 6px;
 }
 
 .header.lightgray,
@@ -306,6 +314,22 @@ li {
 .sectiontext {
     color: var(--color-text);
     font-size: 16px;
+}
+
+.sectiontext--lead {
+    margin-top: 8px;
+}
+
+.sectiontext p,
+.sectiontext span,
+.sectiontext ul {
+    max-width: 72ch;
+}
+
+.services-page .sectiontext p,
+.services-page .sectiontext span,
+.services-page .sectiontext ul {
+    max-width: none;
 }
 
 .sectiontext span {
@@ -457,6 +481,72 @@ li {
     background: var(--color-surface-alt);
     border: 1px solid var(--color-border);
     transition: background 0.2s ease, color 0.2s ease, border 0.2s ease;
+}
+
+.service-accordions {
+    display: grid;
+    gap: 18px;
+    margin-top: 20px;
+}
+
+.service-accordion {
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-md);
+    background: var(--color-surface);
+    overflow: hidden;
+}
+
+.service-accordion summary {
+    list-style: none;
+    cursor: pointer;
+    padding: 14px 18px;
+    font-weight: 600;
+    color: var(--color-primary-dark);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+}
+
+.service-accordion summary::-webkit-details-marker {
+    display: none;
+}
+
+.service-accordion summary::after {
+    content: ">";
+    font-size: 14px;
+    line-height: 1;
+    color: var(--color-accent);
+    transform: rotate(0deg);
+    transition: transform 0.2s ease;
+}
+
+.service-accordion[open] summary {
+    background: var(--color-surface-alt);
+}
+
+.service-accordion[open] summary::after {
+    transform: rotate(90deg);
+}
+
+.service-accordion__content {
+    padding: 18px;
+    border-top: 1px solid var(--color-border);
+}
+
+.service-accordion[open] .service-accordion__content {
+    animation: accordionFade 0.25s ease;
+}
+
+@keyframes accordionFade {
+    from {
+        opacity: 0;
+        transform: translateY(-6px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 .selectable-list .selected {

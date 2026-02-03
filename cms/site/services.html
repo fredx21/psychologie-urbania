@@ -14,33 +14,10 @@
         })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
         ga('create', 'UA-40245323-1', 'psychologie-urbania.com');
         ga('send', 'pageview');
-
-        var previousSectionButton = null;
-        function showSection(sectionButton) {
-            if (previousSectionButton) {
-                var previousSectionId = previousSectionButton.getAttribute("name");
-                var section = document.getElementById(previousSectionId);
-                previousSectionButton.setAttribute("class", "");
-                section.style.display = "none";
-                previousSectionButton = null;
-            }
-            var sectionId = sectionButton.getAttribute("name");
-            var section = document.getElementById(sectionId);
-            if (section) {
-                sectionButton.setAttribute("class", "selected");
-                section.style.display = "block";
-            }
-            previousSectionButton = sectionButton;
-        }
-
-        function init() {
-            var sectionButton = document.getElementById("first_selection");
-            showSection(sectionButton);
-        }
     </script>
 </head>
 
-<body onload="init()">
+<body class="services-page">
     <div class="introContainer">
         <div id="intro">
             <div class="logo">Clinique de Psychologie Urbania</div>
@@ -63,25 +40,15 @@
                 <div class="header">
                     <h3><span>Services</span></h3>
                 </div>
-                <span>À la Clinique de psychologie Urbania, nous avons votre bien-être à coeur. Nos services sont adaptés à plusieurs types de clientèle: enfants, adolescents, adultes, personnes âgées, couples et familles. Certains de nos professionnels acceptent des mandats de programmes d'aides aux employés (PAEs), de la CSST, de la SAAQ et de l'IVAC. Nos services sont tous offerts en français et dans certains cas, les rencontres peuvent se dérouler en anglais et par télé-psychologie.</span>
-            </div>
-            <div class="cf layout-grid">
-                <div class="section col1" style="margin-top: 20px">
-                    <div class="selectable-list">
-                        <div class="header" name="enfants_et_adolescents" id="first_selection" onclick="showSection(this)">Enfants et adolescents</div>
-                        <div class="header" name="evaluation" onclick="showSection(this)">Évaluation TDAH </div>
-                        <div class="header" name="adultes" onclick="showSection(this)">Adultes</div>
-                        <div class="header" name="sexualite" onclick="showSection(this)">Sexualité</div>
-                        <div class="header" name="couples" onclick="showSection(this)">Couples</div>
-                        <div class="header" name="mediation_familiale" onclick="showSection(this)">Médiation familiale</div>
-                        <div class="header" name="orientation_professionnelle" onclick="showSection(this)">Orientation professionnelle</div>
-                        <div class="header" name="aines" onclick="showSection(this)">Ainés</div>
-                        <div class="header" name="nutrition" onclick="showSection(this)">Nutrition</div>
-                        <div class="header" name="honoraires_et_assurances" onclick="showSection(this)">Honoraires et assurances</div>
-                    </div>
+                <div class="sectiontext sectiontext--lead">
+                    <p>À la Clinique de psychologie Urbania, nous avons votre bien-être à coeur. Nos services sont adaptés à plusieurs types de clientèle : enfants, adolescents, adultes, personnes âgées, couples et familles. Certains de nos professionnels acceptent des mandats de programmes d'aides aux employés (PAEs), de la CSST, de la SAAQ et de l'IVAC. Nos services sont tous offerts en français et dans certains cas, les rencontres peuvent se dérouler en anglais et par télé-psychologie.</p>
                 </div>
-                <div class="section col23" style="margin-top: 20px">
-                    <div id="enfants_et_adolescents" class="sectiontext" style="display: none">
+            </div>
+            <div class="service-accordions">
+                <details class="service-accordion" id="enfants_et_adolescents" open>
+                    <summary>Enfants et adolescents</summary>
+                    <div class="service-accordion__content">
+                        <div class="sectiontext">
                         <div class="image-border">
                             <div class="service-image" style="background-image: url(./img/banner2.jpg);"></div>
                         </div>
@@ -112,8 +79,13 @@
                                 <li>Problèmes de consommation et de toxicomanie</li>
                             </ul>
                        </div>
+                        </div>
                     </div>
-                    <div id="evaluation" class="sectiontext" style="display: none">
+                </details>
+                <details class="service-accordion" id="evaluation">
+                    <summary>Évaluation TDAH</summary>
+                    <div class="service-accordion__content">
+                        <div class="sectiontext">
                         <div class="image-border">
                             <div class="service-image" style="background-image: url(./img/banner2.jpg);"></div>
                         </div>
@@ -128,8 +100,13 @@
                                 <li>Syndrome de Tourette</li>
                             </ul>
                         </div>
+                        </div>
                     </div>
-                    <div id="adultes"  class="sectiontext" style="display: none">
+                </details>
+                <details class="service-accordion" id="adultes">
+                    <summary>Adultes</summary>
+                    <div class="service-accordion__content">
+                        <div class="sectiontext">
                         <div class="image-border">
                             <div class="service-image" style="background-image: url(./img/banner3.jpg);"></div>
                         </div>
@@ -160,8 +137,13 @@
                                 <li>Cycles de vie</li>
                             </ul>
                          </div>
+                        </div>
                     </div>
-                    <div id="sexualite" class="sectiontext" style="display: none">
+                </details>
+                <details class="service-accordion" id="sexualite">
+                    <summary>Sexualité</summary>
+                    <div class="service-accordion__content">
+                        <div class="sectiontext">
                         <div class="image-border">
                             <div class="service-image" style="background-image: url(./img/sexuality.jpg);"></div>
                         </div>
@@ -182,8 +164,13 @@
                                     <li>Phobies et aversions sexuelles</li>
                                 </ul>
                         </div>
+                        </div>
                     </div>
-                    <div id="nutrition" class="sectiontext" style="display: none">
+                </details>
+                <details class="service-accordion" id="nutrition">
+                    <summary>Nutrition</summary>
+                    <div class="service-accordion__content">
+                        <div class="sectiontext">
                         <div class="image-border">
                             <div class="service-image" style="background-image: url(./img/food.jpg);"></div>
                         </div>
@@ -194,8 +181,13 @@
                                 <li>Hyperphagie</li>
                             </ul>
                         </div>
+                        </div>
                     </div>
-                    <div id="couples" class="sectiontext" style="display: none">
+                </details>
+                <details class="service-accordion" id="couples">
+                    <summary>Couples</summary>
+                    <div class="service-accordion__content">
+                        <div class="sectiontext">
                         <div class="image-border">
                             <div class="service-image" style="background-image: url(./img/happy-couple.jpg);"></div>
                         </div>
@@ -213,8 +205,13 @@
                                     <li>Violence conjugale</li>
                                 </ul>
                         </div>
+                        </div>
                     </div>
-                    <div id="mediation_familiale" class="sectiontext" style="display: none">
+                </details>
+                <details class="service-accordion" id="mediation_familiale">
+                    <summary>Médiation familiale</summary>
+                    <div class="service-accordion__content">
+                        <div class="sectiontext">
                         <div class="image-border">
                             <div class="service-image" style="background-image: url(./img/happy-familly.jpg);"></div>
                         </div>
@@ -230,8 +227,13 @@
 							<br><br>
 							Les couples sans enfants à charge peuvent aussi bénéficier de ce service. Ils doivent toutefois défrayer les honoraires professionnels, tel que prescrits par le Ministère de la Justice du Québec.
                         </div>
+                        </div>
                     </div>
-                    <div id="orientation_professionnelle" class="sectiontext" style="display: none">
+                </details>
+                <details class="service-accordion" id="orientation_professionnelle">
+                    <summary>Orientation professionnelle</summary>
+                    <div class="service-accordion__content">
+                        <div class="sectiontext">
                         <div class="image-border">
                             <div class="service-image" style="background-image: url(./img/happy-familly.jpg);"></div>
                         </div>
@@ -253,8 +255,13 @@
                             </ul>
                             <p>Source : Expertises et services offerts - OCCOQ</p>
                         </div>
+                        </div>
                     </div>
-                    <div id="aines" class="sectiontext" style="display: none">
+                </details>
+                <details class="service-accordion" id="aines">
+                    <summary>Ainés</summary>
+                    <div class="service-accordion__content">
+                        <div class="sectiontext">
                         <div class="image-border">
                             <div class="service-image" style="background-image: url(./img/older-people.jpg);"></div>
                         </div>
@@ -274,8 +281,13 @@
                                 <li>Évaluation de demandes d'hébergement en public versus privée suite à une perte d'autonomie</li>
                             </ul>
                         </div>
+                        </div>
                     </div>
-                    <div id="honoraires_et_assurances" class="sectiontext" style="display: none">
+                </details>
+                <details class="service-accordion" id="honoraires_et_assurances">
+                    <summary>Honoraires et assurances</summary>
+                    <div class="service-accordion__content">
+                        <div class="sectiontext">
                         <div class="image-border">
                             <div class="service-image" style="background-image: url(./img/assurance.jpg);"></div>
                         </div>
@@ -286,8 +298,9 @@
                             spécialistes (ex: travailleur social, diététiste) sont acceptés à titre de déduction pour frais médicaux dans les rapports d'impôt,
                             sur présentation d'un reçu.
                         </div>
+                        </div>
                     </div>
-                </div>
+                </details>
             </div>
             <hr>
             <div class="sectiontext copyright">
@@ -295,5 +308,42 @@
 			</div>
         </div>
     </div>
+    <script>
+        (function () {
+            var accordions = Array.prototype.slice.call(
+                document.querySelectorAll(".service-accordion"),
+            );
+
+            function closeOthers(active) {
+                accordions.forEach(function (accordion) {
+                    if (accordion !== active) {
+                        accordion.removeAttribute("open");
+                    }
+                });
+            }
+
+            accordions.forEach(function (accordion) {
+                accordion.addEventListener("toggle", function () {
+                    if (accordion.open) {
+                        closeOthers(accordion);
+                    }
+                });
+            });
+
+            if (window.location.hash) {
+                var targetId = window.location.hash.substring(1);
+                var target = document.getElementById(targetId);
+                if (target && target.classList.contains("service-accordion")) {
+                    closeOthers(target);
+                    target.setAttribute("open", "open");
+                    try {
+                        target.scrollIntoView({ behavior: "smooth", block: "start" });
+                    } catch (e) {
+                        target.scrollIntoView(true);
+                    }
+                }
+            }
+        })();
+    </script>
 </body>
 </html>
