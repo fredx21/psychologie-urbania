@@ -150,7 +150,6 @@ li {
 .navigationHeader a:hover {
     background: rgba(255, 255, 255, 0.25);
     color: #fff;
-    box-shadow: 0 10px 20px rgba(16, 30, 38, 0.25);
 }
 
 .navigationHeader .currentpage {
@@ -158,7 +157,6 @@ li {
     background: var(--color-accent);
     font-weight: 600;
     border-color: transparent;
-    box-shadow: 0 12px 24px rgba(16, 30, 38, 0.28);
 }
 
 .navigationHeader.language {
@@ -513,7 +511,7 @@ li {
 
 .memberPhoto {
     height: 360px;
-    background-position: center;
+    background-position: 50% 35%;
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: var(--radius-sm);
