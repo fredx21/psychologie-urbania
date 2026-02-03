@@ -513,12 +513,11 @@ li {
 }
 
 .service-accordion summary::after {
-    content: ">";
-    font-size: 14px;
+    content: "+";
+    font-size: 18px;
     line-height: 1;
     color: var(--color-accent);
-    transform: rotate(0deg);
-    transition: transform 0.2s ease;
+    transform: none;
 }
 
 .service-accordion[open] summary {
@@ -526,7 +525,7 @@ li {
 }
 
 .service-accordion[open] summary::after {
-    transform: rotate(90deg);
+    content: "−";
 }
 
 .service-accordion__content {
